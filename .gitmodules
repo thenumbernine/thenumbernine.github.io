@@ -1,0 +1,9 @@
+[submodule "math"]
+	path = math
+	url = https://github.com/thenumbernine/MathWorksheets.git
+[submodule "numrel-codegen"]
+	path = numrel-codegen
+	url = https://github.com/thenumbernine/numerical-relativity-codegen.git
+[submodule "symmath"]
+	path = symmath
+	url = https://github.com/thenumbernine/symmath-lua.git
