@@ -1,0 +1,329 @@
+I'm just using this for CDN URLs for the time being.
+
+Output CDN URLs:
+
+[index](https://thenumbernine.github.io/index.html)
+
+[math/ADM Bona-Masso Eigenvectors](https://thenumbernine.github.io/math/ADM%20Bona%2dMasso%20Eigenvectors.html)
+
+[math/ADM Bona-Masso Inverse Eigenvectors](https://thenumbernine.github.io/math/ADM%20Bona%2dMasso%20Inverse%20Eigenvectors.html)
+
+[math/ADM connections](https://thenumbernine.github.io/math/ADM%20connections.html)
+
+[math/Antigravity](https://thenumbernine.github.io/math/Antigravity.html)
+
+[math/BSSNOK 1D](https://thenumbernine.github.io/math/BSSNOK%201D.html)
+
+[math/Cayley-Dickson](https://thenumbernine.github.io/math/Cayley%2dDickson.html)
+
+[math/Curvature From Lower Dimensions](https://thenumbernine.github.io/math/Curvature%20From%20Lower%20Dimensions.html)
+
+[math/Differential Geometry/0 - tensors - intro](https://thenumbernine.github.io/math/Differential%20Geometry/0%20%2d%20tensors%20%2d%20intro.html)
+
+[math/Differential Geometry/1 - index notation](https://thenumbernine.github.io/math/Differential%20Geometry/1%20%2d%20index%20notation.html)
+
+[math/Differential Geometry/10 - Ricci curvature](https://thenumbernine.github.io/math/Differential%20Geometry/10%20%2d%20Ricci%20curvature.html)
+
+[math/Differential Geometry/11 - Gaussian curvature](https://thenumbernine.github.io/math/Differential%20Geometry/11%20%2d%20Gaussian%20curvature.html)
+
+[math/Differential Geometry/12 - Bianchi identities](https://thenumbernine.github.io/math/Differential%20Geometry/12%20%2d%20Bianchi%20identities.html)
+
+[math/Differential Geometry/13 - Einstein-Hilbert action](https://thenumbernine.github.io/math/Differential%20Geometry/13%20%2d%20Einstein%2dHilbert%20action.html)
+
+[math/Differential Geometry/14 - ADM formalism](https://thenumbernine.github.io/math/Differential%20Geometry/14%20%2d%20ADM%20formalism.html)
+
+[math/Differential Geometry/15 - ADM constraints](https://thenumbernine.github.io/math/Differential%20Geometry/15%20%2d%20ADM%20constraints.html)
+
+[math/Differential Geometry/16 - ADM tetrad](https://thenumbernine.github.io/math/Differential%20Geometry/16%20%2d%20ADM%20tetrad.html)
+
+[math/Differential Geometry/17 - Palatini action](https://thenumbernine.github.io/math/Differential%20Geometry/17%20%2d%20Palatini%20action.html)
+
+[math/Differential Geometry/17b - Einstein-Cartan action](https://thenumbernine.github.io/math/Differential%20Geometry/17b%20%2d%20Einstein%2dCartan%20action.html)
+
+[math/Differential Geometry/18 - Self-dual Palatini action](https://thenumbernine.github.io/math/Differential%20Geometry/18%20%2d%20Self%2ddual%20Palatini%20action.html)
+
+[math/Differential Geometry/19 - Ashtekar variables](https://thenumbernine.github.io/math/Differential%20Geometry/19%20%2d%20Ashtekar%20variables.html)
+
+[math/Differential Geometry/2 - structure constants](https://thenumbernine.github.io/math/Differential%20Geometry/2%20%2d%20structure%20constants.html)
+
+[math/Differential Geometry/3 - exterior derivative](https://thenumbernine.github.io/math/Differential%20Geometry/3%20%2d%20exterior%20derivative.html)
+
+[math/Differential Geometry/4 - metric tensor](https://thenumbernine.github.io/math/Differential%20Geometry/4%20%2d%20metric%20tensor.html)
+
+[math/Differential Geometry/5 - Levi-Civita tensor and Hodge dual](https://thenumbernine.github.io/math/Differential%20Geometry/5%20%2d%20Levi%2dCivita%20tensor%20and%20Hodge%20dual.html)
+
+[math/Differential Geometry/6 - covariant derivative](https://thenumbernine.github.io/math/Differential%20Geometry/6%20%2d%20covariant%20derivative.html)
+
+[math/Differential Geometry/7 - torsion](https://thenumbernine.github.io/math/Differential%20Geometry/7%20%2d%20torsion.html)
+
+[math/Differential Geometry/8 - metric-cancelling and torsion-free connection](https://thenumbernine.github.io/math/Differential%20Geometry/8%20%2d%20metric%2dcancelling%20and%20torsion%2dfree%20connection.html)
+
+[math/Differential Geometry/8.1 - spin connection](https://thenumbernine.github.io/math/Differential%20Geometry/8.1%20%2d%20spin%20connection.html)
+
+[math/Differential Geometry/9 - Riemann curvature](https://thenumbernine.github.io/math/Differential%20Geometry/9%20%2d%20Riemann%20curvature.html)
+
+[math/Differential Geometry/sources](https://thenumbernine.github.io/math/Differential%20Geometry/sources.html)
+
+[math/EMHD Hyperbolic Conservation Laws](https://thenumbernine.github.io/math/EMHD%20Hyperbolic%20Conservation%20Laws.html)
+
+[math/EMHD Linear Stability Analysis](https://thenumbernine.github.io/math/EMHD%20Linear%20Stability%20Analysis.html)
+
+[math/Einstein-Maxwell Hyperbolic Conservation Laws](https://thenumbernine.github.io/math/Einstein%2dMaxwell%20Hyperbolic%20Conservation%20Laws.html)
+
+[math/Electromagnetic Tensor Self-Dual](https://thenumbernine.github.io/math/Electromagnetic%20Tensor%20Self%2dDual.html)
+
+[math/Equations of Structure - Schwarzschild](https://thenumbernine.github.io/math/Equations%20of%20Structure%20%2d%20Schwarzschild.html)
+
+[math/Euler Fluid Equations - Curved Geometry - Contravariant](https://thenumbernine.github.io/math/Euler%20Fluid%20Equations%20%2d%20Curved%20Geometry%20%2d%20Contravariant.html)
+
+[math/Euler Fluid Equations - Curved Geometry - Covariant](https://thenumbernine.github.io/math/Euler%20Fluid%20Equations%20%2d%20Curved%20Geometry%20%2d%20Covariant.html)
+
+[math/Euler Fluid Equations - Eigenmode Analysis 2](https://thenumbernine.github.io/math/Euler%20Fluid%20Equations%20%2d%20Eigenmode%20Analysis%202.html)
+
+[math/Euler Fluid Equations - Eigenmode Analysis](https://thenumbernine.github.io/math/Euler%20Fluid%20Equations%20%2d%20Eigenmode%20Analysis.html)
+
+[math/Euler Fluid Equations - Entropy Function](https://thenumbernine.github.io/math/Euler%20Fluid%20Equations%20%2d%20Entropy%20Function.html)
+
+[math/Finite Volume Methods](https://thenumbernine.github.io/math/Finite%20Volume%20Methods.html)
+
+[math/GR EM Metrics/complex metric of EM potential](https://thenumbernine.github.io/math/GR%20EM%20Metrics/complex%20metric%20of%20EM%20potential.html)
+
+[math/GR EM Metrics/complex metric of g + F](https://thenumbernine.github.io/math/GR%20EM%20Metrics/complex%20metric%20of%20g%20%2b%20F.html)
+
+[math/GR EM Metrics/complex metric of g + dual F](https://thenumbernine.github.io/math/GR%20EM%20Metrics/complex%20metric%20of%20g%20%2b%20dual%20F.html)
+
+[math/GR EM Metrics/curved space gravitomagnetics](https://thenumbernine.github.io/math/GR%20EM%20Metrics/curved%20space%20gravitomagnetics.html)
+
+[math/GR EM Metrics/flat space gravitomagnetics](https://thenumbernine.github.io/math/GR%20EM%20Metrics/flat%20space%20gravitomagnetics.html)
+
+[math/GR EM Metrics/gravitomagnetics 2](https://thenumbernine.github.io/math/GR%20EM%20Metrics/gravitomagnetics%202.html)
+
+[math/GR EM Metrics/gravitomagnetics](https://thenumbernine.github.io/math/GR%20EM%20Metrics/gravitomagnetics.html)
+
+[math/GR EM Metrics/metric of curved space and EM potential](https://thenumbernine.github.io/math/GR%20EM%20Metrics/metric%20of%20curved%20space%20and%20EM%20potential.html)
+
+[math/GR EM Metrics/metric of flat space and EM potential](https://thenumbernine.github.io/math/GR%20EM%20Metrics/metric%20of%20flat%20space%20and%20EM%20potential.html)
+
+[math/Gravitation 22.2](https://thenumbernine.github.io/math/Gravitation%2022.2.html)
+
+[math/Kaluza-Klein - constant scalar](https://thenumbernine.github.io/math/Kaluza%2dKlein%20%2d%20constant%20scalar.html)
+
+[math/Kaluza-Klein](https://thenumbernine.github.io/math/Kaluza%2dKlein.html)
+
+[math/Kerr Cartesian](https://thenumbernine.github.io/math/Kerr%20Cartesian.html)
+
+[math/Kerr geodesic](https://thenumbernine.github.io/math/Kerr%20geodesic.html)
+
+[math/LQG](https://thenumbernine.github.io/math/LQG.html)
+
+[math/Laplace-Beltrami](https://thenumbernine.github.io/math/Laplace%2dBeltrami.html)
+
+[math/Lichtenberg](https://thenumbernine.github.io/math/Lichtenberg.html)
+
+[math/MHD - Eigenmode Analysis](https://thenumbernine.github.io/math/MHD%20%2d%20Eigenmode%20Analysis.html)
+
+[math/MHD](https://thenumbernine.github.io/math/MHD.html)
+
+[math/Maxwell Equations - Eigenmode Analysis](https://thenumbernine.github.io/math/Maxwell%20Equations%20%2d%20Eigenmode%20Analysis.html)
+
+[math/Maxwell equations in hyperbolic form](https://thenumbernine.github.io/math/Maxwell%20equations%20in%20hyperbolic%20form.html)
+
+[math/Maxwell in inhomogeneous medium](https://thenumbernine.github.io/math/Maxwell%20in%20inhomogeneous%20medium.html)
+
+[math/Metric Eigenmodes 2](https://thenumbernine.github.io/math/Metric%20Eigenmodes%202.html)
+
+[math/Metric Eigenmodes](https://thenumbernine.github.io/math/Metric%20Eigenmodes.html)
+
+[math/Metric for extruded dimension](https://thenumbernine.github.io/math/Metric%20for%20extruded%20dimension.html)
+
+[math/Metric with geodesic that changes in space with velocity in time](https://thenumbernine.github.io/math/Metric%20with%20geodesic%20that%20changes%20in%20space%20with%20velocity%20in%20time.html)
+
+[math/Navier-Stokes As Exterior Derivative](https://thenumbernine.github.io/math/Navier%2dStokes%20As%20Exterior%20Derivative.html)
+
+[math/Navier-Stokes Curl Advection](https://thenumbernine.github.io/math/Navier%2dStokes%20Curl%20Advection.html)
+
+[math/Navier-Stokes-Wilcox](https://thenumbernine.github.io/math/Navier%2dStokes%2dWilcox.html)
+
+[math/Navier-Stokes](https://thenumbernine.github.io/math/Navier%2dStokes.html)
+
+[math/Numerical Relativity/1 intro](https://thenumbernine.github.io/math/Numerical%20Relativity/1%20intro.html)
+
+[math/Numerical Relativity/2 list of formalisms](https://thenumbernine.github.io/math/Numerical%20Relativity/2%20list%20of%20formalisms.html)
+
+[math/Numerical Relativity/3 adm](https://thenumbernine.github.io/math/Numerical%20Relativity/3%20adm.html)
+
+[math/Numerical Relativity/3.1 adm with V](https://thenumbernine.github.io/math/Numerical%20Relativity/3.1%20adm%20with%20V.html)
+
+[math/Numerical Relativity/3.1.1 adm with V - eigenfields](https://thenumbernine.github.io/math/Numerical%20Relativity/3.1.1%20adm%20with%20V%20%2d%20eigenfields.html)
+
+[math/Numerical Relativity/3.2 adm with Gamma](https://thenumbernine.github.io/math/Numerical%20Relativity/3.2%20adm%20with%20Gamma.html)
+
+[math/Numerical Relativity/adm from efe](https://thenumbernine.github.io/math/Numerical%20Relativity/adm%20from%20efe.html)
+
+[math/Numerical Relativity/bssnok](https://thenumbernine.github.io/math/Numerical%20Relativity/bssnok.html)
+
+[math/Numerical Relativity/eigenwhatever](https://thenumbernine.github.io/math/Numerical%20Relativity/eigenwhatever.html)
+
+[math/Numerical Relativity/equal up to principal part](https://thenumbernine.github.io/math/Numerical%20Relativity/equal%20up%20to%20principal%20part.html)
+
+[math/Numerical Relativity/z4](https://thenumbernine.github.io/math/Numerical%20Relativity/z4.html)
+
+[math/Relativistic Electromagnetism metric](https://thenumbernine.github.io/math/Relativistic%20Electromagnetism%20metric.html)
+
+[math/SRHD](https://thenumbernine.github.io/math/SRHD.html)
+
+[math/Solving Connections From Riemann](https://thenumbernine.github.io/math/Solving%20Connections%20From%20Riemann.html)
+
+[math/Tetrad General Relativity](https://thenumbernine.github.io/math/Tetrad%20General%20Relativity.html)
+
+[math/a note on the definition of tensors](https://thenumbernine.github.io/math/a%20note%20on%20the%20definition%20of%20tensors.html)
+
+[math/heat to wave](https://thenumbernine.github.io/math/heat%20to%20wave.html)
+
+[math/projection in any metric](https://thenumbernine.github.io/math/projection%20in%20any%20metric.html)
+
+[math/relativistic electromagnetic metric in medium](https://thenumbernine.github.io/math/relativistic%20electromagnetic%20metric%20in%20medium.html)
+
+[math/removing beta from adm metric](https://thenumbernine.github.io/math/removing%20beta%20from%20adm%20metric.html)
+
+[math/spheres](https://thenumbernine.github.io/math/spheres.html)
+
+[math/wave_metric_1](https://thenumbernine.github.io/math/wave_metric_1.html)
+
+[math/wave_metric_2](https://thenumbernine.github.io/math/wave_metric_2.html)
+
+[math/wave_metric_3](https://thenumbernine.github.io/math/wave_metric_3.html)
+
+[numrel-codegen/flux_matrix_output/flux_matrix.adm](https://thenumbernine.github.io/numrel%2dcodegen/flux_matrix_output/flux_matrix.adm.html)
+
+[numrel-codegen/flux_matrix_output/flux_matrix.adm_1D](https://thenumbernine.github.io/numrel%2dcodegen/flux_matrix_output/flux_matrix.adm_1D.html)
+
+[numrel-codegen/flux_matrix_output/flux_matrix.adm_noZeroRows](https://thenumbernine.github.io/numrel%2dcodegen/flux_matrix_output/flux_matrix.adm_noZeroRows.html)
+
+[numrel-codegen/flux_matrix_output/flux_matrix.adm_useGamma_noZeroRows](https://thenumbernine.github.io/numrel%2dcodegen/flux_matrix_output/flux_matrix.adm_useGamma_noZeroRows.html)
+
+[numrel-codegen/flux_matrix_output/flux_matrix.adm_useV](https://thenumbernine.github.io/numrel%2dcodegen/flux_matrix_output/flux_matrix.adm_useV.html)
+
+[numrel-codegen/flux_matrix_output/flux_matrix.adm_useV_noZeroRows](https://thenumbernine.github.io/numrel%2dcodegen/flux_matrix_output/flux_matrix.adm_useV_noZeroRows.html)
+
+[numrel-codegen/flux_matrix_output/flux_matrix.adm_useV_useShift_noZeroRows](https://thenumbernine.github.io/numrel%2dcodegen/flux_matrix_output/flux_matrix.adm_useV_useShift_noZeroRows.html)
+
+[numrel-codegen/flux_matrix_output/flux_matrix.z4](https://thenumbernine.github.io/numrel%2dcodegen/flux_matrix_output/flux_matrix.z4.html)
+
+[numrel-codegen/flux_matrix_output/flux_matrix.z4_noZeroRows](https://thenumbernine.github.io/numrel%2dcodegen/flux_matrix_output/flux_matrix.z4_noZeroRows.html)
+
+[numrel-codegen/flux_matrix_output/flux_matrix.z4_useShift_noZeroRows](https://thenumbernine.github.io/numrel%2dcodegen/flux_matrix_output/flux_matrix.z4_useShift_noZeroRows.html)
+
+[numrel-codegen/flux_matrix_output/verify_2008_yano](https://thenumbernine.github.io/numrel%2dcodegen/flux_matrix_output/verify_2008_yano.html)
+
+[symmath/tests/output/ADM gravity using expressions](https://thenumbernine.github.io/symmath/tests/output/ADM%20gravity%20using%20expressions.html)
+
+[symmath/tests/output/ADM metric - mixed](https://thenumbernine.github.io/symmath/tests/output/ADM%20metric%20%2d%20mixed.html)
+
+[symmath/tests/output/ADM metric](https://thenumbernine.github.io/symmath/tests/output/ADM%20metric.html)
+
+[symmath/tests/output/Alcubierre](https://thenumbernine.github.io/symmath/tests/output/Alcubierre.html)
+
+[symmath/tests/output/Building Curvature by ADM](https://thenumbernine.github.io/symmath/tests/output/Building%20Curvature%20by%20ADM.html)
+
+[symmath/tests/output/EFE discrete solution - 1-var](https://thenumbernine.github.io/symmath/tests/output/EFE%20discrete%20solution%20%2d%201%2dvar.html)
+
+[symmath/tests/output/EFE discrete solution - 2-var](https://thenumbernine.github.io/symmath/tests/output/EFE%20discrete%20solution%20%2d%202%2dvar.html)
+
+[symmath/tests/output/Einstein field equations - expression](https://thenumbernine.github.io/symmath/tests/output/Einstein%20field%20equations%20%2d%20expression.html)
+
+[symmath/tests/output/Ernst](https://thenumbernine.github.io/symmath/tests/output/Ernst.html)
+
+[symmath/tests/output/FLRW](https://thenumbernine.github.io/symmath/tests/output/FLRW.html)
+
+[symmath/tests/output/Gravitation 16.1 - dense](https://thenumbernine.github.io/symmath/tests/output/Gravitation%2016.1%20%2d%20dense.html)
+
+[symmath/tests/output/Gravitation 16.1 - expression](https://thenumbernine.github.io/symmath/tests/output/Gravitation%2016.1%20%2d%20expression.html)
+
+[symmath/tests/output/Gravitation 16.1 - mixed](https://thenumbernine.github.io/symmath/tests/output/Gravitation%2016.1%20%2d%20mixed.html)
+
+[symmath/tests/output/Kaluza-Klein](https://thenumbernine.github.io/symmath/tests/output/Kaluza%2dKlein.html)
+
+[symmath/tests/output/Kerr - Cartesian](https://thenumbernine.github.io/symmath/tests/output/Kerr%20%2d%20Cartesian.html)
+
+[symmath/tests/output/MHD inverse](https://thenumbernine.github.io/symmath/tests/output/MHD%20inverse.html)
+
+[symmath/tests/output/MHD symmetrization](https://thenumbernine.github.io/symmath/tests/output/MHD%20symmetrization.html)
+
+[symmath/tests/output/Newton method](https://thenumbernine.github.io/symmath/tests/output/Newton%20method.html)
+
+[symmath/tests/output/SRHD](https://thenumbernine.github.io/symmath/tests/output/SRHD.html)
+
+[symmath/tests/output/Schwarzschild - Cartesian](https://thenumbernine.github.io/symmath/tests/output/Schwarzschild%20%2d%20Cartesian.html)
+
+[symmath/tests/output/Schwarzschild - spherical - derivation - varying time 2](https://thenumbernine.github.io/symmath/tests/output/Schwarzschild%20%2d%20spherical%20%2d%20derivation%20%2d%20varying%20time%202.html)
+
+[symmath/tests/output/Schwarzschild - spherical - derivation - varying time](https://thenumbernine.github.io/symmath/tests/output/Schwarzschild%20%2d%20spherical%20%2d%20derivation%20%2d%20varying%20time.html)
+
+[symmath/tests/output/Schwarzschild - spherical - derivation](https://thenumbernine.github.io/symmath/tests/output/Schwarzschild%20%2d%20spherical%20%2d%20derivation.html)
+
+[symmath/tests/output/Schwarzschild - spherical to Cartesian](https://thenumbernine.github.io/symmath/tests/output/Schwarzschild%20%2d%20spherical%20to%20Cartesian.html)
+
+[symmath/tests/output/Schwarzschild - spherical](https://thenumbernine.github.io/symmath/tests/output/Schwarzschild%20%2d%20spherical.html)
+
+[symmath/tests/output/TOV](https://thenumbernine.github.io/symmath/tests/output/TOV.html)
+
+[symmath/tests/output/electrovacuum/black hole electron](https://thenumbernine.github.io/symmath/tests/output/electrovacuum/black%20hole%20electron.html)
+
+[symmath/tests/output/electrovacuum/general case](https://thenumbernine.github.io/symmath/tests/output/electrovacuum/general%20case.html)
+
+[symmath/tests/output/electrovacuum/infinite wire no charge](https://thenumbernine.github.io/symmath/tests/output/electrovacuum/infinite%20wire%20no%20charge.html)
+
+[symmath/tests/output/electrovacuum/infinite wire](https://thenumbernine.github.io/symmath/tests/output/electrovacuum/infinite%20wire.html)
+
+[symmath/tests/output/electrovacuum/uniform field - Cartesian](https://thenumbernine.github.io/symmath/tests/output/electrovacuum/uniform%20field%20%2d%20Cartesian.html)
+
+[symmath/tests/output/electrovacuum/uniform field - cylindrical](https://thenumbernine.github.io/symmath/tests/output/electrovacuum/uniform%20field%20%2d%20cylindrical.html)
+
+[symmath/tests/output/electrovacuum/uniform field - spherical](https://thenumbernine.github.io/symmath/tests/output/electrovacuum/uniform%20field%20%2d%20spherical.html)
+
+[symmath/tests/output/electrovacuum/verify cylindrical transform](https://thenumbernine.github.io/symmath/tests/output/electrovacuum/verify%20cylindrical%20transform.html)
+
+[symmath/tests/output/hydrodynamics](https://thenumbernine.github.io/symmath/tests/output/hydrodynamics.html)
+
+[symmath/tests/output/linearized Euler fluid equations](https://thenumbernine.github.io/symmath/tests/output/linearized%20Euler%20fluid%20equations.html)
+
+[symmath/tests/output/metric catalog](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog.html)
+
+[symmath/tests/output/natural units](https://thenumbernine.github.io/symmath/tests/output/natural%20units.html)
+
+[symmath/tests/output/numeric integration](https://thenumbernine.github.io/symmath/tests/output/numeric%20integration.html)
+
+[symmath/tests/output/remove beta from adm metric](https://thenumbernine.github.io/symmath/tests/output/remove%20beta%20from%20adm%20metric.html)
+
+[symmath/tests/output/rotation group](https://thenumbernine.github.io/symmath/tests/output/rotation%20group.html)
+
+[symmath/tests/output/run all tests](https://thenumbernine.github.io/symmath/tests/output/run%20all%20tests.html)
+
+[symmath/tests/output/scalar metric](https://thenumbernine.github.io/symmath/tests/output/scalar%20metric.html)
+
+[symmath/tests/output/simple_ag](https://thenumbernine.github.io/symmath/tests/output/simple_ag.html)
+
+[symmath/tests/output/spacetime embedding radius](https://thenumbernine.github.io/symmath/tests/output/spacetime%20embedding%20radius.html)
+
+[symmath/tests/output/spinors](https://thenumbernine.github.io/symmath/tests/output/spinors.html)
+
+[symmath/tests/output/spring force](https://thenumbernine.github.io/symmath/tests/output/spring%20force.html)
+
+[symmath/tests/output/tensor coordinate invariance](https://thenumbernine.github.io/symmath/tests/output/tensor%20coordinate%20invariance.html)
+
+[symmath/tests/output/toy-1+1 spacetime](https://thenumbernine.github.io/symmath/tests/output/toy%2d1%2b1%20spacetime.html)
+
+[symmath/tests/output/unit/linear solver](https://thenumbernine.github.io/symmath/tests/output/unit/linear%20solver.html)
+
+[symmath/tests/output/unit/matrix](https://thenumbernine.github.io/symmath/tests/output/unit/matrix.html)
+
+[symmath/tests/output/unit/partial replace](https://thenumbernine.github.io/symmath/tests/output/unit/partial%20replace.html)
+
+[symmath/tests/output/unit/sub-tensor assignment](https://thenumbernine.github.io/symmath/tests/output/unit/sub%2dtensor%20assignment.html)
+
+[symmath/tests/output/unit/tensor use case](https://thenumbernine.github.io/symmath/tests/output/unit/tensor%20use%20case.html)
+
+[symmath/tests/output/unit/test](https://thenumbernine.github.io/symmath/tests/output/unit/test.html)
+
+[symmath/tests/output/unit/tidyIndexes](https://thenumbernine.github.io/symmath/tests/output/unit/tidyIndexes.html)
