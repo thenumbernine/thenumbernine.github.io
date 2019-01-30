@@ -216,6 +216,8 @@ Output CDN URLs:
 
 [numrel-codegen/flux_matrix_output/verify_2008_yano](https://thenumbernine.github.io/numrel%2dcodegen/flux_matrix_output/verify_2008_yano.html)
 
+[surface-from-connection-lua/docs/README](https://thenumbernine.github.io/surface%2dfrom%2dconnection%2dlua/docs/README.html)
+
 [symmath/tests/output/ADM gravity using expressions](https://thenumbernine.github.io/symmath/tests/output/ADM%20gravity%20using%20expressions.html)
 
 [symmath/tests/output/ADM metric - mixed](https://thenumbernine.github.io/symmath/tests/output/ADM%20metric%20%2d%20mixed.html)
