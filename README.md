@@ -18,6 +18,8 @@ Output CDN URLs:
 
 [math/Curvature From Lower Dimensions](https://thenumbernine.github.io/math/Curvature%20From%20Lower%20Dimensions.html)
 
+[math/Differential Geometry/0 - curves](https://thenumbernine.github.io/math/Differential%20Geometry/0%20%2d%20curves.html)
+
 [math/Differential Geometry/0 - tensors - intro](https://thenumbernine.github.io/math/Differential%20Geometry/0%20%2d%20tensors%20%2d%20intro.html)
 
 [math/Differential Geometry/1 - index notation](https://thenumbernine.github.io/math/Differential%20Geometry/1%20%2d%20index%20notation.html)
@@ -96,10 +98,6 @@ Output CDN URLs:
 
 [math/GR EM Metrics/flat space gravitomagnetics](https://thenumbernine.github.io/math/GR%20EM%20Metrics/flat%20space%20gravitomagnetics.html)
 
-[math/GR EM Metrics/gravitomagnetics 2](https://thenumbernine.github.io/math/GR%20EM%20Metrics/gravitomagnetics%202.html)
-
-[math/GR EM Metrics/gravitomagnetics](https://thenumbernine.github.io/math/GR%20EM%20Metrics/gravitomagnetics.html)
-
 [math/GR EM Metrics/metric of curved space and EM potential](https://thenumbernine.github.io/math/GR%20EM%20Metrics/metric%20of%20curved%20space%20and%20EM%20potential.html)
 
 [math/GR EM Metrics/metric of flat space and EM potential](https://thenumbernine.github.io/math/GR%20EM%20Metrics/metric%20of%20flat%20space%20and%20EM%20potential.html)
@@ -108,7 +106,9 @@ Output CDN URLs:
 
 [math/Kaluza-Klein - constant scalar](https://thenumbernine.github.io/math/Kaluza%2dKlein%20%2d%20constant%20scalar.html)
 
-[math/Kaluza-Klein](https://thenumbernine.github.io/math/Kaluza%2dKlein.html)
+[math/Kaluza-Klein - varying scalar](https://thenumbernine.github.io/math/Kaluza%2dKlein%20%2d%20varying%20scalar.html)
+
+[math/Kaluza-Klein - without cylindrical constraint](https://thenumbernine.github.io/math/Kaluza%2dKlein%20%2d%20without%20cylindrical%20constraint.html)
 
 [math/Kerr Cartesian](https://thenumbernine.github.io/math/Kerr%20Cartesian.html)
 
@@ -130,13 +130,13 @@ Output CDN URLs:
 
 [math/Maxwell in inhomogeneous medium](https://thenumbernine.github.io/math/Maxwell%20in%20inhomogeneous%20medium.html)
 
+[math/Maxwell octonions](https://thenumbernine.github.io/math/Maxwell%20octonions.html)
+
 [math/Metric Eigenmodes 2](https://thenumbernine.github.io/math/Metric%20Eigenmodes%202.html)
 
 [math/Metric Eigenmodes](https://thenumbernine.github.io/math/Metric%20Eigenmodes.html)
 
 [math/Metric for extruded dimension](https://thenumbernine.github.io/math/Metric%20for%20extruded%20dimension.html)
-
-[math/Metric with geodesic that changes in space with velocity in time](https://thenumbernine.github.io/math/Metric%20with%20geodesic%20that%20changes%20in%20space%20with%20velocity%20in%20time.html)
 
 [math/Navier-Stokes As Exterior Derivative](https://thenumbernine.github.io/math/Navier%2dStokes%20As%20Exterior%20Derivative.html)
 
@@ -172,13 +172,41 @@ Output CDN URLs:
 
 [math/SRHD](https://thenumbernine.github.io/math/SRHD.html)
 
+[math/Schwarzschild with mass varying with time](https://thenumbernine.github.io/math/Schwarzschild%20with%20mass%20varying%20with%20time.html)
+
 [math/Solving Connections From Riemann](https://thenumbernine.github.io/math/Solving%20Connections%20From%20Riemann.html)
 
 [math/Tetrad General Relativity](https://thenumbernine.github.io/math/Tetrad%20General%20Relativity.html)
 
+[math/Tetration Derivative](https://thenumbernine.github.io/math/Tetration%20Derivative.html)
+
+[math/Two-Fluid Plasma and GEM/0 - following Tajmar and De Matos paper](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/0%20%2d%20following%20Tajmar%20and%20De%20Matos%20paper.html)
+
+[math/Two-Fluid Plasma and GEM/1 - GEM](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/1%20%2d%20GEM.html)
+
+[math/Two-Fluid Plasma and GEM/2 - GEM Maxwell equations](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/2%20%2d%20GEM%20Maxwell%20equations.html)
+
+[math/Two-Fluid Plasma and GEM/3 - connections and GEM acceleration](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/3%20%2d%20connections%20and%20GEM%20acceleration.html)
+
+[math/Two-Fluid Plasma and GEM/4 - stress-energy from EM](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/4%20%2d%20stress%2denergy%20from%20EM.html)
+
+[math/Two-Fluid Plasma and GEM/5 - stress-energy from matter](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/5%20%2d%20stress%2denergy%20from%20matter.html)
+
+[math/Two-Fluid Plasma and GEM/6 - GLM Maxwell](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/6%20%2d%20GLM%20Maxwell.html)
+
+[math/Two-Fluid Plasma and GEM/7 - cyclotron frequency](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/7%20%2d%20cyclotron%20frequency.html)
+
+[math/Two-Fluid Plasma and GEM/7 - two-fluid plasma model](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/7%20%2d%20two%2dfluid%20plasma%20model.html)
+
 [math/a note on the definition of tensors](https://thenumbernine.github.io/math/a%20note%20on%20the%20definition%20of%20tensors.html)
 
+[math/conformal Levi-Civita geodesic](https://thenumbernine.github.io/math/conformal%20Levi%2dCivita%20geodesic.html)
+
 [math/heat to wave](https://thenumbernine.github.io/math/heat%20to%20wave.html)
+
+[math/hyperbolic rotations](https://thenumbernine.github.io/math/hyperbolic%20rotations.html)
+
+[math/magnetic field from a boosted charge](https://thenumbernine.github.io/math/magnetic%20field%20from%20a%20boosted%20charge.html)
 
 [math/projection in any metric](https://thenumbernine.github.io/math/projection%20in%20any%20metric.html)
 
@@ -187,6 +215,12 @@ Output CDN URLs:
 [math/removing beta from adm metric](https://thenumbernine.github.io/math/removing%20beta%20from%20adm%20metric.html)
 
 [math/spheres](https://thenumbernine.github.io/math/spheres.html)
+
+[math/stress-energy tensor](https://thenumbernine.github.io/math/stress%2denergy%20tensor.html)
+
+[math/torsion gravity](https://thenumbernine.github.io/math/torsion%20gravity.html)
+
+[math/twisted spacetime](https://thenumbernine.github.io/math/twisted%20spacetime.html)
 
 [math/wave_metric_1](https://thenumbernine.github.io/math/wave_metric_1.html)
 
@@ -246,17 +280,23 @@ Output CDN URLs:
 
 [symmath/tests/output/Kaluza-Klein](https://thenumbernine.github.io/symmath/tests/output/Kaluza%2dKlein.html)
 
-[symmath/tests/output/Kerr - Cartesian](https://thenumbernine.github.io/symmath/tests/output/Kerr%20%2d%20Cartesian.html)
+[symmath/tests/output/Kerr-Schild - dense](https://thenumbernine.github.io/symmath/tests/output/Kerr%2dSchild%20%2d%20dense.html)
+
+[symmath/tests/output/Kerr-Schild - expression](https://thenumbernine.github.io/symmath/tests/output/Kerr%2dSchild%20%2d%20expression.html)
+
+[symmath/tests/output/Kerr-Schild degenerate case](https://thenumbernine.github.io/symmath/tests/output/Kerr%2dSchild%20degenerate%20case.html)
 
 [symmath/tests/output/MHD inverse](https://thenumbernine.github.io/symmath/tests/output/MHD%20inverse.html)
 
 [symmath/tests/output/MHD symmetrization](https://thenumbernine.github.io/symmath/tests/output/MHD%20symmetrization.html)
 
+[symmath/tests/output/Maxwell](https://thenumbernine.github.io/symmath/tests/output/Maxwell.html)
+
 [symmath/tests/output/Newton method](https://thenumbernine.github.io/symmath/tests/output/Newton%20method.html)
 
 [symmath/tests/output/SRHD](https://thenumbernine.github.io/symmath/tests/output/SRHD.html)
 
-[symmath/tests/output/Schwarzschild - Cartesian](https://thenumbernine.github.io/symmath/tests/output/Schwarzschild%20%2d%20Cartesian.html)
+[symmath/tests/output/Schwarzschild - isotropic](https://thenumbernine.github.io/symmath/tests/output/Schwarzschild%20%2d%20isotropic.html)
 
 [symmath/tests/output/Schwarzschild - spherical - derivation - varying time 2](https://thenumbernine.github.io/symmath/tests/output/Schwarzschild%20%2d%20spherical%20%2d%20derivation%20%2d%20varying%20time%202.html)
 
@@ -264,7 +304,7 @@ Output CDN URLs:
 
 [symmath/tests/output/Schwarzschild - spherical - derivation](https://thenumbernine.github.io/symmath/tests/output/Schwarzschild%20%2d%20spherical%20%2d%20derivation.html)
 
-[symmath/tests/output/Schwarzschild - spherical to Cartesian](https://thenumbernine.github.io/symmath/tests/output/Schwarzschild%20%2d%20spherical%20to%20Cartesian.html)
+[symmath/tests/output/Schwarzschild - spherical - mass varying with time](https://thenumbernine.github.io/symmath/tests/output/Schwarzschild%20%2d%20spherical%20%2d%20mass%20varying%20with%20time.html)
 
 [symmath/tests/output/Schwarzschild - spherical](https://thenumbernine.github.io/symmath/tests/output/Schwarzschild%20%2d%20spherical.html)
 
