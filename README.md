@@ -160,11 +160,17 @@ Output CDN URLs:
 
 [math/Numerical Relativity/adm from efe](https://thenumbernine.github.io/math/Numerical%20Relativity/adm%20from%20efe.html)
 
+[math/Numerical Relativity/bssnok-chi](https://thenumbernine.github.io/math/Numerical%20Relativity/bssnok%2dchi.html)
+
+[math/Numerical Relativity/bssnok-scalar](https://thenumbernine.github.io/math/Numerical%20Relativity/bssnok%2dscalar.html)
+
 [math/Numerical Relativity/bssnok](https://thenumbernine.github.io/math/Numerical%20Relativity/bssnok.html)
 
 [math/Numerical Relativity/eigenwhatever](https://thenumbernine.github.io/math/Numerical%20Relativity/eigenwhatever.html)
 
 [math/Numerical Relativity/equal up to principal part](https://thenumbernine.github.io/math/Numerical%20Relativity/equal%20up%20to%20principal%20part.html)
+
+[math/Numerical Relativity/trace-free](https://thenumbernine.github.io/math/Numerical%20Relativity/trace%2dfree.html)
 
 [math/Numerical Relativity/z4](https://thenumbernine.github.io/math/Numerical%20Relativity/z4.html)
 
@@ -192,11 +198,13 @@ Output CDN URLs:
 
 [math/Two-Fluid Plasma and GEM/5 - stress-energy from matter](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/5%20%2d%20stress%2denergy%20from%20matter.html)
 
-[math/Two-Fluid Plasma and GEM/6 - GLM Maxwell](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/6%20%2d%20GLM%20Maxwell.html)
+[math/Two-Fluid Plasma and GEM/6 - GLM Maxwell derivation](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/6%20%2d%20GLM%20Maxwell%20derivation.html)
 
-[math/Two-Fluid Plasma and GEM/7 - cyclotron frequency](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/7%20%2d%20cyclotron%20frequency.html)
+[math/Two-Fluid Plasma and GEM/7.1 - cyclotron frequency](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/7.1%20%2d%20cyclotron%20frequency.html)
 
-[math/Two-Fluid Plasma and GEM/7 - two-fluid plasma model](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/7%20%2d%20two%2dfluid%20plasma%20model.html)
+[math/Two-Fluid Plasma and GEM/7.2 - normalized units](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/7.2%20%2d%20normalized%20units.html)
+
+[math/Two-Fluid Plasma and GEM/8 - two-fluid plasma model](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/8%20%2d%20two%2dfluid%20plasma%20model.html)
 
 [math/a note on the definition of tensors](https://thenumbernine.github.io/math/a%20note%20on%20the%20definition%20of%20tensors.html)
 
@@ -221,6 +229,8 @@ Output CDN URLs:
 [math/torsion gravity](https://thenumbernine.github.io/math/torsion%20gravity.html)
 
 [math/twisted spacetime](https://thenumbernine.github.io/math/twisted%20spacetime.html)
+
+[math/wave equation hyperbolic form](https://thenumbernine.github.io/math/wave%20equation%20hyperbolic%20form.html)
 
 [math/wave_metric_1](https://thenumbernine.github.io/math/wave_metric_1.html)
 
@@ -260,6 +270,8 @@ Output CDN URLs:
 
 [symmath/tests/output/Alcubierre](https://thenumbernine.github.io/symmath/tests/output/Alcubierre.html)
 
+[symmath/tests/output/BSSN](https://thenumbernine.github.io/symmath/tests/output/BSSN.html)
+
 [symmath/tests/output/Building Curvature by ADM](https://thenumbernine.github.io/symmath/tests/output/Building%20Curvature%20by%20ADM.html)
 
 [symmath/tests/output/EFE discrete solution - 1-var](https://thenumbernine.github.io/symmath/tests/output/EFE%20discrete%20solution%20%2d%201%2dvar.html)
@@ -271,6 +283,8 @@ Output CDN URLs:
 [symmath/tests/output/Ernst](https://thenumbernine.github.io/symmath/tests/output/Ernst.html)
 
 [symmath/tests/output/FLRW](https://thenumbernine.github.io/symmath/tests/output/FLRW.html)
+
+[symmath/tests/output/GLM-Maxwell](https://thenumbernine.github.io/symmath/tests/output/GLM%2dMaxwell.html)
 
 [symmath/tests/output/Gravitation 16.1 - dense](https://thenumbernine.github.io/symmath/tests/output/Gravitation%2016.1%20%2d%20dense.html)
 
@@ -369,3 +383,5 @@ Output CDN URLs:
 [symmath/tests/output/unit/test](https://thenumbernine.github.io/symmath/tests/output/unit/test.html)
 
 [symmath/tests/output/unit/tidyIndexes](https://thenumbernine.github.io/symmath/tests/output/unit/tidyIndexes.html)
+
+[symmath/tests/output/wave equation with metric of space and time - based on bssnok-scalar](https://thenumbernine.github.io/symmath/tests/output/wave%20equation%20with%20metric%20of%20space%20and%20time%20%2d%20based%20on%20bssnok%2dscalar.html)
