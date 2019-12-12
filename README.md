@@ -174,6 +174,8 @@ Output CDN URLs:
 
 [math/Numerical Relativity/z4](https://thenumbernine.github.io/math/Numerical%20Relativity/z4.html)
 
+[math/Quantum Computing](https://thenumbernine.github.io/math/Quantum%20Computing.html)
+
 [math/Relativistic Electromagnetism metric](https://thenumbernine.github.io/math/Relativistic%20Electromagnetism%20metric.html)
 
 [math/SRHD](https://thenumbernine.github.io/math/SRHD.html)
