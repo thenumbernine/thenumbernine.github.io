@@ -72,7 +72,31 @@ Output CDN URLs:
 
 [math/Einstein-Maxwell Hyperbolic Conservation Laws](https://thenumbernine.github.io/math/Einstein%2dMaxwell%20Hyperbolic%20Conservation%20Laws.html)
 
-[math/Electromagnetic Tensor Self-Dual](https://thenumbernine.github.io/math/Electromagnetic%20Tensor%20Self%2dDual.html)
+[math/Electromagnetism/0 - intro](https://thenumbernine.github.io/math/Electromagnetism/0%20%2d%20intro.html)
+
+[math/Electromagnetism/1 - Faraday tensor in special relativity](https://thenumbernine.github.io/math/Electromagnetism/1%20%2d%20Faraday%20tensor%20in%20special%20relativity.html)
+
+[math/Electromagnetism/2 - Faraday tensor in GR ADM in vacuum with E and B as vectors](https://thenumbernine.github.io/math/Electromagnetism/2%20%2d%20Faraday%20tensor%20in%20GR%20ADM%20in%20vacuum%20with%20E%20and%20B%20as%20vectors.html)
+
+[math/Electromagnetism/2.5 - Faraday tensor in GR ADM in vacuum with E and B as one-forms](https://thenumbernine.github.io/math/Electromagnetism/2.5%20%2d%20Faraday%20tensor%20in%20GR%20ADM%20in%20vacuum%20with%20E%20and%20B%20as%20one%2dforms.html)
+
+[math/Electromagnetism/3 - Faraday tensor as 2-form](https://thenumbernine.github.io/math/Electromagnetism/3%20%2d%20Faraday%20tensor%20as%202%2dform.html)
+
+[math/Electromagnetism/4 - electromagnetic stress-energy in vacuum](https://thenumbernine.github.io/math/Electromagnetism/4%20%2d%20electromagnetic%20stress%2denergy%20in%20vacuum.html)
+
+[math/Electromagnetism/5 - electromagnetism in medium](https://thenumbernine.github.io/math/Electromagnetism/5%20%2d%20electromagnetism%20in%20medium.html)
+
+[math/Electromagnetism/Electromagnetic Tensor Self-Dual](https://thenumbernine.github.io/math/Electromagnetism/Electromagnetic%20Tensor%20Self%2dDual.html)
+
+[math/Electromagnetism/Maxwell Equations - Eigenmode Analysis](https://thenumbernine.github.io/math/Electromagnetism/Maxwell%20Equations%20%2d%20Eigenmode%20Analysis.html)
+
+[math/Electromagnetism/Maxwell equations in hyperbolic form](https://thenumbernine.github.io/math/Electromagnetism/Maxwell%20equations%20in%20hyperbolic%20form.html)
+
+[math/Electromagnetism/Maxwell in inhomogeneous medium](https://thenumbernine.github.io/math/Electromagnetism/Maxwell%20in%20inhomogeneous%20medium.html)
+
+[math/Electromagnetism/Maxwell octonions](https://thenumbernine.github.io/math/Electromagnetism/Maxwell%20octonions.html)
+
+[math/Electromagnetism/Relativistic Electromagnetism metric](https://thenumbernine.github.io/math/Electromagnetism/Relativistic%20Electromagnetism%20metric.html)
 
 [math/Equations of Structure - Schwarzschild](https://thenumbernine.github.io/math/Equations%20of%20Structure%20%2d%20Schwarzschild.html)
 
@@ -124,14 +148,6 @@ Output CDN URLs:
 
 [math/MHD](https://thenumbernine.github.io/math/MHD.html)
 
-[math/Maxwell Equations - Eigenmode Analysis](https://thenumbernine.github.io/math/Maxwell%20Equations%20%2d%20Eigenmode%20Analysis.html)
-
-[math/Maxwell equations in hyperbolic form](https://thenumbernine.github.io/math/Maxwell%20equations%20in%20hyperbolic%20form.html)
-
-[math/Maxwell in inhomogeneous medium](https://thenumbernine.github.io/math/Maxwell%20in%20inhomogeneous%20medium.html)
-
-[math/Maxwell octonions](https://thenumbernine.github.io/math/Maxwell%20octonions.html)
-
 [math/Metric Eigenmodes 2](https://thenumbernine.github.io/math/Metric%20Eigenmodes%202.html)
 
 [math/Metric Eigenmodes](https://thenumbernine.github.io/math/Metric%20Eigenmodes.html)
@@ -176,8 +192,6 @@ Output CDN URLs:
 
 [math/Quantum Computing](https://thenumbernine.github.io/math/Quantum%20Computing.html)
 
-[math/Relativistic Electromagnetism metric](https://thenumbernine.github.io/math/Relativistic%20Electromagnetism%20metric.html)
-
 [math/SRHD](https://thenumbernine.github.io/math/SRHD.html)
 
 [math/Schwarzschild with mass varying with time](https://thenumbernine.github.io/math/Schwarzschild%20with%20mass%20varying%20with%20time.html)
@@ -219,8 +233,6 @@ Output CDN URLs:
 [math/magnetic field from a boosted charge](https://thenumbernine.github.io/math/magnetic%20field%20from%20a%20boosted%20charge.html)
 
 [math/projection in any metric](https://thenumbernine.github.io/math/projection%20in%20any%20metric.html)
-
-[math/relativistic electromagnetic metric in medium](https://thenumbernine.github.io/math/relativistic%20electromagnetic%20metric%20in%20medium.html)
 
 [math/removing beta from adm metric](https://thenumbernine.github.io/math/removing%20beta%20from%20adm%20metric.html)
 
@@ -264,6 +276,8 @@ Output CDN URLs:
 
 [surface-from-connection-lua/docs/README](https://thenumbernine.github.io/surface%2dfrom%2dconnection%2dlua/docs/README.html)
 
+[symmath/tests/output/ADM Levi-Civita](https://thenumbernine.github.io/symmath/tests/output/ADM%20Levi%2dCivita.html)
+
 [symmath/tests/output/ADM gravity using expressions](https://thenumbernine.github.io/symmath/tests/output/ADM%20gravity%20using%20expressions.html)
 
 [symmath/tests/output/ADM metric - mixed](https://thenumbernine.github.io/symmath/tests/output/ADM%20metric%20%2d%20mixed.html)
@@ -285,6 +299,8 @@ Output CDN URLs:
 [symmath/tests/output/Ernst](https://thenumbernine.github.io/symmath/tests/output/Ernst.html)
 
 [symmath/tests/output/FLRW](https://thenumbernine.github.io/symmath/tests/output/FLRW.html)
+
+[symmath/tests/output/Faraday tensor](https://thenumbernine.github.io/symmath/tests/output/Faraday%20tensor.html)
 
 [symmath/tests/output/FiniteVolume](https://thenumbernine.github.io/symmath/tests/output/FiniteVolume.html)
 
