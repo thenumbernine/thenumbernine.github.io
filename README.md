@@ -388,6 +388,8 @@ Output CDN URLs:
 
 [symmath/tests/output/spring force](https://thenumbernine.github.io/symmath/tests/output/spring%20force.html)
 
+[symmath/tests/output/symbols](https://thenumbernine.github.io/symmath/tests/output/symbols.html)
+
 [symmath/tests/output/tensor coordinate invariance](https://thenumbernine.github.io/symmath/tests/output/tensor%20coordinate%20invariance.html)
 
 [symmath/tests/output/toy-1+1 spacetime](https://thenumbernine.github.io/symmath/tests/output/toy%2d1%2b1%20spacetime.html)
