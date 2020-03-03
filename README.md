@@ -196,6 +196,8 @@ Output CDN URLs:
 
 [math/Schwarzschild with mass varying with time](https://thenumbernine.github.io/math/Schwarzschild%20with%20mass%20varying%20with%20time.html)
 
+[math/Shallow Water](https://thenumbernine.github.io/math/Shallow%20Water.html)
+
 [math/Solving Connections From Riemann](https://thenumbernine.github.io/math/Solving%20Connections%20From%20Riemann.html)
 
 [math/Tetrad General Relativity](https://thenumbernine.github.io/math/Tetrad%20General%20Relativity.html)
