@@ -62,6 +62,8 @@ Output CDN URLs:
 
 [math/Differential Geometry/8.1 - spin connection](https://thenumbernine.github.io/math/Differential%20Geometry/8.1%20%2d%20spin%20connection.html)
 
+[math/Differential Geometry/8.5 - parallel propagators](https://thenumbernine.github.io/math/Differential%20Geometry/8.5%20%2d%20parallel%20propagators.html)
+
 [math/Differential Geometry/9 - Riemann curvature](https://thenumbernine.github.io/math/Differential%20Geometry/9%20%2d%20Riemann%20curvature.html)
 
 [math/Differential Geometry/sources](https://thenumbernine.github.io/math/Differential%20Geometry/sources.html)
@@ -247,6 +249,8 @@ Output CDN URLs:
 [math/twisted spacetime](https://thenumbernine.github.io/math/twisted%20spacetime.html)
 
 [math/wave equation hyperbolic form](https://thenumbernine.github.io/math/wave%20equation%20hyperbolic%20form.html)
+
+[math/wave equation in curved spacetime - finite difference](https://thenumbernine.github.io/math/wave%20equation%20in%20curved%20spacetime%20%2d%20finite%20difference.html)
 
 [math/wave_metric_1](https://thenumbernine.github.io/math/wave_metric_1.html)
 
