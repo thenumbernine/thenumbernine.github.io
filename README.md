@@ -130,6 +130,8 @@ Output CDN URLs:
 
 [math/Gravitation 22.2](https://thenumbernine.github.io/math/Gravitation%2022.2.html)
 
+[math/Integrating a Vector Field in Curvilinear Coordinates](https://thenumbernine.github.io/math/Integrating%20a%20Vector%20Field%20in%20Curvilinear%20Coordinates.html)
+
 [math/Kaluza-Klein - constant scalar](https://thenumbernine.github.io/math/Kaluza%2dKlein%20%2d%20constant%20scalar.html)
 
 [math/Kaluza-Klein - varying scalar](https://thenumbernine.github.io/math/Kaluza%2dKlein%20%2d%20varying%20scalar.html)
@@ -340,6 +342,8 @@ Output CDN URLs:
 
 [symmath/tests/output/Newton method](https://thenumbernine.github.io/symmath/tests/output/Newton%20method.html)
 
+[symmath/tests/output/Parallel Propagators](https://thenumbernine.github.io/symmath/tests/output/Parallel%20Propagators.html)
+
 [symmath/tests/output/SRHD](https://thenumbernine.github.io/symmath/tests/output/SRHD.html)
 
 [symmath/tests/output/Schwarzschild - isotropic](https://thenumbernine.github.io/symmath/tests/output/Schwarzschild%20%2d%20isotropic.html)
@@ -417,5 +421,7 @@ Output CDN URLs:
 [symmath/tests/output/unit/test](https://thenumbernine.github.io/symmath/tests/output/unit/test.html)
 
 [symmath/tests/output/unit/tidyIndexes](https://thenumbernine.github.io/symmath/tests/output/unit/tidyIndexes.html)
+
+[symmath/tests/output/wave equation in spacetime - flux eigenvectors](https://thenumbernine.github.io/symmath/tests/output/wave%20equation%20in%20spacetime%20%2d%20flux%20eigenvectors.html)
 
 [symmath/tests/output/wave equation in spacetime](https://thenumbernine.github.io/symmath/tests/output/wave%20equation%20in%20spacetime.html)
