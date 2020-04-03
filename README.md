@@ -130,8 +130,6 @@ Output CDN URLs:
 
 [math/Gravitation 22.2](https://thenumbernine.github.io/math/Gravitation%2022.2.html)
 
-[math/Integrating a Vector Field in Curvilinear Coordinates](https://thenumbernine.github.io/math/Integrating%20a%20Vector%20Field%20in%20Curvilinear%20Coordinates.html)
-
 [math/Kaluza-Klein - constant scalar](https://thenumbernine.github.io/math/Kaluza%2dKlein%20%2d%20constant%20scalar.html)
 
 [math/Kaluza-Klein - varying scalar](https://thenumbernine.github.io/math/Kaluza%2dKlein%20%2d%20varying%20scalar.html)
