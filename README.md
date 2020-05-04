@@ -378,6 +378,8 @@ Output CDN URLs:
 
 [symmath/tests/output/linearized Euler fluid equations](https://thenumbernine.github.io/symmath/tests/output/linearized%20Euler%20fluid%20equations.html)
 
+[symmath/tests/output/metric catalog](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog.html)
+
 [symmath/tests/output/metric catalog/Cartesian, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/Cartesian%2c%20coordinate.html)
 
 [symmath/tests/output/metric catalog/Schwarzschild](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/Schwarzschild.html)
