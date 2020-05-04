@@ -340,8 +340,6 @@ Output CDN URLs:
 
 [symmath/tests/output/Newton method](https://thenumbernine.github.io/symmath/tests/output/Newton%20method.html)
 
-[symmath/tests/output/Parallel Propagators](https://thenumbernine.github.io/symmath/tests/output/Parallel%20Propagators.html)
-
 [symmath/tests/output/SRHD](https://thenumbernine.github.io/symmath/tests/output/SRHD.html)
 
 [symmath/tests/output/SRHD_1D](https://thenumbernine.github.io/symmath/tests/output/SRHD_1D.html)
@@ -380,43 +378,55 @@ Output CDN URLs:
 
 [symmath/tests/output/linearized Euler fluid equations](https://thenumbernine.github.io/symmath/tests/output/linearized%20Euler%20fluid%20equations.html)
 
-[symmath/tests/output/metric catalog/Cartesian](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/Cartesian.html)
+[symmath/tests/output/metric catalog/Cartesian, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/Cartesian%2c%20coordinate.html)
 
 [symmath/tests/output/metric catalog/Schwarzschild](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/Schwarzschild.html)
 
-[symmath/tests/output/metric catalog/cylindrical and time](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/cylindrical%20and%20time.html)
+[symmath/tests/output/metric catalog/cylindrical and time, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/cylindrical%20and%20time%2c%20coordinate.html)
 
 [symmath/tests/output/metric catalog/cylindrical surface, anholonomic, conformal](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/cylindrical%20surface%2c%20anholonomic%2c%20conformal.html)
 
 [symmath/tests/output/metric catalog/cylindrical surface, anholonomic, orthonormal](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/cylindrical%20surface%2c%20anholonomic%2c%20orthonormal.html)
 
-[symmath/tests/output/metric catalog/cylindrical surface](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/cylindrical%20surface.html)
+[symmath/tests/output/metric catalog/cylindrical surface, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/cylindrical%20surface%2c%20coordinate.html)
 
 [symmath/tests/output/metric catalog/cylindrical, anholonomic, conformal](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/cylindrical%2c%20anholonomic%2c%20conformal.html)
 
 [symmath/tests/output/metric catalog/cylindrical, anholonomic, orthonormal](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/cylindrical%2c%20anholonomic%2c%20orthonormal.html)
 
-[symmath/tests/output/metric catalog/cylindrical](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/cylindrical.html)
+[symmath/tests/output/metric catalog/cylindrical, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/cylindrical%2c%20coordinate.html)
+
+[symmath/tests/output/metric catalog/paraboliod, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/paraboliod%2c%20coordinate.html)
+
+[symmath/tests/output/metric catalog/polar and time, constant rotation, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/polar%20and%20time%2c%20constant%20rotation%2c%20coordinate.html)
+
+[symmath/tests/output/metric catalog/polar and time, lapse varying in radial, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/polar%20and%20time%2c%20lapse%20varying%20in%20radial%2c%20coordinate.html)
+
+[symmath/tests/output/metric catalog/polar and time, lapse varying in radial, rotation varying in time and radial, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/polar%20and%20time%2c%20lapse%20varying%20in%20radial%2c%20rotation%20varying%20in%20time%20and%20radial%2c%20coordinate.html)
 
 [symmath/tests/output/metric catalog/polar, anholonomic, conformal](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/polar%2c%20anholonomic%2c%20conformal.html)
 
 [symmath/tests/output/metric catalog/polar, anholonomic, orthonormal](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/polar%2c%20anholonomic%2c%20orthonormal.html)
 
-[symmath/tests/output/metric catalog/polar](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/polar.html)
+[symmath/tests/output/metric catalog/polar, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/polar%2c%20coordinate.html)
 
 [symmath/tests/output/metric catalog/sphere surface, anholonomic, orthonormal](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/sphere%20surface%2c%20anholonomic%2c%20orthonormal.html)
 
-[symmath/tests/output/metric catalog/sphere surface](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/sphere%20surface.html)
+[symmath/tests/output/metric catalog/sphere surface, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/sphere%20surface%2c%20coordinate.html)
+
+[symmath/tests/output/metric catalog/spherical and time, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/spherical%20and%20time%2c%20coordinate.html)
 
 [symmath/tests/output/metric catalog/spherical and time, lapse varying in radial](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/spherical%20and%20time%2c%20lapse%20varying%20in%20radial.html)
 
-[symmath/tests/output/metric catalog/spherical and time](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/spherical%20and%20time.html)
-
-[symmath/tests/output/metric catalog/spherical log-radial](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/spherical%20log%2dradial.html)
-
 [symmath/tests/output/metric catalog/spherical, anholonomic, orthonormal](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/spherical%2c%20anholonomic%2c%20orthonormal.html)
 
-[symmath/tests/output/metric catalog/spherical](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/spherical.html)
+[symmath/tests/output/metric catalog/spherical, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/spherical%2c%20coordinate.html)
+
+[symmath/tests/output/metric catalog/spherical, log-radial, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/spherical%2c%20log%2dradial%2c%20coordinate.html)
+
+[symmath/tests/output/metric catalog/spiral, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/spiral%2c%20coordinate.html)
+
+[symmath/tests/output/metric catalog/torus surface, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/torus%20surface%2c%20coordinate.html)
 
 [symmath/tests/output/natural units](https://thenumbernine.github.io/symmath/tests/output/natural%20units.html)
 
