@@ -304,6 +304,8 @@ Output CDN URLs:
 
 [symmath/tests/output/Ernst](https://thenumbernine.github.io/symmath/tests/output/Ernst.html)
 
+[symmath/tests/output/Euler fluid equations - flux eigenvectors](https://thenumbernine.github.io/symmath/tests/output/Euler%20fluid%20equations%20%2d%20flux%20eigenvectors.html)
+
 [symmath/tests/output/FLRW](https://thenumbernine.github.io/symmath/tests/output/FLRW.html)
 
 [symmath/tests/output/Faraday tensor in general relativity](https://thenumbernine.github.io/symmath/tests/output/Faraday%20tensor%20in%20general%20relativity.html)
@@ -375,8 +377,6 @@ Output CDN URLs:
 [symmath/tests/output/electrovacuum/verify cylindrical transform](https://thenumbernine.github.io/symmath/tests/output/electrovacuum/verify%20cylindrical%20transform.html)
 
 [symmath/tests/output/hydrodynamics](https://thenumbernine.github.io/symmath/tests/output/hydrodynamics.html)
-
-[symmath/tests/output/linearized Euler fluid equations](https://thenumbernine.github.io/symmath/tests/output/linearized%20Euler%20fluid%20equations.html)
 
 [symmath/tests/output/metric catalog](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog.html)
 
@@ -460,7 +460,7 @@ Output CDN URLs:
 
 [symmath/tests/output/unit/matrix](https://thenumbernine.github.io/symmath/tests/output/unit/matrix.html)
 
-[symmath/tests/output/unit/partial replace](https://thenumbernine.github.io/symmath/tests/output/unit/partial%20replace.html)
+[symmath/tests/output/unit/replace](https://thenumbernine.github.io/symmath/tests/output/unit/replace.html)
 
 [symmath/tests/output/unit/sub-tensor assignment](https://thenumbernine.github.io/symmath/tests/output/unit/sub%2dtensor%20assignment.html)
 
