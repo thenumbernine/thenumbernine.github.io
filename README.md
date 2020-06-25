@@ -68,6 +68,8 @@ Output CDN URLs:
 
 [math/Differential Geometry/sources](https://thenumbernine.github.io/math/Differential%20Geometry/sources.html)
 
+[math/Divergence Theorem in Spherical Coordinates](https://thenumbernine.github.io/math/Divergence%20Theorem%20in%20Spherical%20Coordinates.html)
+
 [math/EMHD Hyperbolic Conservation Laws](https://thenumbernine.github.io/math/EMHD%20Hyperbolic%20Conservation%20Laws.html)
 
 [math/EMHD Linear Stability Analysis](https://thenumbernine.github.io/math/EMHD%20Linear%20Stability%20Analysis.html)
@@ -192,6 +194,8 @@ Output CDN URLs:
 
 [math/Numerical Relativity/z4](https://thenumbernine.github.io/math/Numerical%20Relativity/z4.html)
 
+[math/PDE Systems, Parallel Propagators, Finite Volume](https://thenumbernine.github.io/math/PDE%20Systems%2c%20Parallel%20Propagators%2c%20Finite%20Volume.html)
+
 [math/Quantum Computing](https://thenumbernine.github.io/math/Quantum%20Computing.html)
 
 [math/SRHD](https://thenumbernine.github.io/math/SRHD.html)
@@ -304,6 +308,8 @@ Output CDN URLs:
 
 [symmath/tests/output/Ernst](https://thenumbernine.github.io/symmath/tests/output/Ernst.html)
 
+[symmath/tests/output/Euler Angles in Higher Dimensions](https://thenumbernine.github.io/symmath/tests/output/Euler%20Angles%20in%20Higher%20Dimensions.html)
+
 [symmath/tests/output/Euler fluid equations - flux eigenvectors](https://thenumbernine.github.io/symmath/tests/output/Euler%20fluid%20equations%20%2d%20flux%20eigenvectors.html)
 
 [symmath/tests/output/FLRW](https://thenumbernine.github.io/symmath/tests/output/FLRW.html)
@@ -333,6 +339,8 @@ Output CDN URLs:
 [symmath/tests/output/Kerr-Schild - expression](https://thenumbernine.github.io/symmath/tests/output/Kerr%2dSchild%20%2d%20expression.html)
 
 [symmath/tests/output/Kerr-Schild degenerate case](https://thenumbernine.github.io/symmath/tests/output/Kerr%2dSchild%20degenerate%20case.html)
+
+[symmath/tests/output/MHD - flux eigenvectors](https://thenumbernine.github.io/symmath/tests/output/MHD%20%2d%20flux%20eigenvectors.html)
 
 [symmath/tests/output/MHD inverse](https://thenumbernine.github.io/symmath/tests/output/MHD%20inverse.html)
 
