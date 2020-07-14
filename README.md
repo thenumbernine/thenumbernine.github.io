@@ -300,6 +300,8 @@ Output CDN URLs:
 
 [symmath/tests/output/Building Curvature by ADM](https://thenumbernine.github.io/symmath/tests/output/Building%20Curvature%20by%20ADM.html)
 
+[symmath/tests/output/Divergence Theorem in curvilinear coordinates](https://thenumbernine.github.io/symmath/tests/output/Divergence%20Theorem%20in%20curvilinear%20coordinates.html)
+
 [symmath/tests/output/EFE discrete solution - 1-var](https://thenumbernine.github.io/symmath/tests/output/EFE%20discrete%20solution%20%2d%201%2dvar.html)
 
 [symmath/tests/output/EFE discrete solution - 2-var](https://thenumbernine.github.io/symmath/tests/output/EFE%20discrete%20solution%20%2d%202%2dvar.html)
@@ -311,6 +313,8 @@ Output CDN URLs:
 [symmath/tests/output/Euler Angles in Higher Dimensions](https://thenumbernine.github.io/symmath/tests/output/Euler%20Angles%20in%20Higher%20Dimensions.html)
 
 [symmath/tests/output/Euler fluid equations - flux eigenvectors](https://thenumbernine.github.io/symmath/tests/output/Euler%20fluid%20equations%20%2d%20flux%20eigenvectors.html)
+
+[symmath/tests/output/Euler fluid equations - primitive form](https://thenumbernine.github.io/symmath/tests/output/Euler%20fluid%20equations%20%2d%20primitive%20form.html)
 
 [symmath/tests/output/FLRW](https://thenumbernine.github.io/symmath/tests/output/FLRW.html)
 
@@ -334,6 +338,8 @@ Output CDN URLs:
 
 [symmath/tests/output/Kaluza-Klein](https://thenumbernine.github.io/symmath/tests/output/Kaluza%2dKlein.html)
 
+[symmath/tests/output/Kerr metric of Earth](https://thenumbernine.github.io/symmath/tests/output/Kerr%20metric%20of%20Earth.html)
+
 [symmath/tests/output/Kerr-Schild - dense](https://thenumbernine.github.io/symmath/tests/output/Kerr%2dSchild%20%2d%20dense.html)
 
 [symmath/tests/output/Kerr-Schild - expression](https://thenumbernine.github.io/symmath/tests/output/Kerr%2dSchild%20%2d%20expression.html)
@@ -347,6 +353,8 @@ Output CDN URLs:
 [symmath/tests/output/MHD symmetrization](https://thenumbernine.github.io/symmath/tests/output/MHD%20symmetrization.html)
 
 [symmath/tests/output/Maxwell equations in hyperbolic conservation form](https://thenumbernine.github.io/symmath/tests/output/Maxwell%20equations%20in%20hyperbolic%20conservation%20form.html)
+
+[symmath/tests/output/Navier-Stokes-Wilcox - flux eigenvectors](https://thenumbernine.github.io/symmath/tests/output/Navier%2dStokes%2dWilcox%20%2d%20flux%20eigenvectors.html)
 
 [symmath/tests/output/Newton method](https://thenumbernine.github.io/symmath/tests/output/Newton%20method.html)
 
@@ -464,11 +472,19 @@ Output CDN URLs:
 
 [symmath/tests/output/toy-1+1 spacetime](https://thenumbernine.github.io/symmath/tests/output/toy%2d1%2b1%20spacetime.html)
 
+[symmath/tests/output/unit/MakeTrigLookupTables](https://thenumbernine.github.io/symmath/tests/output/unit/MakeTrigLookupTables.html)
+
+[symmath/tests/output/unit/integral](https://thenumbernine.github.io/symmath/tests/output/unit/integral.html)
+
 [symmath/tests/output/unit/linear solver](https://thenumbernine.github.io/symmath/tests/output/unit/linear%20solver.html)
+
+[symmath/tests/output/unit/match](https://thenumbernine.github.io/symmath/tests/output/unit/match.html)
 
 [symmath/tests/output/unit/matrix](https://thenumbernine.github.io/symmath/tests/output/unit/matrix.html)
 
 [symmath/tests/output/unit/replace](https://thenumbernine.github.io/symmath/tests/output/unit/replace.html)
+
+[symmath/tests/output/unit/sets](https://thenumbernine.github.io/symmath/tests/output/unit/sets.html)
 
 [symmath/tests/output/unit/sub-tensor assignment](https://thenumbernine.github.io/symmath/tests/output/unit/sub%2dtensor%20assignment.html)
 
@@ -477,6 +493,8 @@ Output CDN URLs:
 [symmath/tests/output/unit/test](https://thenumbernine.github.io/symmath/tests/output/unit/test.html)
 
 [symmath/tests/output/unit/tidyIndexes](https://thenumbernine.github.io/symmath/tests/output/unit/tidyIndexes.html)
+
+[symmath/tests/output/unit/variable depends](https://thenumbernine.github.io/symmath/tests/output/unit/variable%20depends.html)
 
 [symmath/tests/output/wave equation in spacetime - flux eigenvectors](https://thenumbernine.github.io/symmath/tests/output/wave%20equation%20in%20spacetime%20%2d%20flux%20eigenvectors.html)
 
