@@ -296,7 +296,7 @@ Output CDN URLs:
 
 [symmath/tests/output/Alcubierre](https://thenumbernine.github.io/symmath/tests/output/Alcubierre.html)
 
-[symmath/tests/output/BSSN](https://thenumbernine.github.io/symmath/tests/output/BSSN.html)
+[symmath/tests/output/BSSN - index](https://thenumbernine.github.io/symmath/tests/output/BSSN%20%2d%20index.html)
 
 [symmath/tests/output/Building Curvature by ADM](https://thenumbernine.github.io/symmath/tests/output/Building%20Curvature%20by%20ADM.html)
 
