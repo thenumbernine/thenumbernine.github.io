@@ -474,6 +474,8 @@ Output CDN URLs:
 
 [symmath/tests/output/unit/MakeTrigLookupTables](https://thenumbernine.github.io/symmath/tests/output/unit/MakeTrigLookupTables.html)
 
+[symmath/tests/output/unit/index_construction](https://thenumbernine.github.io/symmath/tests/output/unit/index_construction.html)
+
 [symmath/tests/output/unit/integral](https://thenumbernine.github.io/symmath/tests/output/unit/integral.html)
 
 [symmath/tests/output/unit/linear solver](https://thenumbernine.github.io/symmath/tests/output/unit/linear%20solver.html)
@@ -485,6 +487,8 @@ Output CDN URLs:
 [symmath/tests/output/unit/replace](https://thenumbernine.github.io/symmath/tests/output/unit/replace.html)
 
 [symmath/tests/output/unit/sets](https://thenumbernine.github.io/symmath/tests/output/unit/sets.html)
+
+[symmath/tests/output/unit/simplifyMetrics](https://thenumbernine.github.io/symmath/tests/output/unit/simplifyMetrics.html)
 
 [symmath/tests/output/unit/sub-tensor assignment](https://thenumbernine.github.io/symmath/tests/output/unit/sub%2dtensor%20assignment.html)
 
