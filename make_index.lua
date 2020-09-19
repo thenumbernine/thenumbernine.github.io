@@ -4,25 +4,13 @@ local url = require 'socket.url'
 
 local s = table{[[
 ]]}
-local fs = table()
-local function recurse(dir)
-	for f in file[dir]() do
-		if io.isdir(dir..'/'..f) then
-			if f:sub(1,1) ~= '.' then
-				recurse(dir..'/'..f)
-			end
-		elseif f:sub(-5) == '.html' then
-			fs:insert(dir..'/'..f)
-		end
-	end
-end
-recurse '.'
-for i=1,#fs do
-	assert(fs[i]:sub(1,2) == './')
-	fs[i] = fs[i]:sub(3)
-end
-fs:sort()
-for _,f in ipairs(fs) do
+
+os.rlistdir('.', function(f, isdir)
+	return f ~= '.git' and (isdir or f:sub(-5) == '.html')
+end):mapi(function(f)
+	assert(f:sub(1,2) == './')
+	return f:sub(3)
+end):sort():mapi(function(f)
 	local name = f:sub(1,-6)
 	s:insert('<a href="'
 		..url.escape(f)
@@ -31,7 +19,8 @@ for _,f in ipairs(fs) do
 		..'">'
 		..name
 		..'</a><br>')
-end
+end)
+
 file['index.html'] = [[
 <!doctype html>
 <html>
