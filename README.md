@@ -192,6 +192,10 @@ Output CDN URLs:
 
 [math/Numerical Relativity/trace-free](https://thenumbernine.github.io/math/Numerical%20Relativity/trace%2dfree.html)
 
+[math/Numerical Relativity/z4-with-conns](https://thenumbernine.github.io/math/Numerical%20Relativity/z4%2dwith%2dconns.html)
+
+[math/Numerical Relativity/z4-with-hyperbolic-gamma-driver](https://thenumbernine.github.io/math/Numerical%20Relativity/z4%2dwith%2dhyperbolic%2dgamma%2ddriver.html)
+
 [math/Numerical Relativity/z4](https://thenumbernine.github.io/math/Numerical%20Relativity/z4.html)
 
 [math/PDE Systems, Parallel Propagators, Finite Volume](https://thenumbernine.github.io/math/PDE%20Systems%2c%20Parallel%20Propagators%2c%20Finite%20Volume.html)
