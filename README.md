@@ -452,6 +452,8 @@ Output CDN URLs:
 
 [symmath/tests/output/metric catalog/spherical, log-radial, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/spherical%2c%20log%2dradial%2c%20coordinate.html)
 
+[symmath/tests/output/metric catalog/spherical, sinh-radial, anholonomic, orthonormal](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/spherical%2c%20sinh%2dradial%2c%20anholonomic%2c%20orthonormal.html)
+
 [symmath/tests/output/metric catalog/spiral, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/spiral%2c%20coordinate.html)
 
 [symmath/tests/output/metric catalog/torus surface, coordinate](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog/torus%20surface%2c%20coordinate.html)
