@@ -304,7 +304,9 @@ Output CDN URLs:
 
 [symmath/tests/output/Alcubierre](https://thenumbernine.github.io/symmath/tests/output/Alcubierre.html)
 
-[symmath/tests/output/BSSN - generate](https://thenumbernine.github.io/symmath/tests/output/BSSN%20%2d%20generate.html)
+[symmath/tests/output/BSSN - generate - cartesian](https://thenumbernine.github.io/symmath/tests/output/BSSN%20%2d%20generate%20%2d%20cartesian.html)
+
+[symmath/tests/output/BSSN - generate - spherical](https://thenumbernine.github.io/symmath/tests/output/BSSN%20%2d%20generate%20%2d%20spherical.html)
 
 [symmath/tests/output/BSSN - index](https://thenumbernine.github.io/symmath/tests/output/BSSN%20%2d%20index.html)
 
