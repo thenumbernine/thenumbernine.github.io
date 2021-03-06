@@ -388,6 +388,8 @@ Output CDN URLs:
 
 [symmath/tests/output/Schwarzschild - spherical](https://thenumbernine.github.io/symmath/tests/output/Schwarzschild%20%2d%20spherical.html)
 
+[symmath/tests/output/Shallow Water equations - flux eigenvectors](https://thenumbernine.github.io/symmath/tests/output/Shallow%20Water%20equations%20%2d%20flux%20eigenvectors.html)
+
 [symmath/tests/output/TOV](https://thenumbernine.github.io/symmath/tests/output/TOV.html)
 
 [symmath/tests/output/electrovacuum/black hole electron](https://thenumbernine.github.io/symmath/tests/output/electrovacuum/black%20hole%20electron.html)
@@ -407,6 +409,8 @@ Output CDN URLs:
 [symmath/tests/output/electrovacuum/verify cylindrical transform](https://thenumbernine.github.io/symmath/tests/output/electrovacuum/verify%20cylindrical%20transform.html)
 
 [symmath/tests/output/hydrodynamics](https://thenumbernine.github.io/symmath/tests/output/hydrodynamics.html)
+
+[symmath/tests/output/hyperbolic gamma driver in ADM terms](https://thenumbernine.github.io/symmath/tests/output/hyperbolic%20gamma%20driver%20in%20ADM%20terms.html)
 
 [symmath/tests/output/metric catalog](https://thenumbernine.github.io/symmath/tests/output/metric%20catalog.html)
 
