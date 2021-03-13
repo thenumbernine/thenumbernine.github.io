@@ -66,6 +66,8 @@ Output CDN URLs:
 
 [math/Differential Geometry/9 - Riemann curvature](https://thenumbernine.github.io/math/Differential%20Geometry/9%20%2d%20Riemann%20curvature.html)
 
+[math/Differential Geometry/9.5 - perturbations](https://thenumbernine.github.io/math/Differential%20Geometry/9.5%20%2d%20perturbations.html)
+
 [math/Differential Geometry/sources](https://thenumbernine.github.io/math/Differential%20Geometry/sources.html)
 
 [math/Divergence Theorem in Spherical Coordinates](https://thenumbernine.github.io/math/Divergence%20Theorem%20in%20Spherical%20Coordinates.html)
