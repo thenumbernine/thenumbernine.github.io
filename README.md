@@ -108,6 +108,8 @@ Output CDN URLs:
 
 [math/Equations of Structure - Schwarzschild](https://thenumbernine.github.io/math/Equations%20of%20Structure%20%2d%20Schwarzschild.html)
 
+[math/Error in most CFD literature](https://thenumbernine.github.io/math/Error%20in%20most%20CFD%20literature.html)
+
 [math/Euler Fluid Equations - Curved Geometry - Contravariant](https://thenumbernine.github.io/math/Euler%20Fluid%20Equations%20%2d%20Curved%20Geometry%20%2d%20Contravariant.html)
 
 [math/Euler Fluid Equations - Curved Geometry - Covariant](https://thenumbernine.github.io/math/Euler%20Fluid%20Equations%20%2d%20Curved%20Geometry%20%2d%20Covariant.html)
@@ -205,6 +207,8 @@ Output CDN URLs:
 [math/PDE Systems, Parallel Propagators, Finite Volume](https://thenumbernine.github.io/math/PDE%20Systems%2c%20Parallel%20Propagators%2c%20Finite%20Volume.html)
 
 [math/Quantum Computing](https://thenumbernine.github.io/math/Quantum%20Computing.html)
+
+[math/Quaternions](https://thenumbernine.github.io/math/Quaternions.html)
 
 [math/SRHD](https://thenumbernine.github.io/math/SRHD.html)
 
@@ -338,7 +342,7 @@ Output CDN URLs:
 
 [symmath/tests/output/FiniteVolume](https://thenumbernine.github.io/symmath/tests/output/FiniteVolume.html)
 
-[symmath/tests/output/GLM-Maxwell](https://thenumbernine.github.io/symmath/tests/output/GLM%2dMaxwell.html)
+[symmath/tests/output/GLM-Maxwell equations - flux eigenvectors](https://thenumbernine.github.io/symmath/tests/output/GLM%2dMaxwell%20equations%20%2d%20flux%20eigenvectors.html)
 
 [symmath/tests/output/Gravitation 16.1 - dense](https://thenumbernine.github.io/symmath/tests/output/Gravitation%2016.1%20%2d%20dense.html)
 
@@ -368,7 +372,7 @@ Output CDN URLs:
 
 [symmath/tests/output/MHD symmetrization](https://thenumbernine.github.io/symmath/tests/output/MHD%20symmetrization.html)
 
-[symmath/tests/output/Maxwell equations in hyperbolic conservation form](https://thenumbernine.github.io/symmath/tests/output/Maxwell%20equations%20in%20hyperbolic%20conservation%20form.html)
+[symmath/tests/output/Maxwell equations - flux eigenvectors](https://thenumbernine.github.io/symmath/tests/output/Maxwell%20equations%20%2d%20flux%20eigenvectors.html)
 
 [symmath/tests/output/Navier-Stokes-Wilcox - flux eigenvectors](https://thenumbernine.github.io/symmath/tests/output/Navier%2dStokes%2dWilcox%20%2d%20flux%20eigenvectors.html)
 
