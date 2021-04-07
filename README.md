@@ -378,6 +378,8 @@ Output CDN URLs:
 
 [symmath/tests/output/Newton method](https://thenumbernine.github.io/symmath/tests/output/Newton%20method.html)
 
+[symmath/tests/output/Platonic Solids](https://thenumbernine.github.io/symmath/tests/output/Platonic%20Solids.html)
+
 [symmath/tests/output/SRHD](https://thenumbernine.github.io/symmath/tests/output/SRHD.html)
 
 [symmath/tests/output/SRHD_1D](https://thenumbernine.github.io/symmath/tests/output/SRHD_1D.html)
