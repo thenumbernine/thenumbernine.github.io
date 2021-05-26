@@ -520,11 +520,21 @@ Output CDN URLs:
 
 [symmath/tests/output/toy-1+1 spacetime](https://thenumbernine.github.io/symmath/tests/output/toy%2d1%2b1%20spacetime.html)
 
+[symmath/tests/output/unit/compile](https://thenumbernine.github.io/symmath/tests/output/unit/compile.html)
+
+[symmath/tests/output/unit/determinant_performance](https://thenumbernine.github.io/symmath/tests/output/unit/determinant_performance.html)
+
+[symmath/tests/output/unit/export](https://thenumbernine.github.io/symmath/tests/output/unit/export.html)
+
+[symmath/tests/output/unit/func](https://thenumbernine.github.io/symmath/tests/output/unit/func.html)
+
 [symmath/tests/output/unit/getIndexesUsed](https://thenumbernine.github.io/symmath/tests/output/unit/getIndexesUsed.html)
 
 [symmath/tests/output/unit/index_construction](https://thenumbernine.github.io/symmath/tests/output/unit/index_construction.html)
 
 [symmath/tests/output/unit/integral](https://thenumbernine.github.io/symmath/tests/output/unit/integral.html)
+
+[symmath/tests/output/unit/limit](https://thenumbernine.github.io/symmath/tests/output/unit/limit.html)
 
 [symmath/tests/output/unit/linear solver](https://thenumbernine.github.io/symmath/tests/output/unit/linear%20solver.html)
 
@@ -541,6 +551,8 @@ Output CDN URLs:
 [symmath/tests/output/unit/sets](https://thenumbernine.github.io/symmath/tests/output/unit/sets.html)
 
 [symmath/tests/output/unit/simplifyMetrics](https://thenumbernine.github.io/symmath/tests/output/unit/simplifyMetrics.html)
+
+[symmath/tests/output/unit/solve](https://thenumbernine.github.io/symmath/tests/output/unit/solve.html)
 
 [symmath/tests/output/unit/sub-tensor assignment](https://thenumbernine.github.io/symmath/tests/output/unit/sub%2dtensor%20assignment.html)
 
