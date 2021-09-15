@@ -200,6 +200,8 @@ Output CDN URLs:
 
 [math/Numerical Relativity/z4-with-conns](https://thenumbernine.github.io/math/Numerical%20Relativity/z4%2dwith%2dconns.html)
 
+[math/Numerical Relativity/z4-with-hyperbolic-gamma-driver-and-metric-free](https://thenumbernine.github.io/math/Numerical%20Relativity/z4%2dwith%2dhyperbolic%2dgamma%2ddriver%2dand%2dmetric%2dfree.html)
+
 [math/Numerical Relativity/z4-with-hyperbolic-gamma-driver](https://thenumbernine.github.io/math/Numerical%20Relativity/z4%2dwith%2dhyperbolic%2dgamma%2ddriver.html)
 
 [math/Numerical Relativity/z4](https://thenumbernine.github.io/math/Numerical%20Relativity/z4.html)
@@ -546,6 +548,10 @@ Output CDN URLs:
 
 [symmath/tests/output/unit/plot](https://thenumbernine.github.io/symmath/tests/output/unit/plot.html)
 
+[symmath/tests/output/unit/polyCoeffs](https://thenumbernine.github.io/symmath/tests/output/unit/polyCoeffs.html)
+
+[symmath/tests/output/unit/polydiv](https://thenumbernine.github.io/symmath/tests/output/unit/polydiv.html)
+
 [symmath/tests/output/unit/replace](https://thenumbernine.github.io/symmath/tests/output/unit/replace.html)
 
 [symmath/tests/output/unit/replaceIndex](https://thenumbernine.github.io/symmath/tests/output/unit/replaceIndex.html)
@@ -555,6 +561,8 @@ Output CDN URLs:
 [symmath/tests/output/unit/simplifyMetrics](https://thenumbernine.github.io/symmath/tests/output/unit/simplifyMetrics.html)
 
 [symmath/tests/output/unit/solve](https://thenumbernine.github.io/symmath/tests/output/unit/solve.html)
+
+[symmath/tests/output/unit/sqrt](https://thenumbernine.github.io/symmath/tests/output/unit/sqrt.html)
 
 [symmath/tests/output/unit/sub-tensor assignment](https://thenumbernine.github.io/symmath/tests/output/unit/sub%2dtensor%20assignment.html)
 
