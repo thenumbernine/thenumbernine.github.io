@@ -352,13 +352,13 @@ Output CDN URLs:
 
 [symmath/tests/output/Gravitation 16.1 - mixed](https://thenumbernine.github.io/symmath/tests/output/Gravitation%2016.1%20%2d%20mixed.html)
 
+[symmath/tests/output/Kaluza-Klein - dense](https://thenumbernine.github.io/symmath/tests/output/Kaluza%2dKlein%20%2d%20dense.html)
+
 [symmath/tests/output/Kaluza-Klein - index](https://thenumbernine.github.io/symmath/tests/output/Kaluza%2dKlein%20%2d%20index.html)
 
 [symmath/tests/output/Kaluza-Klein - real world values](https://thenumbernine.github.io/symmath/tests/output/Kaluza%2dKlein%20%2d%20real%20world%20values.html)
 
 [symmath/tests/output/Kaluza-Klein - varying scalar field - index](https://thenumbernine.github.io/symmath/tests/output/Kaluza%2dKlein%20%2d%20varying%20scalar%20field%20%2d%20index.html)
-
-[symmath/tests/output/Kaluza-Klein](https://thenumbernine.github.io/symmath/tests/output/Kaluza%2dKlein.html)
 
 [symmath/tests/output/Kerr metric of Earth](https://thenumbernine.github.io/symmath/tests/output/Kerr%20metric%20of%20Earth.html)
 
@@ -524,6 +524,8 @@ Output CDN URLs:
 
 [symmath/tests/output/toy-1+1 spacetime](https://thenumbernine.github.io/symmath/tests/output/toy%2d1%2b1%20spacetime.html)
 
+[symmath/tests/output/unit/Variable dependsOn](https://thenumbernine.github.io/symmath/tests/output/unit/Variable%20dependsOn.html)
+
 [symmath/tests/output/unit/compile](https://thenumbernine.github.io/symmath/tests/output/unit/compile.html)
 
 [symmath/tests/output/unit/determinant_performance](https://thenumbernine.github.io/symmath/tests/output/unit/determinant_performance.html)
@@ -545,6 +547,8 @@ Output CDN URLs:
 [symmath/tests/output/unit/match](https://thenumbernine.github.io/symmath/tests/output/unit/match.html)
 
 [symmath/tests/output/unit/matrix](https://thenumbernine.github.io/symmath/tests/output/unit/matrix.html)
+
+[symmath/tests/output/unit/notfinite](https://thenumbernine.github.io/symmath/tests/output/unit/notfinite.html)
 
 [symmath/tests/output/unit/plot](https://thenumbernine.github.io/symmath/tests/output/unit/plot.html)
 
@@ -573,8 +577,6 @@ Output CDN URLs:
 [symmath/tests/output/unit/test](https://thenumbernine.github.io/symmath/tests/output/unit/test.html)
 
 [symmath/tests/output/unit/tidyIndexes](https://thenumbernine.github.io/symmath/tests/output/unit/tidyIndexes.html)
-
-[symmath/tests/output/unit/variable depends](https://thenumbernine.github.io/symmath/tests/output/unit/variable%20depends.html)
 
 [symmath/tests/output/wave equation in spacetime - flux eigenvectors](https://thenumbernine.github.io/symmath/tests/output/wave%20equation%20in%20spacetime%20%2d%20flux%20eigenvectors.html)
 
