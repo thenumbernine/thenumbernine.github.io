@@ -64,6 +64,8 @@ Output CDN URLs:
 
 [math/Differential Geometry/8.5 - parallel propagators](https://thenumbernine.github.io/math/Differential%20Geometry/8.5%20%2d%20parallel%20propagators.html)
 
+[math/Differential Geometry/8.6 - parallel propagators and Riemann curvature](https://thenumbernine.github.io/math/Differential%20Geometry/8.6%20%2d%20parallel%20propagators%20and%20Riemann%20curvature.html)
+
 [math/Differential Geometry/9 - Riemann curvature](https://thenumbernine.github.io/math/Differential%20Geometry/9%20%2d%20Riemann%20curvature.html)
 
 [math/Differential Geometry/9.5 - perturbations](https://thenumbernine.github.io/math/Differential%20Geometry/9.5%20%2d%20perturbations.html)
@@ -121,6 +123,8 @@ Output CDN URLs:
 [math/Euler Fluid Equations - Entropy Function](https://thenumbernine.github.io/math/Euler%20Fluid%20Equations%20%2d%20Entropy%20Function.html)
 
 [math/Finite Volume Methods](https://thenumbernine.github.io/math/Finite%20Volume%20Methods.html)
+
+[math/GEM force on a rotating object](https://thenumbernine.github.io/math/GEM%20force%20on%20a%20rotating%20object.html)
 
 [math/GR EM Metrics/complex metric of EM potential](https://thenumbernine.github.io/math/GR%20EM%20Metrics/complex%20metric%20of%20EM%20potential.html)
 
@@ -249,6 +253,8 @@ Output CDN URLs:
 [math/conformal Levi-Civita geodesic](https://thenumbernine.github.io/math/conformal%20Levi%2dCivita%20geodesic.html)
 
 [math/heat to wave](https://thenumbernine.github.io/math/heat%20to%20wave.html)
+
+[math/how transforming pde state variables affects wavespeeds](https://thenumbernine.github.io/math/how%20transforming%20pde%20state%20variables%20affects%20wavespeeds.html)
 
 [math/hyperbolic rotations](https://thenumbernine.github.io/math/hyperbolic%20rotations.html)
 
@@ -384,6 +390,8 @@ Output CDN URLs:
 
 [symmath/tests/output/Platonic Solids/16-cell](https://thenumbernine.github.io/symmath/tests/output/Platonic%20Solids/16%2dcell.html)
 
+[symmath/tests/output/Platonic Solids/24-cell](https://thenumbernine.github.io/symmath/tests/output/Platonic%20Solids/24%2dcell.html)
+
 [symmath/tests/output/Platonic Solids/5-cell](https://thenumbernine.github.io/symmath/tests/output/Platonic%20Solids/5%2dcell.html)
 
 [symmath/tests/output/Platonic Solids/8-cell](https://thenumbernine.github.io/symmath/tests/output/Platonic%20Solids/8%2dcell.html)
@@ -419,6 +427,8 @@ Output CDN URLs:
 [symmath/tests/output/TOV](https://thenumbernine.github.io/symmath/tests/output/TOV.html)
 
 [symmath/tests/output/Z4](https://thenumbernine.github.io/symmath/tests/output/Z4.html)
+
+[symmath/tests/output/black hole brain](https://thenumbernine.github.io/symmath/tests/output/black%20hole%20brain.html)
 
 [symmath/tests/output/electrovacuum/black hole electron](https://thenumbernine.github.io/symmath/tests/output/electrovacuum/black%20hole%20electron.html)
 
@@ -523,6 +533,8 @@ Output CDN URLs:
 [symmath/tests/output/tensor coordinate invariance](https://thenumbernine.github.io/symmath/tests/output/tensor%20coordinate%20invariance.html)
 
 [symmath/tests/output/toy-1+1 spacetime](https://thenumbernine.github.io/symmath/tests/output/toy%2d1%2b1%20spacetime.html)
+
+[symmath/tests/output/unit/Matrix eigen](https://thenumbernine.github.io/symmath/tests/output/unit/Matrix%20eigen.html)
 
 [symmath/tests/output/unit/Variable dependsOn](https://thenumbernine.github.io/symmath/tests/output/unit/Variable%20dependsOn.html)
 
