@@ -68,6 +68,8 @@ Output CDN URLs:
 
 [math/Differential Geometry/9 - Riemann curvature](https://thenumbernine.github.io/math/Differential%20Geometry/9%20%2d%20Riemann%20curvature.html)
 
+[math/Differential Geometry/9.3 - conformal connection](https://thenumbernine.github.io/math/Differential%20Geometry/9.3%20%2d%20conformal%20connection.html)
+
 [math/Differential Geometry/9.5 - perturbations](https://thenumbernine.github.io/math/Differential%20Geometry/9.5%20%2d%20perturbations.html)
 
 [math/Differential Geometry/sources](https://thenumbernine.github.io/math/Differential%20Geometry/sources.html)
@@ -580,9 +582,11 @@ Output CDN URLs:
 
 [symmath/tests/output/unit/sqrt](https://thenumbernine.github.io/symmath/tests/output/unit/sqrt.html)
 
-[symmath/tests/output/unit/sub-tensor assignment](https://thenumbernine.github.io/symmath/tests/output/unit/sub%2dtensor%20assignment.html)
-
 [symmath/tests/output/unit/symmetrizeIndexes](https://thenumbernine.github.io/symmath/tests/output/unit/symmetrizeIndexes.html)
+
+[symmath/tests/output/unit/tensor sub-assignment](https://thenumbernine.github.io/symmath/tests/output/unit/tensor%20sub%2dassignment.html)
+
+[symmath/tests/output/unit/tensor sub-index](https://thenumbernine.github.io/symmath/tests/output/unit/tensor%20sub%2dindex.html)
 
 [symmath/tests/output/unit/tensor use case](https://thenumbernine.github.io/symmath/tests/output/unit/tensor%20use%20case.html)
 
