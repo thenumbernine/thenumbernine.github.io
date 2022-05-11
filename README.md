@@ -30,7 +30,11 @@ Output CDN URLs:
 
 [math/Differential Geometry/12 - Bianchi identities](https://thenumbernine.github.io/math/Differential%20Geometry/12%20%2d%20Bianchi%20identities.html)
 
+[math/Differential Geometry/12.5 - Einstein tensor](https://thenumbernine.github.io/math/Differential%20Geometry/12.5%20%2d%20Einstein%20tensor.html)
+
 [math/Differential Geometry/13 - Einstein-Hilbert action](https://thenumbernine.github.io/math/Differential%20Geometry/13%20%2d%20Einstein%2dHilbert%20action.html)
+
+[math/Differential Geometry/13.5 - normal projections](https://thenumbernine.github.io/math/Differential%20Geometry/13.5%20%2d%20normal%20projections.html)
 
 [math/Differential Geometry/14 - ADM formalism](https://thenumbernine.github.io/math/Differential%20Geometry/14%20%2d%20ADM%20formalism.html)
 
@@ -189,6 +193,8 @@ Output CDN URLs:
 [math/Numerical Relativity/3.1.1 adm with V - eigenfields](https://thenumbernine.github.io/math/Numerical%20Relativity/3.1.1%20adm%20with%20V%20%2d%20eigenfields.html)
 
 [math/Numerical Relativity/3.2 adm with Gamma](https://thenumbernine.github.io/math/Numerical%20Relativity/3.2%20adm%20with%20Gamma.html)
+
+[math/Numerical Relativity/Z4 From Killing Vectors](https://thenumbernine.github.io/math/Numerical%20Relativity/Z4%20From%20Killing%20Vectors.html)
 
 [math/Numerical Relativity/adm from efe](https://thenumbernine.github.io/math/Numerical%20Relativity/adm%20from%20efe.html)
 
