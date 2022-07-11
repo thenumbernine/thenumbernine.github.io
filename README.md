@@ -226,6 +226,8 @@ Output CDN URLs:
 
 [math/PDE Systems, Parallel Propagators, Finite Volume](https://thenumbernine.github.io/math/PDE%20Systems%2c%20Parallel%20Propagators%2c%20Finite%20Volume.html)
 
+[math/Platonic Solids](https://thenumbernine.github.io/math/Platonic%20Solids.html)
+
 [math/Quantum Computing](https://thenumbernine.github.io/math/Quantum%20Computing.html)
 
 [math/Quaternions](https://thenumbernine.github.io/math/Quaternions.html)
