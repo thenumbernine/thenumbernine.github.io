@@ -22,7 +22,7 @@ end):sort():mapi(function(f)
 		..')\n')
 end)
 
-file['README.md'] = [[
+file'README.md':write( [[
 I'm just using this for CDN URLs for the time being.
 
-]]..s:concat'\n'
+]]..s:concat'\n')

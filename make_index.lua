@@ -21,7 +21,7 @@ end):sort():mapi(function(f)
 		..'</a><br>')
 end)
 
-file['index.html'] = [[
+file'index.html':write([[
 <!doctype html>
 <html>
 	<head>
@@ -31,4 +31,4 @@ file['index.html'] = [[
 ]]..s:concat'\n'..[[
 	</body>
 </html>
-]]
+]])
