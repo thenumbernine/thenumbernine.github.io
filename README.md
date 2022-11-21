@@ -4,6 +4,8 @@ Output CDN URLs:
 
 [index](https://thenumbernine.github.io/index.html)
 
+[math/3x3 transform dof decomposition](https://thenumbernine.github.io/math/3x3%20transform%20dof%20decomposition.html)
+
 [math/ADM Bona-Masso Eigenvectors](https://thenumbernine.github.io/math/ADM%20Bona%2dMasso%20Eigenvectors.html)
 
 [math/ADM Bona-Masso Inverse Eigenvectors](https://thenumbernine.github.io/math/ADM%20Bona%2dMasso%20Inverse%20Eigenvectors.html)
@@ -63,6 +65,8 @@ Output CDN URLs:
 [math/Differential Geometry/4 - metric tensor](https://thenumbernine.github.io/math/Differential%20Geometry/4%20%2d%20metric%20tensor.html)
 
 [math/Differential Geometry/5 - Levi-Civita tensor and Hodge dual](https://thenumbernine.github.io/math/Differential%20Geometry/5%20%2d%20Levi%2dCivita%20tensor%20and%20Hodge%20dual.html)
+
+[math/Differential Geometry/5.5 - Quaternions](https://thenumbernine.github.io/math/Differential%20Geometry/5.5%20%2d%20Quaternions.html)
 
 [math/Differential Geometry/6 - covariant derivative](https://thenumbernine.github.io/math/Differential%20Geometry/6%20%2d%20covariant%20derivative.html)
 
@@ -395,6 +399,8 @@ Output CDN URLs:
 [symmath/tests/output/Kerr-Schild - expression](https://thenumbernine.github.io/symmath/tests/output/Kerr%2dSchild%20%2d%20expression.html)
 
 [symmath/tests/output/Kerr-Schild degenerate case](https://thenumbernine.github.io/symmath/tests/output/Kerr%2dSchild%20degenerate%20case.html)
+
+[symmath/tests/output/Lorentz group](https://thenumbernine.github.io/symmath/tests/output/Lorentz%20group.html)
 
 [symmath/tests/output/MHD - flux eigenvectors](https://thenumbernine.github.io/symmath/tests/output/MHD%20%2d%20flux%20eigenvectors.html)
 
