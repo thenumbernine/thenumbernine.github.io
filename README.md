@@ -400,6 +400,8 @@ Output CDN URLs:
 
 [symmath/tests/output/Kerr-Schild degenerate case](https://thenumbernine.github.io/symmath/tests/output/Kerr%2dSchild%20degenerate%20case.html)
 
+[symmath/tests/output/KOE](https://thenumbernine.github.io/symmath/tests/output/KOE.html)
+
 [symmath/tests/output/Lorentz group](https://thenumbernine.github.io/symmath/tests/output/Lorentz%20group.html)
 
 [symmath/tests/output/MHD - flux eigenvectors](https://thenumbernine.github.io/symmath/tests/output/MHD%20%2d%20flux%20eigenvectors.html)
