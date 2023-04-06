@@ -272,9 +272,15 @@ Output CDN URLs:
 
 [math/Two-Fluid Plasma and GEM/8 - two-fluid plasma model](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/8%20%2d%20two%2dfluid%20plasma%20model.html)
 
+[math/Volume of Any Dimension Simplex in Any Dimension](https://thenumbernine.github.io/math/Volume%20of%20Any%20Dimension%20Simplex%20in%20Any%20Dimension.html)
+
 [math/a note on the definition of tensors](https://thenumbernine.github.io/math/a%20note%20on%20the%20definition%20of%20tensors.html)
 
+[math/balloons](https://thenumbernine.github.io/math/balloons.html)
+
 [math/conformal Levi-Civita geodesic](https://thenumbernine.github.io/math/conformal%20Levi%2dCivita%20geodesic.html)
+
+[math/gauge covariant derivative](https://thenumbernine.github.io/math/gauge%20covariant%20derivative.html)
 
 [math/heat to wave](https://thenumbernine.github.io/math/heat%20to%20wave.html)
 
@@ -384,6 +390,8 @@ Output CDN URLs:
 
 [symmath/tests/output/Gravitation 16.1 - mixed](https://thenumbernine.github.io/symmath/tests/output/Gravitation%2016.1%20%2d%20mixed.html)
 
+[symmath/tests/output/KOE](https://thenumbernine.github.io/symmath/tests/output/KOE.html)
+
 [symmath/tests/output/Kaluza-Klein - dense](https://thenumbernine.github.io/symmath/tests/output/Kaluza%2dKlein%20%2d%20dense.html)
 
 [symmath/tests/output/Kaluza-Klein - index](https://thenumbernine.github.io/symmath/tests/output/Kaluza%2dKlein%20%2d%20index.html)
@@ -399,8 +407,6 @@ Output CDN URLs:
 [symmath/tests/output/Kerr-Schild - expression](https://thenumbernine.github.io/symmath/tests/output/Kerr%2dSchild%20%2d%20expression.html)
 
 [symmath/tests/output/Kerr-Schild degenerate case](https://thenumbernine.github.io/symmath/tests/output/Kerr%2dSchild%20degenerate%20case.html)
-
-[symmath/tests/output/KOE](https://thenumbernine.github.io/symmath/tests/output/KOE.html)
 
 [symmath/tests/output/Lorentz group](https://thenumbernine.github.io/symmath/tests/output/Lorentz%20group.html)
 
