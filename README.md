@@ -272,7 +272,7 @@ Output CDN URLs:
 
 [math/Two-Fluid Plasma and GEM/8 - two-fluid plasma model](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/8%20%2d%20two%2dfluid%20plasma%20model.html)
 
-[math/Volume of Any Dimension Simplex in Any Dimension](https://thenumbernine.github.io/math/Volume%20of%20Any%20Dimension%20Simplex%20in%20Any%20Dimension.html)
+[math/Measure of Any Simplex in Any Dimension](https://thenumbernine.github.io/math/Measure%20of%20Any%20Simplex%20in%20Any%20Dimension.html)
 
 [math/a note on the definition of tensors](https://thenumbernine.github.io/math/a%20note%20on%20the%20definition%20of%20tensors.html)
 
