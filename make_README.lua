@@ -8,8 +8,9 @@ local s = table{[[
 Output CDN URLs:
 ]]}
 
-os.rlistdir('.', function(f, isdir)
-	return f ~= '.git' and (isdir or f:sub(-5) == '.html')
+file'.':rdir(function(f, isdir)
+	local dir, name = file(f):getdir()
+	return name ~= '.git' and (isdir or name:sub(-5) == '.html')
 end):mapi(function(f)
 	if f:sub(1,2) == './' then f = f:sub(3) end
 	return f
