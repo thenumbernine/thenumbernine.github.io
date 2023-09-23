@@ -242,6 +242,8 @@ Output CDN URLs:
 
 [math/Quaternions](https://thenumbernine.github.io/math/Quaternions.html)
 
+[math/Riemann From Stress-Energy](https://thenumbernine.github.io/math/Riemann%20From%20Stress%2dEnergy.html)
+
 [math/SRHD](https://thenumbernine.github.io/math/SRHD.html)
 
 [math/Schwarzschild with mass varying with time](https://thenumbernine.github.io/math/Schwarzschild%20with%20mass%20varying%20with%20time.html)
