@@ -1,6 +1,6 @@
-I'm just using this for CDN URLs for the time being.
+I'm just using this for URLs for the time being.
 
-Output CDN URLs:
+Output:
 
 [index](https://thenumbernine.github.io/index.html)
 

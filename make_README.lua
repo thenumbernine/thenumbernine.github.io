@@ -5,7 +5,7 @@ local url = require 'socket.url'
 local base = [[https://thenumbernine.github.io/]]
 
 local s = table{[[
-Output CDN URLs:
+Output:
 ]]}
 
 path'.':rdir(function(f, isdir)
@@ -24,6 +24,6 @@ end):sort():mapi(function(f)
 end)
 
 path'README.md':write( [[
-I'm just using this for CDN URLs for the time being.
+I'm just using this for URLs for the time being.
 
 ]]..s:concat'\n')
