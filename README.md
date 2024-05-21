@@ -288,6 +288,8 @@ Output:
 
 [math/conformal Levi-Civita geodesic](https://thenumbernine.github.io/math/conformal%20Levi%2dCivita%20geodesic.html)
 
+[math/flat earth curvature](https://thenumbernine.github.io/math/flat%20earth%20curvature.html)
+
 [math/gauge covariant derivative](https://thenumbernine.github.io/math/gauge%20covariant%20derivative.html)
 
 [math/heat to wave](https://thenumbernine.github.io/math/heat%20to%20wave.html)
@@ -387,6 +389,8 @@ Output:
 [symmath/tests/output/Faraday tensor in general relativity](https://thenumbernine.github.io/symmath/tests/output/Faraday%20tensor%20in%20general%20relativity.html)
 
 [symmath/tests/output/Faraday tensor in special relativity](https://thenumbernine.github.io/symmath/tests/output/Faraday%20tensor%20in%20special%20relativity.html)
+
+[symmath/tests/output/Finite Difference Coefficients](https://thenumbernine.github.io/symmath/tests/output/Finite%20Difference%20Coefficients.html)
 
 [symmath/tests/output/FiniteVolume](https://thenumbernine.github.io/symmath/tests/output/FiniteVolume.html)
 
