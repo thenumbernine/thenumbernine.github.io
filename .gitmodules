@@ -74,3 +74,7 @@
 	path = lua/rule110
 	url = https://github.com/thenumbernine/rule110-lua
 	branch = master
+[submodule "lua/n-points"]
+	path = lua/n-points
+	url = https://github.com/thenumbernine/n-points-lua
+	branch = master
