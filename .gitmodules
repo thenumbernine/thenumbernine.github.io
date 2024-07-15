@@ -17,3 +17,42 @@
 [submodule "glapp-js"]
 	path = glapp-js
 	url = https://github.com/thenumbernine/glapp-js
+[submodule "lua/ext"]
+	path = lua/ext
+	url = https://github.com/thenumbernine/lua-ext
+[submodule "lua/vec-ffi"]
+	path = lua/vec-ffi
+	url = https://github.com/thenumbernine/vec-ffi-lua
+[submodule "lua/matrix"]
+	path = lua/matrix
+	url = https://github.com/thenumbernine/lua-matrix
+[submodule "lua/gl"]
+	path = lua/gl
+	url = https://github.com/thenumbernine/lua-gl
+[submodule "lua/glapp"]
+	path = lua/glapp
+	url = https://github.com/thenumbernine/lua-glapp
+[submodule "lua/bit"]
+	path = lua/bit
+	url = https://github.com/thenumbernine/lua-bit
+[submodule "lua/template"]
+	path = lua/template
+	url = https://github.com/thenumbernine/lua-template
+[submodule "lua/struct"]
+	path = lua/struct
+	url = https://github.com/thenumbernine/struct-lua
+[submodule "lua/cl"]
+	path = lua/cl
+	url = https://github.com/thenumbernine/lua-opencl
+[submodule "lua/image"]
+	path = lua/image
+	url = https://github.com/thenumbernine/lua-image
+[submodule "lua/imgui"]
+	path = lua/imgui
+	url = https://github.com/thenumbernine/lua-imgui
+[submodule "lua/imguiapp"]
+	path = lua/imguiapp
+	url = https://github.com/thenumbernine/lua-imguiapp
+[submodule "lua/line-integral-convolution"]
+	path = lua/line-integral-convolution
+	url = https://github.com/thenumbernine/line-integral-convolution-lua
