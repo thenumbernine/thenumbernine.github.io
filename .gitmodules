@@ -17,42 +17,60 @@
 [submodule "glapp-js"]
 	path = glapp-js
 	url = https://github.com/thenumbernine/glapp-js
+	branch = master
 [submodule "lua/ext"]
 	path = lua/ext
 	url = https://github.com/thenumbernine/lua-ext
+	branch = master
 [submodule "lua/vec-ffi"]
 	path = lua/vec-ffi
 	url = https://github.com/thenumbernine/vec-ffi-lua
+	branch = master
 [submodule "lua/matrix"]
 	path = lua/matrix
 	url = https://github.com/thenumbernine/lua-matrix
+	branch = master
 [submodule "lua/gl"]
 	path = lua/gl
 	url = https://github.com/thenumbernine/lua-gl
+	branch = master
 [submodule "lua/glapp"]
 	path = lua/glapp
 	url = https://github.com/thenumbernine/lua-glapp
+	branch = master
 [submodule "lua/bit"]
 	path = lua/bit
 	url = https://github.com/thenumbernine/lua-bit
+	branch = master
 [submodule "lua/template"]
 	path = lua/template
 	url = https://github.com/thenumbernine/lua-template
+	branch = master
 [submodule "lua/struct"]
 	path = lua/struct
 	url = https://github.com/thenumbernine/struct-lua
+	branch = master
 [submodule "lua/cl"]
 	path = lua/cl
 	url = https://github.com/thenumbernine/lua-opencl
+	branch = master
 [submodule "lua/image"]
 	path = lua/image
 	url = https://github.com/thenumbernine/lua-image
+	branch = master
 [submodule "lua/imgui"]
 	path = lua/imgui
 	url = https://github.com/thenumbernine/lua-imgui
+	branch = master
 [submodule "lua/imguiapp"]
 	path = lua/imguiapp
 	url = https://github.com/thenumbernine/lua-imguiapp
+	branch = master
 [submodule "lua/line-integral-convolution"]
 	path = lua/line-integral-convolution
 	url = https://github.com/thenumbernine/line-integral-convolution-lua
+	branch = master
+[submodule "lua/rule110"]
+	path = lua/rule110
+	url = https://github.com/thenumbernine/rule110-lua
+	branch = master
