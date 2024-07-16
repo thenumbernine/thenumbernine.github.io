@@ -122,3 +122,6 @@
 	path = lua/symmath
 	url = https://github.com/thenumbernine/symmath-lua.git
 	branch = master
+[submodule "lua/modules"]
+	path = lua/modules
+	url = https://github.com/thenumbernine/modules-lua
