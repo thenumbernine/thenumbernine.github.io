@@ -78,3 +78,47 @@
 	path = lua/n-points
 	url = https://github.com/thenumbernine/n-points-lua
 	branch = master
+[submodule "lua/audio"]
+	path = lua/audio
+	url = https://github.com/thenumbernine/lua-audio
+	branch = master
+[submodule "lua/bignumber"]
+	path = lua/bignumber
+	url = https://github.com/thenumbernine/lua-bignumber
+	branch = master
+[submodule "lua/complex"]
+	path = lua/complex
+	url = https://github.com/thenumbernine/complex-lua
+	branch = master
+[submodule "lua/geographic-charts"]
+	path = lua/geographic-charts
+	url = https://github.com/thenumbernine/geographic-charts-lua
+	branch = master
+[submodule "lua/gnuplot"]
+	path = lua/gnuplot
+	url = https://github.com/thenumbernine/lua-gnuplot
+	branch = master
+[submodule "lua/langfix"]
+	path = lua/langfix
+	url = https://github.com/thenumbernine/langfix-lua.git
+	branch = master
+[submodule "lua/metric"]
+	path = lua/metric
+	url = https://github.com/thenumbernine/lua-metric
+	branch = master
+[submodule "lua/prime-spiral"]
+	path = lua/prime-spiral
+	url = https://github.com/thenumbernine/prime-spiral-lua
+	branch = master
+[submodule "lua/seashell"]
+	path = lua/seashell
+	url = https://github.com/thenumbernine/seashell-lua
+	branch = master
+[submodule "lua/SphericalHarmonicGraphs"]
+	path = lua/SphericalHarmonicGraphs
+	url = https://github.com/thenumbernine/SphericalHarmonicGraphs
+	branch = master
+[submodule "lua/symmath"]
+	path = lua/symmath
+	url = https://github.com/thenumbernine/symmath-lua.git
+	branch = master
