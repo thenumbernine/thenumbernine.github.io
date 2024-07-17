@@ -121,3 +121,8 @@
 [submodule "lua/modules"]
 	path = lua/modules
 	url = https://github.com/thenumbernine/modules-lua
+	branch = master
+[submodule "lua/fibonacci-modulo"]
+	path = lua/fibonacci-modulo
+	url = https://github.com/thenumbernine/fibonacci-modulo
+	branch = master
