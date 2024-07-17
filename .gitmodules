@@ -6,10 +6,6 @@
 	path = numrel-codegen
 	url = https://github.com/thenumbernine/numerical-relativity-codegen.git
 	branch = master
-[submodule "symmath"]
-	path = symmath
-	url = https://github.com/thenumbernine/symmath-lua.git
-	branch = master
 [submodule "surface-from-connection-lua"]
 	path = surface-from-connection-lua
 	url = https://github.com/thenumbernine/surface-from-connection-lua.git
