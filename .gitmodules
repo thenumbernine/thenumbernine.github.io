@@ -126,3 +126,6 @@
 	path = lua/fibonacci-modulo
 	url = https://github.com/thenumbernine/fibonacci-modulo
 	branch = master
+[submodule "lua/lambda-cdm"]
+	path = lua/lambda-cdm
+	url = https://github.com/thenumbernine/lambda-cdm-lua
