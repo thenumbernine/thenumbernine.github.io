@@ -6,10 +6,6 @@
 	path = numrel-codegen
 	url = https://github.com/thenumbernine/numerical-relativity-codegen.git
 	branch = master
-[submodule "glapp-js"]
-	path = glapp-js
-	url = https://github.com/thenumbernine/glapp-js
-	branch = master
 [submodule "lua/ext"]
 	path = lua/ext
 	url = https://github.com/thenumbernine/lua-ext
@@ -129,4 +125,8 @@
 [submodule "lua/surface-from-connection"]
 	path = lua/surface-from-connection
 	url = https://github.com/thenumbernine/surface-from-connection-lua
+	branch = master
+[submodule "glapp"]
+	path = glapp
+	url = https://github.com/thenumbernine/glapp-js
 	branch = master
