@@ -130,3 +130,7 @@
 	path = lua/sand-attack
 	url = https://github.com/thenumbernine/sand-attack
 	branch = master
+[submodule "lua/SphericalHarmonicGraphs"]
+	path = lua/SphericalHarmonicGraphs
+	url = https://github.com/thenumbernine/SphericalHarmonicGraphs
+	branch = master
