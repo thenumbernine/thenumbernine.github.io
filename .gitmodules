@@ -102,10 +102,6 @@
 	path = lua/seashell
 	url = https://github.com/thenumbernine/seashell-lua
 	branch = master
-[submodule "lua/SphericalHarmonicGraphs"]
-	path = lua/SphericalHarmonicGraphs
-	url = https://github.com/thenumbernine/SphericalHarmonicGraphs
-	branch = master
 [submodule "lua/symmath"]
 	path = lua/symmath
 	url = https://github.com/thenumbernine/symmath-lua.git
