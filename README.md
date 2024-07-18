@@ -4,9 +4,13 @@ Output:
 
 [glapp-js/index](https://thenumbernine.github.io/glapp%2djs/index.html)
 
+[glapp-js/run](https://thenumbernine.github.io/glapp%2djs/run.html)
+
 [index](https://thenumbernine.github.io/index.html)
 
 [lua/seashell/eqns](https://thenumbernine.github.io/lua/seashell/eqns.html)
+
+[lua/surface-from-connection/docs/README](https://thenumbernine.github.io/lua/surface%2dfrom%2dconnection/docs/README.html)
 
 [lua/symmath/tests/output/ADM Levi-Civita](https://thenumbernine.github.io/lua/symmath/tests/output/ADM%20Levi%2dCivita.html)
 
@@ -701,5 +705,3 @@ Output:
 [numrel-codegen/flux_matrix_output/flux_matrix.z4_useShift_noZeroRows](https://thenumbernine.github.io/numrel%2dcodegen/flux_matrix_output/flux_matrix.z4_useShift_noZeroRows.html)
 
 [numrel-codegen/flux_matrix_output/verify_2008_yano](https://thenumbernine.github.io/numrel%2dcodegen/flux_matrix_output/verify_2008_yano.html)
-
-[surface-from-connection-lua/docs/README](https://thenumbernine.github.io/surface%2dfrom%2dconnection%2dlua/docs/README.html)
