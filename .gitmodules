@@ -6,10 +6,6 @@
 	path = numrel-codegen
 	url = https://github.com/thenumbernine/numerical-relativity-codegen.git
 	branch = master
-[submodule "surface-from-connection-lua"]
-	path = surface-from-connection-lua
-	url = https://github.com/thenumbernine/surface-from-connection-lua.git
-	branch = master
 [submodule "glapp-js"]
 	path = glapp-js
 	url = https://github.com/thenumbernine/glapp-js
@@ -129,3 +125,8 @@
 [submodule "lua/lambda-cdm"]
 	path = lua/lambda-cdm
 	url = https://github.com/thenumbernine/lambda-cdm-lua
+	branch = master
+[submodule "lua/surface-from-connection"]
+	path = lua/surface-from-connection
+	url = https://github.com/thenumbernine/surface-from-connection-lua
+	branch = master
