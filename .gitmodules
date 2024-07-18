@@ -130,3 +130,7 @@
 	path = glapp
 	url = https://github.com/thenumbernine/glapp-js
 	branch = master
+[submodule "lua/sand-attack"]
+	path = lua/sand-attack
+	url = https://github.com/thenumbernine/sand-attack
+	branch = master
