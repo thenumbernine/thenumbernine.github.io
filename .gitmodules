@@ -153,3 +153,4 @@
 [submodule "black-hole-skymap"]
 	path = black-hole-skymap
 	url = https://github.com/thenumbernine/black-hole-skymap
+	branch = master
