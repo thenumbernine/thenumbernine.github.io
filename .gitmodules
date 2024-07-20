@@ -134,3 +134,7 @@
 	path = lua/SphericalHarmonicGraphs
 	url = https://github.com/thenumbernine/SphericalHarmonicGraphs
 	branch = master
+[submodule "lua/mesh"]
+	path = lua/mesh
+	url = https://github.com/thenumbernine/mesh-lua
+	branch = master
