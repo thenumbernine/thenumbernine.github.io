@@ -154,3 +154,7 @@
 	path = black-hole-skymap
 	url = https://github.com/thenumbernine/black-hole-skymap
 	branch = master
+[submodule "hydrodynamics"]
+	path = hydrodynamics
+	url = https://github.com/thenumbernine/hydrodynamics-js
+	branch = master
