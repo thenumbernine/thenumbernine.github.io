@@ -138,3 +138,7 @@
 	path = lua/mesh
 	url = https://github.com/thenumbernine/mesh-lua
 	branch = master
+[submodule "lua/dkjson"]
+	path = lua/dkjson
+	url = https://github.com/LuaDist/dkjson
+	branch = master
