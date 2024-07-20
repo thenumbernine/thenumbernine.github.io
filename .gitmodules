@@ -145,3 +145,8 @@
 [submodule "js"]
 	path = js
 	url = https://github.com/thenumbernine/js-util
+	branch = master
+[submodule "metric"]
+	path = metric
+	url = https://github.com/thenumbernine/metric
+	branch = master
