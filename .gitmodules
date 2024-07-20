@@ -150,3 +150,6 @@
 	path = metric
 	url = https://github.com/thenumbernine/metric
 	branch = master
+[submodule "black-hole-skymap"]
+	path = black-hole-skymap
+	url = https://github.com/thenumbernine/black-hole-skymap
