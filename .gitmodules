@@ -214,3 +214,7 @@
 	path = space-game
 	url = https://github.com/thenumbernine/space-game-js
 	branch = master
+[submodule "bank-game"]
+	path = bank-game
+	url = https://github.com/thenumbernine/bank-game-js
+	branch = master
