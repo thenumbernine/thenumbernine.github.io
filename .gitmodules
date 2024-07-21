@@ -238,3 +238,7 @@
 	path = dominion
 	url = https://github.com/thenumbernine/DominionCardChooser
 	branch = master
+[submodule "4d-renderer"]
+	path = 4d-renderer
+	url = https://github.com/thenumbernine/4d-renderer-js
+	branch = master
