@@ -242,3 +242,7 @@
 	path = 4d-renderer
 	url = https://github.com/thenumbernine/4d-renderer-js
 	branch = master
+[submodule "conway-life-webgl"]
+	path = conway-life-webgl
+	url = https://github.com/thenumbernine/conway-life-webgl
+	branch = master
