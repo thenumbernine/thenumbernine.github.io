@@ -258,3 +258,7 @@
 	path = octonion-multiplication-table
 	url = https://github.com/thenumbernine/octonion-multiplication-table-js
 	branch = master
+[submodule "wavefunction"]
+	path = wavefunction
+	url = https://github.com/thenumbernine/wavefunction
+	branch = master
