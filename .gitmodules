@@ -206,3 +206,7 @@
 	path = lua/ips
 	url = https://github.com/thenumbernine/lua-ips
 	branch = master
+[submodule "lua/earth-magnetic-field"]
+	path = lua/earth-magnetic-field
+	url = https://github.com/thenumbernine/earth-magnetic-field-lua
+	branch = master
