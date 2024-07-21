@@ -226,3 +226,7 @@
 	path = emoji-lua
 	url = https://github.com/thenumbernine/emoji-lua
 	branch = master
+[submodule "stupidrpg-game"]
+	path = stupidrpg-game
+	url = https://github.com/thenumbernine/stupidrpg-game-js
+	branch = master
