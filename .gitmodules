@@ -266,3 +266,6 @@
 	path = time-dilation
 	url = https://github.com/thenumbernine/time-dilation
 	branch = master
+[submodule "thomas-precession"]
+	path = thomas-precession
+	url = https://github.com/thenumbernine/thomas-precession
