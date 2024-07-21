@@ -162,3 +162,19 @@
 	path = lua/neuralnet
 	url = https://github.com/thenumbernine/lua-neuralnet
 	branch = master
+[submodule "lua/tensor"]
+	path = lua/tensor
+	url = https://github.com/thenumbernine/tensor-lua
+	branch = master
+[submodule "lua/htmlparser"]
+	path = lua/htmlparser
+	url = https://github.com/thenumbernine/htmlparser-lua
+	branch = master
+[submodule "lua/parser"]
+	path = lua/parser
+	url = https://github.com/thenumbernine/lua-parser
+	branch = master
+[submodule "lua/csv"]
+	path = lua/csv
+	url = https://github.com/thenumbernine/lua-csv
+	branch = master
