@@ -222,3 +222,7 @@
 	path = swinekeeper
 	url = https://github.com/thenumbernine/swinekeeper
 	branch = master
+[submodule "emoji-lua"]
+	path = emoji-lua
+	url = https://github.com/thenumbernine/emoji-lua
+	branch = master
