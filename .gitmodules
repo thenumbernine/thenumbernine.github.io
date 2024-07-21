@@ -218,3 +218,7 @@
 	path = bank-game
 	url = https://github.com/thenumbernine/bank-game-js
 	branch = master
+[submodule "swinekeeper"]
+	path = swinekeeper
+	url = https://github.com/thenumbernine/swinekeeper
+	branch = master
