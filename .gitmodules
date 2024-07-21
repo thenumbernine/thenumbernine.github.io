@@ -234,3 +234,7 @@
 	path = elemental
 	url = https://github.com/thenumbernine/elemental
 	branch = master
+[submodule "dominion"]
+	path = dominion
+	url = https://github.com/thenumbernine/DominionCardChooser
+	branch = master
