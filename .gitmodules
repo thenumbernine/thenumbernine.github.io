@@ -230,3 +230,7 @@
 	path = stupidrpg-game
 	url = https://github.com/thenumbernine/stupidrpg-game-js
 	branch = master
+[submodule "elemental"]
+	path = elemental
+	url = https://github.com/thenumbernine/elemental
+	branch = master
