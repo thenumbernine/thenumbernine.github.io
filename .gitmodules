@@ -246,3 +246,7 @@
 	path = conway-life-webgl
 	url = https://github.com/thenumbernine/conway-life-webgl
 	branch = master
+[submodule "poisson-solver"]
+	path = poisson-solver
+	url = https://github.com/thenumbernine/poisson-gpu-js
+	branch = master
