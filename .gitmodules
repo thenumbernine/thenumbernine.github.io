@@ -202,3 +202,7 @@
 	path = lua/make
 	url = https://github.com/thenumbernine/lua-make
 	branch = master
+[submodule "lua/ips"]
+	path = lua/ips
+	url = https://github.com/thenumbernine/lua-ips
+	branch = master
