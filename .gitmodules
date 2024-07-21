@@ -210,3 +210,7 @@
 	path = lua/earth-magnetic-field
 	url = https://github.com/thenumbernine/earth-magnetic-field-lua
 	branch = master
+[submodule "space-game"]
+	path = space-game
+	url = https://github.com/thenumbernine/space-game-js
+	branch = master
