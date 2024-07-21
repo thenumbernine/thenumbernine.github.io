@@ -250,3 +250,7 @@
 	path = poisson-solver
 	url = https://github.com/thenumbernine/poisson-gpu-js
 	branch = master
+[submodule "topple"]
+	path = topple
+	url = https://github.com/thenumbernine/topple-js
+	branch = master
