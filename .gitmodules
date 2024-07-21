@@ -262,3 +262,7 @@
 	path = wavefunction
 	url = https://github.com/thenumbernine/wavefunction
 	branch = master
+[submodule "time-dilation"]
+	path = time-dilation
+	url = https://github.com/thenumbernine/time-dilation
+	branch = master
