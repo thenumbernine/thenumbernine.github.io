@@ -254,3 +254,7 @@
 	path = topple
 	url = https://github.com/thenumbernine/topple-js
 	branch = master
+[submodule "octonion-multiplication-table"]
+	path = octonion-multiplication-table
+	url = https://github.com/thenumbernine/octonion-multiplication-table-js
+	branch = master
