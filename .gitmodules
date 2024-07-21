@@ -269,3 +269,4 @@
 [submodule "thomas-precession"]
 	path = thomas-precession
 	url = https://github.com/thenumbernine/thomas-precession
+	branch = master
