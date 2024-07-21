@@ -178,3 +178,27 @@
 	path = lua/csv
 	url = https://github.com/thenumbernine/lua-csv
 	branch = master
+[submodule "lua/plot2d"]
+	path = lua/plot2d
+	url = https://github.com/thenumbernine/lua-plot2d
+	branch = master
+[submodule "lua/plot3d"]
+	path = lua/plot3d
+	url = https://github.com/thenumbernine/lua-plot3d
+	branch = master
+[submodule "lua/vec"]
+	path = lua/vec
+	url = https://github.com/thenumbernine/vec-lua
+	branch = master
+[submodule "lua/super_metroid_randomizer"]
+	path = lua/super_metroid_randomizer
+	url = https://github.com/thenumbernine/super-metroid-randomizer-lua
+	branch = master
+[submodule "lua/gui"]
+	path = lua/gui
+	url = https://github.com/thenumbernine/lua-gui
+	branch = master
+[submodule "lua/make"]
+	path = lua/make
+	url = https://github.com/thenumbernine/lua-make
+	branch = master
