@@ -270,3 +270,7 @@
 	path = thomas-precession
 	url = https://github.com/thenumbernine/thomas-precession
 	branch = master
+[submodule "cpp/Topple"]
+	path = cpp/Topple
+	url = https://github.com/thenumbernine/Topple/
+	branch = master
