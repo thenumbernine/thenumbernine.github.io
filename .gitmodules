@@ -281,3 +281,4 @@
 [submodule "lua/sphere-grid"]
 	path = lua/sphere-grid
 	url = https://github.com/thenumbernine/sphere-grid-lua
+	branch = master
