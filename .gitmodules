@@ -282,3 +282,7 @@
 	path = lua/sphere-grid
 	url = https://github.com/thenumbernine/sphere-grid-lua
 	branch = master
+[submodule "lua/sdl"]
+	path = lua/sdl
+	url = https://github.com/thenumbernine/lua-sdl
+	branch = master
