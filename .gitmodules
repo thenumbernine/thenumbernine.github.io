@@ -290,3 +290,7 @@
 	path = lua/interpreter
 	url = https://github.com/thenumbernine/lua-interpreter
 	branch = master
+[submodule "lua/solver"]
+	path = lua/solver
+	url = https://github.com/thenumbernine/solver-lua
+	branch = master
