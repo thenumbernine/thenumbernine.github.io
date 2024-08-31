@@ -286,3 +286,7 @@
 	path = lua/sdl
 	url = https://github.com/thenumbernine/lua-sdl
 	branch = master
+[submodule "lua/interpreter"]
+	path = lua/interpreter
+	url = https://github.com/thenumbernine/lua-interpreter
+	branch = master
