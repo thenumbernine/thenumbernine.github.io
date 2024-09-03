@@ -298,3 +298,7 @@
 	path = lua/solver
 	url = https://github.com/thenumbernine/solver-lua
 	branch = master
+[submodule "lua/netrefl"]
+	path = lua/netrefl
+	url = https://github.com/thenumbernine/lua-netrefl
+	branch = master
