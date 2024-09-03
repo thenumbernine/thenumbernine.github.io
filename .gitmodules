@@ -290,3 +290,11 @@
 	path = lua/pong
 	url = https://github.com/thenumbernine/pong-lua
 	branch = master
+[submodule "lua/interpreter"]
+	path = lua/interpreter
+	url = https://github.com/thenumbernine/lua-interpreter
+	branch = master
+[submodule "lua/solver"]
+	path = lua/solver
+	url = https://github.com/thenumbernine/solver-lua
+	branch = master
