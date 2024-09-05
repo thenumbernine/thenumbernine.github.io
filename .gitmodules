@@ -302,3 +302,7 @@
 	path = lua/netrefl
 	url = https://github.com/thenumbernine/lua-netrefl
 	branch = master
+[submodule "lua/lua-threadmanager"]
+	path = lua/threadmanager
+	url = https://github.com/thenumbernine/lua-threadmanager
+	branch = master
