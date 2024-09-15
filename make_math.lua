@@ -24,11 +24,11 @@ end):sort():mapi(function(f)
 		..'</a><br>')
 end)
 
-path'index.html':write([[
+path'math.html':write([[
 <!doctype html>
 <html>
 	<head>
-	<title>index</title>
+	<title>math</title>
 	</head>
 	<body>
 ]]..s:concat'\n'..[[
