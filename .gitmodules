@@ -310,3 +310,7 @@
 	path = lua/numo9
 	url = https://github.com/thenumbernine/numo9
 	branch = master
+[submodule "lua/chess-on-manifold"]
+	path = lua/chess-on-manifold
+	url = https://github.com/thenumbernine/chess-on-manifold-lua
+	branch = master
