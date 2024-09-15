@@ -306,3 +306,7 @@
 	path = lua/threadmanager
 	url = https://github.com/thenumbernine/lua-threadmanager
 	branch = master
+[submodule "lua/numo9"]
+	path = lua/numo9
+	url = https://github.com/thenumbernine/numo9
+	branch = master
