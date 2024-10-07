@@ -318,3 +318,7 @@
 	path = lua/stupid-text-rpg
 	url = https://github.com/thenumbernine/stupid-text-rpg
 	branch = master
+[submodule "DominionCardChooser"]
+	path = DominionCardChooser
+	url = https://github.com/thenumbernine/DominionCardChooser
+	branch = master
