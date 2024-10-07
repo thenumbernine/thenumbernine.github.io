@@ -317,3 +317,4 @@
 [submodule "lua/stupid-text-rpg"]
 	path = lua/stupid-text-rpg
 	url = https://github.com/thenumbernine/stupid-text-rpg
+	branch = master
