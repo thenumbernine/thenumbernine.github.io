@@ -314,3 +314,6 @@
 	path = lua/chess-on-manifold
 	url = https://github.com/thenumbernine/chess-on-manifold-lua
 	branch = master
+[submodule "lua/stupid-text-rpg"]
+	path = lua/stupid-text-rpg
+	url = https://github.com/thenumbernine/stupid-text-rpg
