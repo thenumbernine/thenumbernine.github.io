@@ -318,3 +318,7 @@
 	path = lua/stupid-text-rpg
 	url = https://github.com/thenumbernine/stupid-text-rpg
 	branch = master
+[submodule "mario-kart-wii-stat-picker"]
+	path = mario-kart-wii-stat-picker
+	url = https://github.com/thenumbernine/mario-kart-wii-stat-picker.git
+	branch = master
