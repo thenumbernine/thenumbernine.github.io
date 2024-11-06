@@ -322,3 +322,7 @@
 	path = mario-kart-wii-stat-picker
 	url = https://github.com/thenumbernine/mario-kart-wii-stat-picker.git
 	branch = master
+[submodule "lua/space-filling-curve"]
+	path = lua/space-filling-curve
+	url = https://github.com/thenumbernine/space-filling-curve
+	branch = master
