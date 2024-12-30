@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>Lua SymMath</title>
+
+<script type="text/javascript">
+// mathjax config
+// https://docs.mathjax.org/en/latest/web/configuration.html
+MathJax = {
+	tex: {
+		inlineMath: [['$', '$'], ['\\(', '\\)']]
+	},
+	svg: {
+		fontCache: 'global'
+	}
+};
+</script>	
+		<script type="text/javascript" src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js'></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js" integrity="" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script type="text/javascript">
+		worksheetFilename = "Live Demo";
+		symmathPath = "/lua/symmath";
+		</script>
+
+		<script type="module" src="/lua/symmath/server/standalone-bridge-jsemu.js" defer></script>
+		<link rel="stylesheet" href="/lua/symmath/server/standalone.css"/>
+
+		<!-- obsolete ... script type='module' src='/lua/symmath/www/embedded.js' defer></script -->
+	</head>
+	<body>
+		<div id="bodydiv">
+			<div class="header"></div>
+				<div id="loading">Loading...</div>
+			</div>
+		</div>
+	</body>
+</html>
+
