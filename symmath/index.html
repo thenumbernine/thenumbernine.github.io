@@ -4,14 +4,13 @@
 		<meta charset='utf-8'>
 		<title>Lua SymMath</title>
 
-		<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js'></script>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js' integrity='' crossorigin='anonymous' referrerpolicy='no-referrer'></script>
 
 		<link rel='stylesheet' href='/lua/symmath/server/standalone.css'/>
 
 		<script type='module' defer>
 		import {init} from '/lua/symmath/server/standalone-bridge-jsemu.js';
-init({
+await init({
 	worksheetFilename : 'Demo',
 	symmathPath : '/lua/symmath',
 });
