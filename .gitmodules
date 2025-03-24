@@ -330,3 +330,7 @@
 	path = lua/chompman
 	url = https://github.com/thenumbernine/chompman
 	branch = master
+[submodule "lua/resourcecache"]
+	path = lua/resourcecache
+	url = https://github.com/thenumbernine/lua-resourcecache
+	branch = master
