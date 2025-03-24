@@ -326,3 +326,7 @@
 	path = lua/space-filling-curve
 	url = https://github.com/thenumbernine/space-filling-curve
 	branch = master
+[submodule "lua/chompman"]
+	path = lua/chompman
+	url = https://github.com/thenumbernine/chompman
+	branch = master
