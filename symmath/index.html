@@ -4,12 +4,59 @@
 		<meta charset='utf-8'>
 		<title>Lua SymMath</title>
 		<link rel='stylesheet' href='/lua/symmath/server/standalone.css'/>
+
+		<!--
+		Thank you Christian Huettig for gnuplot compiled to emscripten
+		I stashed it here:
+		 /math/gnuplot/index.html
+		I tried compiling it myself to emscripten, but what a convoluted build process, so I'll just externally reference this
+		 not unlike symmath typically just runs the gnuplot binary.
+		-->
+		<script src='/math/gnuplot/gnuplot_api.js'></script>
+
 		<script type='module' defer>
-		import {init} from '/lua/symmath/server/standalone-bridge-jsemu.js';
+
+// setup gnuplot
+let gnuplot = new Gnuplot('/math/gnuplot/gnuplot.js');
+gnuplot.onOutput = text => { console.log('GNUPLOT:', text); };
+gnuplot.onError = text => { console.log('GNUPLOT ERR:', text); };
+//set here so that symmath/server/standalone-bridge-jsemu.js can find it.
+window.runGnuplot = (cmddata, luaCaptureCell, luaCaptureDone) => {
+	// run it <-> save the contents in the gnuplot-specific-filesystem
+	gnuplot.run(cmddata, e => {
+		// read back from the gnuplot-specific-filesystem
+		// 'tmp.svg' output is set in symmath/export/GnuPlot.lua
+		gnuplot.getFile('tmp.svg', e => {
+			if (!e.content) {
+				gnuplot.onError("Output file out.svg not found!");
+				return;
+			}
+
+console.log('got gnuplot results', e.content);
+
+			// now we want to hand off the output
+			// TODO instead just block on this whole JS call
+
+			let rstr = '';
+			for (let i = 0; i < e.content.length; i++) {
+				rstr += String.fromCharCode(e.content[i]);
+			}
+
+			// also in the end of standalone-bridge-jsemu.js's run(args) function
+			luaCaptureCell.output = rstr;
+			luaCaptureDone(JSON.stringify(luaCaptureCell));
+		});
+	});
+};
+
+// setup lua
+import {init} from '/lua/symmath/server/standalone-bridge-jsemu.js';
+
 await init({
 	worksheetFilename : 'Demo',
 	symmathPath : '/lua/symmath',
 });
+
 		</script>
 	</head>
 </html>
