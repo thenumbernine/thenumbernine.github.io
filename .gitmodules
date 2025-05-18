@@ -50,10 +50,6 @@
 	path = lua/imgui
 	url = https://github.com/thenumbernine/lua-imgui
 	branch = master
-[submodule "lua/imguiapp"]
-	path = lua/imguiapp
-	url = https://github.com/thenumbernine/lua-imguiapp
-	branch = master
 [submodule "lua/line-integral-convolution"]
 	path = lua/line-integral-convolution
 	url = https://github.com/thenumbernine/line-integral-convolution-lua
