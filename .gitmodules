@@ -334,3 +334,9 @@
 	path = lua/nbody-gpu
 	url = https://github.com/thenumbernine/nbody-gpu-lua
 	branch = master
+[submodule "lua/zeta2d"]
+	path = lua/zeta2d
+	url = https://github.com/thenumbernine/zeta-lua
+[submodule "lua/simplexnoise"]
+	path = lua/simplexnoise
+	url = https://github.com/thenumbernine/lua-simplexnoise
