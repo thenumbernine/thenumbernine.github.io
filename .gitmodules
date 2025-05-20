@@ -330,3 +330,7 @@
 	path = lua/resourcecache
 	url = https://github.com/thenumbernine/lua-resourcecache
 	branch = master
+[submodule "lua/nbody-gpu"]
+	path = lua/nbody-gpu
+	url = https://github.com/thenumbernine/nbody-gpu-lua
+	branch = master
