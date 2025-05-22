@@ -340,3 +340,6 @@
 [submodule "lua/simplexnoise"]
 	path = lua/simplexnoise
 	url = https://github.com/thenumbernine/lua-simplexnoise
+[submodule "lua/gravitational-waves"]
+	path = lua/gravitational-waves
+	url = https://github.com/thenumbernine/gravitational-waves-lua
