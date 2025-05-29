@@ -343,3 +343,6 @@
 [submodule "lua/gravitational-waves"]
 	path = lua/gravitational-waves
 	url = https://github.com/thenumbernine/gravitational-waves-lua
+[submodule "lua/earthquake-shear-lines"]
+	path = lua/earthquake-shear-lines
+	url = https://github.com/thenumbernine/earthquake-shear-lines
