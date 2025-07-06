@@ -1,0 +1,4 @@
+name = "dkjson"
+files = {
+	["dkjson.lua"] = "dkjson/dkjson.lua",
+}

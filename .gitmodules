@@ -50,10 +50,6 @@
 	path = lua/imgui
 	url = https://github.com/thenumbernine/lua-imgui
 	branch = master
-[submodule "lua/imguiapp"]
-	path = lua/imguiapp
-	url = https://github.com/thenumbernine/lua-imguiapp
-	branch = master
 [submodule "lua/line-integral-convolution"]
 	path = lua/line-integral-convolution
 	url = https://github.com/thenumbernine/line-integral-convolution-lua
@@ -127,7 +123,7 @@
 	url = https://github.com/thenumbernine/glapp-js
 	branch = master
 [submodule "lua/sand-attack"]
-	path = lua/sand-attack
+	path = lua/SandAttack
 	url = https://github.com/thenumbernine/sand-attack
 	branch = master
 [submodule "lua/SphericalHarmonicGraphs"]
@@ -334,3 +330,19 @@
 	path = lua/resourcecache
 	url = https://github.com/thenumbernine/lua-resourcecache
 	branch = master
+[submodule "lua/nbody-gpu"]
+	path = lua/nbody-gpu
+	url = https://github.com/thenumbernine/nbody-gpu-lua
+	branch = master
+[submodule "lua/zeta2d"]
+	path = lua/zeta2d
+	url = https://github.com/thenumbernine/zeta-lua
+[submodule "lua/simplexnoise"]
+	path = lua/simplexnoise
+	url = https://github.com/thenumbernine/lua-simplexnoise
+[submodule "lua/gravitational-waves"]
+	path = lua/gravitational-waves
+	url = https://github.com/thenumbernine/gravitational-waves-lua
+[submodule "lua/earthquake-shear-lines"]
+	path = lua/earthquake-shear-lines
+	url = https://github.com/thenumbernine/earthquake-shear-lines
