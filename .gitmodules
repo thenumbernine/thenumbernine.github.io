@@ -346,3 +346,9 @@
 [submodule "lua/earthquake-shear-lines"]
 	path = lua/earthquake-shear-lines
 	url = https://github.com/thenumbernine/earthquake-shear-lines
+[submodule "lua/cayley-dickson"]
+	path = lua/cayley-dickson
+	url = https://github.com/thenumbernine/cayley-dickson
+[submodule "lua/force-directed-graph"]
+	path = lua/force-directed-graph
+	url = https://github.com/thenumbernine/force-directed-graph-lua
