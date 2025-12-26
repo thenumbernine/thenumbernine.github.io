@@ -20,19 +20,26 @@ end))
 	return f
 end):sort():mapi(|f|do
 	local _, ext = path(f):getext()
-	local href
---	if ext == 'html' then
-		href = url.escape(f)
+	if ext == 'html' then
+		local href = url.escape(f)
 				:gsub('%%2f','/')
 				:gsub('%%2e','.')
---	else
---		-- TODO link to open symmath with this link
---	end
-	s:insert('<a href="'
-		..href
-		..'">'
-		..f
-		..'</a><br>')
+		s:insert(
+			'<a href="'
+			..href
+			..'">'
+			..f
+			..'</a><br>'
+		)
+	else
+		-- TODO link to open symmath with this link
+		s:insert('<a href="/symmath/index.html?open=/'
+			..(f:match'^lua/(.*)$' or f)
+			..'">'
+			..f
+			..'</a><br>'
+		)
+	end
 end)
 
 path'math.html':write([[

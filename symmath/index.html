@@ -49,11 +49,15 @@ window.runGnuplot = (cmddata, luaCaptureCell, luaCaptureDone) => {
 	});
 };
 
+const urlparams = new URLSearchParams(location.search);
+const openURL = urlparams.get('open');
+
 // setup lua
 import {init} from '/lua/symmath/server/standalone-bridge-jsemu.js';
 
 await init({
-	worksheetFilename : 'Demo',
+	worksheetFilename : openURL || 'Demo',
+	openURL : openURL,
 	symmathPath : '/lua/symmath',
 });
 
