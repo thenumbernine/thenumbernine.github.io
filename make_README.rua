@@ -1,7 +1,10 @@
 #!/usr/bin/env rua
 local url = require 'socket.url'
 
+local base = [[https://thenumbernine.github.io/]]
+
 local s = table{[[
+Output:
 ]]}
 
 table.wrapfor(path:rdir(|f, isdir|do
@@ -14,40 +17,26 @@ table.wrapfor(path:rdir(|f, isdir|do
 		or ext == 'symmath'
 	)
 end))
-:mapi(|f| do
+:mapi(|f|do
 	f = f[1].path
 	if f:sub(1,2) == './' then f = f:sub(3) end
 	return f
 end):sort():mapi(|f|do
 	local _, ext = path(f):getext()
 	if ext == 'html' then
-		s:insert(
-			'<a href="'
-			..url.escape(f)
+		s:insert('['..f..']('..base..
+			url.escape(f)
 				:gsub('%%2f','/')
 				:gsub('%%2e','.')
-			..'">'
-			..f
-			..'</a><br>')
+			..')\n')
 	else
-		s:insert('<a href="/symmath/index.html?open=/'
+		s:insert('['..f..']('..base..'symmath/index.html?open=/'
 			..(f:match'^lua/(.*)$' or f)
-			..'">'
-			..f
-			..'</a><br>')
+			..')\n')
 	end
 end)
 
-path'math.html':write([[
-<!doctype html>
-<html>
-	<head>
-		<title>math</title>
-		<link rel='stylesheet' href='math/darkmode.css'></link>
-		<script type='text/javascript' src='math/darkmode.js'></script>
-	</head>
-	<body>
-]]..s:concat'\n'..[[
-	</body>
-</html>
-]])
+path'README.md':write( [[
+I'm just using this for URLs for the time being.
+
+]]..s:concat'\n')
