@@ -1,0 +1,50 @@
+#!/usr/bin/env rua
+local url = require 'socket.url'
+
+local s = table{[[
+]]}
+
+table.wrapfor(path:rdir(|f, isdir|do
+	f = path(f)
+	local dir, name = f:getdir()
+	local _, ext = f:getext()
+	return name.path ~= '.git' and (
+		isdir
+		or ext == 'html'
+		or ext == 'symmath'
+	)
+end))
+:mapi(|f| do
+	f = f[1].path
+	if f:sub(1,2) == './' then f = f:sub(3) end
+	return f
+end):sort():mapi(|f|do
+	local _, ext = path(f):getext()
+	local href
+--	if ext == 'html' then
+		href = url.escape(f)
+				:gsub('%%2f','/')
+				:gsub('%%2e','.')
+--	else
+--		-- TODO link to open symmath with this link
+--	end
+	s:insert('<a href="'
+		..href
+		..'">'
+		..f
+		..'</a><br>')
+end)
+
+path'math.html':write([[
+<!doctype html>
+<html>
+	<head>
+		<title>math</title>
+		<link rel='stylesheet' href='math/darkmode.css'></link>
+		<script type='text/javascript' src='math/darkmode.js'></script>
+	</head>
+	<body>
+]]..s:concat'\n'..[[
+	</body>
+</html>
+]])
