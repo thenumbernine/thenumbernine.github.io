@@ -336,8 +336,6 @@ Output:
 
 [lua/symmath/tests/output/rotation group.html](https://thenumbernine.github.io/lua/symmath/tests/output/rotation%20group.html)
 
-[lua/symmath/tests/output/run all tests.html](https://thenumbernine.github.io/lua/symmath/tests/output/run%20all%20tests.html)
-
 [lua/symmath/tests/output/scalar metric.html](https://thenumbernine.github.io/lua/symmath/tests/output/scalar%20metric.html)
 
 [lua/symmath/tests/output/simple_ag.html](https://thenumbernine.github.io/lua/symmath/tests/output/simple_ag.html)
