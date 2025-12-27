@@ -352,3 +352,6 @@
 [submodule "lua/force-directed-graph"]
 	path = lua/force-directed-graph
 	url = https://github.com/thenumbernine/force-directed-graph-lua
+[submodule "universe"]
+	path = universe
+	url = https://github.com/thenumbernine/universe.git
