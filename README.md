@@ -156,13 +156,57 @@ Output:
 
 [lua/symmath/tests/output/Platonic Solids.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids.html)
 
-[lua/symmath/tests/output/Platonic Solids/120-cell.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/120%2dcell.html)
+[lua/symmath/tests/output/Platonic Solids/120-cell vertex inner products.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/120%2dcell%20vertex%20inner%20products.html)
+
+[lua/symmath/tests/output/Platonic Solids/120-cell vertex multiplication table.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/120%2dcell%20vertex%20multiplication%20table.html)
+
+[lua/symmath/tests/output/Platonic Solids/120-cell vertexes.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/120%2dcell%20vertexes.html)
 
 [lua/symmath/tests/output/Platonic Solids/16-cell.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/16%2dcell.html)
 
 [lua/symmath/tests/output/Platonic Solids/24-cell.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/24%2dcell.html)
 
 [lua/symmath/tests/output/Platonic Solids/5-cell.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/5%2dcell.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 1.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%201.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 10.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%2010.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 11.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%2011.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 12.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%2012.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 13.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%2013.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 14.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%2014.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 15.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%2015.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 16.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%2016.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 17.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%2017.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 18.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%2018.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 19.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%2019.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 2.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%202.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 20.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%2020.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 3.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%203.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 4.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%204.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 5.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%205.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 6.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%206.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 7.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%207.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 8.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%208.html)
+
+[lua/symmath/tests/output/Platonic Solids/600-cell transform multiplication table page 9.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transform%20multiplication%20table%20page%209.html)
 
 [lua/symmath/tests/output/Platonic Solids/600-cell transforms 1.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20transforms%201.html)
 
@@ -209,8 +253,6 @@ Output:
 [lua/symmath/tests/output/Platonic Solids/600-cell vertex multiplication table.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20vertex%20multiplication%20table.html)
 
 [lua/symmath/tests/output/Platonic Solids/600-cell vertexes.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell%20vertexes.html)
-
-[lua/symmath/tests/output/Platonic Solids/600-cell.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/600%2dcell.html)
 
 [lua/symmath/tests/output/Platonic Solids/8-cell.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/8%2dcell.html)
 
@@ -799,5 +841,9 @@ Output:
 [time-dilation/index.html](https://thenumbernine.github.io/time%2ddilation/index.html)
 
 [topple/index.html](https://thenumbernine.github.io/topple/index.html)
+
+[universe/index.html](https://thenumbernine.github.io/universe/index.html)
+
+[universe/offline/web-viewer/volume.html](https://thenumbernine.github.io/universe/offline/web%2dviewer/volume.html)
 
 [wavefunction/index.html](https://thenumbernine.github.io/wavefunction/index.html)
