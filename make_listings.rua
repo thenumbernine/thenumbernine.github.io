@@ -37,8 +37,11 @@ local gitfileset = gitfiles:mapi(|name,i| (i,name)):setmetatable(nil)
 
 local baseurl = [[https://thenumbernine.github.io/]]
 
-local s = table{[[
+local out_README_md = table{[[
 Output:
+]]}
+
+local out_math_html = table{[[
 ]]}
 
 table.wrapfor(path:rdir(|f, isdir|do
@@ -70,19 +73,47 @@ end)
 :mapi(|f|do
 	local name, ext = path(f):getext()
 	if ext == 'symmath' then
-		s:insert('['..f..']('..baseurl..'symmath/index.html?open=/'
+		out_README_md:insert('['..f..']('..baseurl..'symmath/index.html?open=/'
 			..(f:match'^lua/(.*)$' or f)
 			..')\n')
+		out_math_html:insert('<a href="/symmath/index.html?open=/'
+			..(f:match'^lua/(.*)$' or f)
+			..'">'
+			..f
+			..'</a><br>')
+
 	else
-		s:insert('['..f..']('..baseurl
+		out_README_md:insert('['..f..']('..baseurl
 			..url.escape(f)
 				:gsub('%%2f','/')
 				:gsub('%%2e','.')
 			..')\n')
+		out_math_html:insert(
+			'<a href="'
+			..url.escape(f)
+				:gsub('%%2f','/')
+				:gsub('%%2e','.')
+			..'">'
+			..f
+			..'</a><br>')
 	end
 end)
 
 path'README.md':write( [[
 I'm just using this for URLs for the time being.
 
-]]..s:concat'\n')
+]]..out_README_md:concat'\n')
+
+path'math.html':write([[
+<!doctype html>
+<html>
+	<head>
+		<title>math</title>
+		<link rel='stylesheet' href='math/darkmode.css'></link>
+		<script type='text/javascript' src='math/darkmode.js'></script>
+	</head>
+	<body>
+]]..out_math_html:concat'\n'..[[
+	</body>
+</html>
+]])
