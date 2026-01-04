@@ -710,7 +710,9 @@ Output:
 
 [math/MHD/1 - Ideal Microscopic Magnetohydrodynamics.html](https://thenumbernine.github.io/math/MHD/1%20%2d%20Ideal%20Microscopic%20Magnetohydrodynamics.html)
 
-[math/MHD/2 - Macroscopic Magnetohydrodynamics.html](https://thenumbernine.github.io/math/MHD/2%20%2d%20Macroscopic%20Magnetohydrodynamics.html)
+[math/MHD/1.5 - Macroscopic Magnetohydrodynamics.html](https://thenumbernine.github.io/math/MHD/1.5%20%2d%20Macroscopic%20Magnetohydrodynamics.html)
+
+[math/MHD/2 - Ideal MHD - Curved Geometry - Contravariant.html](https://thenumbernine.github.io/math/MHD/2%20%2d%20Ideal%20MHD%20%2d%20Curved%20Geometry%20%2d%20Contravariant.html)
 
 [math/MHD/2 - Similarity Transform.html](https://thenumbernine.github.io/math/MHD/2%20%2d%20Similarity%20Transform.html)
 
