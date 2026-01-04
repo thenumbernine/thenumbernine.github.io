@@ -1,37 +1,83 @@
 #!/usr/bin/env rua
 local url = require 'socket.url'
 
-local base = [[https://thenumbernine.github.io/]]
+local echoreadproc = |cmd|do
+	io.stderr:write('... ', cmd, '\n')
+	return io.readproc(cmd)
+end
+local gitfiles = echoreadproc'git ls-files'
+	:trim()
+	:split'\n'
+	:mapi(string.trim)
+-- how well will this work with submodules?
+-- not well ... gitfileset only has directories of submodules.
+-- you will then have to go through the dirs and get their respective gitfilesets 
+local newgitfiles = table()
+for _,f in ipairs(gitfiles) do
+	f = path(f)
+	if not f:isdir() then
+		newgitfiles:insert(f)
+	else
+		local subgitfiles = echoreadproc('cd '..f:escape()..'; git ls-files')
+			:trim()
+			:split'\n'
+			:mapi(string.trim)
+		for _,sf in ipairs(subgitfiles) do
+			newgitfiles:insert((f/sf).path)
+			-- recurse here if you want, but I only have 1 layer of submodules so
+		end
+	end
+end
+gitfiles = newgitfiles
+newgitfiles = nil
+
+io.stderr:write(gitfiles:mapi(|name| 'gitfile:'..name):concat'\n'..'\n') -- debug output:
+
+local gitfileset = gitfiles:mapi(|name,i| (i,name)):setmetatable(nil)
+
+local baseurl = [[https://thenumbernine.github.io/]]
 
 local s = table{[[
 Output:
 ]]}
 
 table.wrapfor(path:rdir(|f, isdir|do
-	f = path(f)
-	local dir, name = f:getdir()
-	local _, ext = f:getext()
-	return name.path ~= '.git' and (
-		isdir
+	local dir, name = path(f):getdir()
+	if name.path == '.git' then return false end
+	local _, ext = name:getext()
+	-- [[ html, symmath, wxm, wxmx only
+	return isdir
 		or ext == 'html'
 		or ext == 'symmath'
-	)
+		or ext == 'wxm'
+		or ext == 'wxmx'
+	--]]
+	--[[ anything ... but this really means 'everything' ... the whole site basically.
+	return true
+	--]]
 end))
+:mapi(|f| f[1].path)
+:sort()
+-- [[ 
+:filter(|f|do
+	if not gitfileset[f] then
+		io.stderr:write('not in git: ', f, '\n')
+	else
+		return true
+	end
+end)
+--]]
 :mapi(|f|do
-	f = f[1].path
-	if f:sub(1,2) == './' then f = f:sub(3) end
-	return f
-end):sort():mapi(|f|do
-	local _, ext = path(f):getext()
-	if ext == 'html' then
-		s:insert('['..f..']('..base..
-			url.escape(f)
-				:gsub('%%2f','/')
-				:gsub('%%2e','.')
+	local name, ext = path(f):getext()
+	if ext == 'symmath' then
+		s:insert('['..f..']('..baseurl..'symmath/index.html?open=/'
+			..(f:match'^lua/(.*)$' or f)
 			..')\n')
 	else
-		s:insert('['..f..']('..base..'symmath/index.html?open=/'
-			..(f:match'^lua/(.*)$' or f)
+		s:insert('['..f..']('..baseurl
+			..url.escape(f)
+				:gsub('%%2f','/')
+				:gsub('%%2e','.')
 			..')\n')
 	end
 end)

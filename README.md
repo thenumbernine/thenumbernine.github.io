@@ -6,8 +6,6 @@ Output:
 
 [bank-game/index.html](https://thenumbernine.github.io/bank%2dgame/index.html)
 
-[bank-steam/index.html](https://thenumbernine.github.io/bank%2dsteam/index.html)
-
 [black-hole-skymap/index.html](https://thenumbernine.github.io/black%2dhole%2dskymap/index.html)
 
 [black-hole-skymap/testcube.html](https://thenumbernine.github.io/black%2dhole%2dskymap/testcube.html)
@@ -33,8 +31,6 @@ Output:
 [hydrodynamics/index-2d.html](https://thenumbernine.github.io/hydrodynamics/index%2d2d.html)
 
 [hydrodynamics/index.html](https://thenumbernine.github.io/hydrodynamics/index.html)
-
-[index.html](https://thenumbernine.github.io/index.html)
 
 [lua/seashell/eqns.html](https://thenumbernine.github.io/lua/seashell/eqns.html)
 
@@ -470,7 +466,7 @@ Output:
 
 [mario-kart-wii-stat-picker/index.html](https://thenumbernine.github.io/mario%2dkart%2dwii%2dstat%2dpicker/index.html)
 
-[math.html](https://thenumbernine.github.io/math.html)
+[math/1D ADM with source moved to flux.wxmx](https://thenumbernine.github.io/math/1D%20ADM%20with%20source%20moved%20to%20flux.wxmx)
 
 [math/3x3 transform dof decomposition.html](https://thenumbernine.github.io/math/3x3%20transform%20dof%20decomposition.html)
 
@@ -480,11 +476,67 @@ Output:
 
 [math/ADM connections.html](https://thenumbernine.github.io/math/ADM%20connections.html)
 
+[math/Alcubierre warp bubble.wxmx](https://thenumbernine.github.io/math/Alcubierre%20warp%20bubble.wxmx)
+
 [math/Antigravity.html](https://thenumbernine.github.io/math/Antigravity.html)
 
 [math/BSSNOK 1D.html](https://thenumbernine.github.io/math/BSSNOK%201D.html)
 
+[math/CFD/Error in most CFD literature.html](https://thenumbernine.github.io/math/CFD/Error%20in%20most%20CFD%20literature.html)
+
+[math/CFD/Euler Fluid Equations - 1D - Discrete Deriviative Hermitian.wxm](https://thenumbernine.github.io/math/CFD/Euler%20Fluid%20Equations%20%2d%201D%20%2d%20Discrete%20Deriviative%20Hermitian.wxm)
+
+[math/CFD/Euler Fluid Equations - 1D - Self Similar.wxmx](https://thenumbernine.github.io/math/CFD/Euler%20Fluid%20Equations%20%2d%201D%20%2d%20Self%20Similar.wxmx)
+
+[math/CFD/Euler Fluid Equations - 1D.wxm](https://thenumbernine.github.io/math/CFD/Euler%20Fluid%20Equations%20%2d%201D.wxm)
+
+[math/CFD/Euler Fluid Equations - 3D - Left Eigenvectors from Right in any Normal.wxmx](https://thenumbernine.github.io/math/CFD/Euler%20Fluid%20Equations%20%2d%203D%20%2d%20Left%20Eigenvectors%20from%20Right%20in%20any%20Normal.wxmx)
+
+[math/CFD/Euler Fluid Equations - 3D - Linear Stability Analysis.wxmx](https://thenumbernine.github.io/math/CFD/Euler%20Fluid%20Equations%20%2d%203D%20%2d%20Linear%20Stability%20Analysis.wxmx)
+
+[math/CFD/Euler Fluid Equations - 3D - Quasilinear.wxmx](https://thenumbernine.github.io/math/CFD/Euler%20Fluid%20Equations%20%2d%203D%20%2d%20Quasilinear.wxmx)
+
+[math/CFD/Euler Fluid Equations - 3D Curved Space Eigenvectors via Acoustic Tensor.wxmx](https://thenumbernine.github.io/math/CFD/Euler%20Fluid%20Equations%20%2d%203D%20Curved%20Space%20Eigenvectors%20via%20Acoustic%20Tensor.wxmx)
+
+[math/CFD/Euler Fluid Equations - 3D.wxmx](https://thenumbernine.github.io/math/CFD/Euler%20Fluid%20Equations%20%2d%203D.wxmx)
+
+[math/CFD/Euler Fluid Equations - Curved Geometry - Contravariant.html](https://thenumbernine.github.io/math/CFD/Euler%20Fluid%20Equations%20%2d%20Curved%20Geometry%20%2d%20Contravariant.html)
+
+[math/CFD/Euler Fluid Equations - Curved Geometry - Covariant.html](https://thenumbernine.github.io/math/CFD/Euler%20Fluid%20Equations%20%2d%20Curved%20Geometry%20%2d%20Covariant.html)
+
+[math/CFD/Euler Fluid Equations - Curved Space.wxmx](https://thenumbernine.github.io/math/CFD/Euler%20Fluid%20Equations%20%2d%20Curved%20Space.wxmx)
+
+[math/CFD/Euler Fluid Equations - Eigenmode Analysis 2.html](https://thenumbernine.github.io/math/CFD/Euler%20Fluid%20Equations%20%2d%20Eigenmode%20Analysis%202.html)
+
+[math/CFD/Euler Fluid Equations - Eigenmode Analysis.html](https://thenumbernine.github.io/math/CFD/Euler%20Fluid%20Equations%20%2d%20Eigenmode%20Analysis.html)
+
+[math/CFD/Euler Fluid Equations - Entropy Function.html](https://thenumbernine.github.io/math/CFD/Euler%20Fluid%20Equations%20%2d%20Entropy%20Function.html)
+
+[math/CFD/HLLC.wxm](https://thenumbernine.github.io/math/CFD/HLLC.wxm)
+
+[math/CFD/Hydrodynamics Entropy Flux.wxmx](https://thenumbernine.github.io/math/CFD/Hydrodynamics%20Entropy%20Flux.wxmx)
+
+[math/CFD/Navier-Stokes As Exterior Derivative.html](https://thenumbernine.github.io/math/CFD/Navier%2dStokes%20As%20Exterior%20Derivative.html)
+
+[math/CFD/Navier-Stokes Curl Advection.html](https://thenumbernine.github.io/math/CFD/Navier%2dStokes%20Curl%20Advection.html)
+
+[math/CFD/Navier-Stokes Wilcox.wxmx](https://thenumbernine.github.io/math/CFD/Navier%2dStokes%20Wilcox.wxmx)
+
+[math/CFD/Navier-Stokes-Wilcox.html](https://thenumbernine.github.io/math/CFD/Navier%2dStokes%2dWilcox.html)
+
+[math/CFD/Navier-Stokes.html](https://thenumbernine.github.io/math/CFD/Navier%2dStokes.html)
+
+[math/CFD/SRHD Equations.wxmx](https://thenumbernine.github.io/math/CFD/SRHD%20Equations.wxmx)
+
+[math/CFD/SRHD v2.wxmx](https://thenumbernine.github.io/math/CFD/SRHD%20v2.wxmx)
+
+[math/CFD/SRHD.html](https://thenumbernine.github.io/math/CFD/SRHD.html)
+
+[math/CFD/Shallow Water.html](https://thenumbernine.github.io/math/CFD/Shallow%20Water.html)
+
 [math/Cayley-Dickson.html](https://thenumbernine.github.io/math/Cayley%2dDickson.html)
+
+[math/Classifying 2x2 Eigenvectors.wxmx](https://thenumbernine.github.io/math/Classifying%202x2%20Eigenvectors.wxmx)
 
 [math/Curvature From Lower Dimensions.html](https://thenumbernine.github.io/math/Curvature%20From%20Lower%20Dimensions.html)
 
@@ -564,6 +616,8 @@ Output:
 
 [math/EMHD Hyperbolic Conservation Laws.html](https://thenumbernine.github.io/math/EMHD%20Hyperbolic%20Conservation%20Laws.html)
 
+[math/EMHD Hyperbolic Conservation Laws.wxmx](https://thenumbernine.github.io/math/EMHD%20Hyperbolic%20Conservation%20Laws.wxmx)
+
 [math/EMHD Linear Stability Analysis.html](https://thenumbernine.github.io/math/EMHD%20Linear%20Stability%20Analysis.html)
 
 [math/Earth Rotation Geodesic Twisting.html](https://thenumbernine.github.io/math/Earth%20Rotation%20Geodesic%20Twisting.html)
@@ -571,6 +625,8 @@ Output:
 [math/Einstein Equations, Weak Field, De-Donder Gauge.html](https://thenumbernine.github.io/math/Einstein%20Equations%2c%20Weak%20Field%2c%20De%2dDonder%20Gauge.html)
 
 [math/Einstein-Maxwell Hyperbolic Conservation Laws.html](https://thenumbernine.github.io/math/Einstein%2dMaxwell%20Hyperbolic%20Conservation%20Laws.html)
+
+[math/Einstein-Maxwell Hyperbolic Conservation Laws.wxmx](https://thenumbernine.github.io/math/Einstein%2dMaxwell%20Hyperbolic%20Conservation%20Laws.wxmx)
 
 [math/Electromagnetism/0 - intro.html](https://thenumbernine.github.io/math/Electromagnetism/0%20%2d%20intro.html)
 
@@ -592,7 +648,11 @@ Output:
 
 [math/Electromagnetism/Maxwell equations in hyperbolic form.html](https://thenumbernine.github.io/math/Electromagnetism/Maxwell%20equations%20in%20hyperbolic%20form.html)
 
+[math/Electromagnetism/Maxwell equations in hyperbolic form.wxmx](https://thenumbernine.github.io/math/Electromagnetism/Maxwell%20equations%20in%20hyperbolic%20form.wxmx)
+
 [math/Electromagnetism/Maxwell in inhomogeneous medium.html](https://thenumbernine.github.io/math/Electromagnetism/Maxwell%20in%20inhomogeneous%20medium.html)
+
+[math/Electromagnetism/Maxwell in inhomogeneous medium.wxmx](https://thenumbernine.github.io/math/Electromagnetism/Maxwell%20in%20inhomogeneous%20medium.wxmx)
 
 [math/Electromagnetism/Maxwell octonions.html](https://thenumbernine.github.io/math/Electromagnetism/Maxwell%20octonions.html)
 
@@ -600,23 +660,15 @@ Output:
 
 [math/Equations of Structure - Schwarzschild.html](https://thenumbernine.github.io/math/Equations%20of%20Structure%20%2d%20Schwarzschild.html)
 
-[math/Error in most CFD literature.html](https://thenumbernine.github.io/math/Error%20in%20most%20CFD%20literature.html)
-
-[math/Euler Fluid Equations - Curved Geometry - Contravariant.html](https://thenumbernine.github.io/math/Euler%20Fluid%20Equations%20%2d%20Curved%20Geometry%20%2d%20Contravariant.html)
-
-[math/Euler Fluid Equations - Curved Geometry - Covariant.html](https://thenumbernine.github.io/math/Euler%20Fluid%20Equations%20%2d%20Curved%20Geometry%20%2d%20Covariant.html)
-
-[math/Euler Fluid Equations - Eigenmode Analysis 2.html](https://thenumbernine.github.io/math/Euler%20Fluid%20Equations%20%2d%20Eigenmode%20Analysis%202.html)
-
-[math/Euler Fluid Equations - Eigenmode Analysis.html](https://thenumbernine.github.io/math/Euler%20Fluid%20Equations%20%2d%20Eigenmode%20Analysis.html)
-
-[math/Euler Fluid Equations - Entropy Function.html](https://thenumbernine.github.io/math/Euler%20Fluid%20Equations%20%2d%20Entropy%20Function.html)
-
 [math/Feed-Forward Neural Network.html](https://thenumbernine.github.io/math/Feed%2dForward%20Neural%20Network.html)
 
 [math/Finite Volume Methods.html](https://thenumbernine.github.io/math/Finite%20Volume%20Methods.html)
 
+[math/Following Toy 1 plus 1 Spacetime.wxm](https://thenumbernine.github.io/math/Following%20Toy%201%20plus%201%20Spacetime.wxm)
+
 [math/GEM force on a rotating object.html](https://thenumbernine.github.io/math/GEM%20force%20on%20a%20rotating%20object.html)
+
+[math/GR EM Metrics/Complex Metric - Spatial Components.wxmx](https://thenumbernine.github.io/math/GR%20EM%20Metrics/Complex%20Metric%20%2d%20Spatial%20Components.wxmx)
 
 [math/GR EM Metrics/complex metric of EM potential.html](https://thenumbernine.github.io/math/GR%20EM%20Metrics/complex%20metric%20of%20EM%20potential.html)
 
@@ -654,9 +706,25 @@ Output:
 
 [math/Lichtenberg.html](https://thenumbernine.github.io/math/Lichtenberg.html)
 
-[math/MHD - Eigenmode Analysis.html](https://thenumbernine.github.io/math/MHD%20%2d%20Eigenmode%20Analysis.html)
+[math/MHD/0 - Euler Fluid Equations.html](https://thenumbernine.github.io/math/MHD/0%20%2d%20Euler%20Fluid%20Equations.html)
 
-[math/MHD.html](https://thenumbernine.github.io/math/MHD.html)
+[math/MHD/1 - Ideal Microscopic Magnetohydrodynamics.html](https://thenumbernine.github.io/math/MHD/1%20%2d%20Ideal%20Microscopic%20Magnetohydrodynamics.html)
+
+[math/MHD/2 - Macroscopic Magnetohydrodynamics.html](https://thenumbernine.github.io/math/MHD/2%20%2d%20Macroscopic%20Magnetohydrodynamics.html)
+
+[math/MHD/2 - Similarity Transform.html](https://thenumbernine.github.io/math/MHD/2%20%2d%20Similarity%20Transform.html)
+
+[math/MHD/MHD - Eigenmode Analysis.html](https://thenumbernine.github.io/math/MHD/MHD%20%2d%20Eigenmode%20Analysis.html)
+
+[math/MHD/MHD A-wave.html](https://thenumbernine.github.io/math/MHD/MHD%20A%2dwave.html)
+
+[math/MHD/MHD Eigenvector Inverse again.wxm](https://thenumbernine.github.io/math/MHD/MHD%20Eigenvector%20Inverse%20again.wxm)
+
+[math/MHD/MHD Equations - Athena and Ravi.wxmx](https://thenumbernine.github.io/math/MHD/MHD%20Equations%20%2d%20Athena%20and%20Ravi.wxmx)
+
+[math/MHD/MHD Equations - Jameson - Symmetrized.wxm](https://thenumbernine.github.io/math/MHD/MHD%20Equations%20%2d%20Jameson%20%2d%20Symmetrized.wxm)
+
+[math/MHD/sources.html](https://thenumbernine.github.io/math/MHD/sources.html)
 
 [math/Measure of Any Simplex in Any Dimension.html](https://thenumbernine.github.io/math/Measure%20of%20Any%20Simplex%20in%20Any%20Dimension.html)
 
@@ -665,14 +733,6 @@ Output:
 [math/Metric Eigenmodes.html](https://thenumbernine.github.io/math/Metric%20Eigenmodes.html)
 
 [math/Metric for extruded dimension.html](https://thenumbernine.github.io/math/Metric%20for%20extruded%20dimension.html)
-
-[math/Navier-Stokes As Exterior Derivative.html](https://thenumbernine.github.io/math/Navier%2dStokes%20As%20Exterior%20Derivative.html)
-
-[math/Navier-Stokes Curl Advection.html](https://thenumbernine.github.io/math/Navier%2dStokes%20Curl%20Advection.html)
-
-[math/Navier-Stokes-Wilcox.html](https://thenumbernine.github.io/math/Navier%2dStokes%2dWilcox.html)
-
-[math/Navier-Stokes.html](https://thenumbernine.github.io/math/Navier%2dStokes.html)
 
 [math/Numerical Relativity/1 intro.html](https://thenumbernine.github.io/math/Numerical%20Relativity/1%20intro.html)
 
@@ -720,11 +780,9 @@ Output:
 
 [math/Riemann From Stress-Energy.html](https://thenumbernine.github.io/math/Riemann%20From%20Stress%2dEnergy.html)
 
-[math/SRHD.html](https://thenumbernine.github.io/math/SRHD.html)
+[math/Schwarzschild spherical to cartesian.wxmx](https://thenumbernine.github.io/math/Schwarzschild%20spherical%20to%20cartesian.wxmx)
 
 [math/Schwarzschild with mass varying with time.html](https://thenumbernine.github.io/math/Schwarzschild%20with%20mass%20varying%20with%20time.html)
-
-[math/Shallow Water.html](https://thenumbernine.github.io/math/Shallow%20Water.html)
 
 [math/Solving Connections From Riemann.html](https://thenumbernine.github.io/math/Solving%20Connections%20From%20Riemann.html)
 
@@ -733,6 +791,8 @@ Output:
 [math/Tetrad General Relativity.html](https://thenumbernine.github.io/math/Tetrad%20General%20Relativity.html)
 
 [math/Tetration Derivative.html](https://thenumbernine.github.io/math/Tetration%20Derivative.html)
+
+[math/Thoughts on EM metrics.wxmx](https://thenumbernine.github.io/math/Thoughts%20on%20EM%20metrics.wxmx)
 
 [math/Two-Fluid Plasma and GEM/0 - following Tajmar and De Matos paper.html](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/0%20%2d%20following%20Tajmar%20and%20De%20Matos%20paper.html)
 
@@ -753,6 +813,10 @@ Output:
 [math/Two-Fluid Plasma and GEM/7.2 - normalized units.html](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/7.2%20%2d%20normalized%20units.html)
 
 [math/Two-Fluid Plasma and GEM/8 - two-fluid plasma model.html](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/8%20%2d%20two%2dfluid%20plasma%20model.html)
+
+[math/Z4 1D v2 with no shift.wxmx](https://thenumbernine.github.io/math/Z4%201D%20v2%20with%20no%20shift.wxmx)
+
+[math/Z4 1D with no shift.wxmx](https://thenumbernine.github.io/math/Z4%201D%20with%20no%20shift.wxmx)
 
 [math/a note on the definition of tensors.html](https://thenumbernine.github.io/math/a%20note%20on%20the%20definition%20of%20tensors.html)
 
@@ -788,9 +852,13 @@ Output:
 
 [math/twisted spacetime.html](https://thenumbernine.github.io/math/twisted%20spacetime.html)
 
+[math/wave equation hyperbolic form flux jacobian eigensystems.wxmx](https://thenumbernine.github.io/math/wave%20equation%20hyperbolic%20form%20flux%20jacobian%20eigensystems.wxmx)
+
 [math/wave equation hyperbolic form.html](https://thenumbernine.github.io/math/wave%20equation%20hyperbolic%20form.html)
 
 [math/wave equation in curved spacetime - finite difference.html](https://thenumbernine.github.io/math/wave%20equation%20in%20curved%20spacetime%20%2d%20finite%20difference.html)
+
+[math/wave equation with metric of space and time - based on bssnok-scalar.wxmx](https://thenumbernine.github.io/math/wave%20equation%20with%20metric%20of%20space%20and%20time%20%2d%20based%20on%20bssnok%2dscalar.wxmx)
 
 [math/wave_metric_1.html](https://thenumbernine.github.io/math/wave_metric_1.html)
 
@@ -833,8 +901,6 @@ Output:
 [stupidrpg-game/index.html](https://thenumbernine.github.io/stupidrpg%2dgame/index.html)
 
 [swinekeeper/index.html](https://thenumbernine.github.io/swinekeeper/index.html)
-
-[symmath/index.html](https://thenumbernine.github.io/symmath/index.html)
 
 [thomas-precession/index.html](https://thenumbernine.github.io/thomas%2dprecession/index.html)
 
