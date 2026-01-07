@@ -54,6 +54,8 @@ Output:
 
 [lua/symmath/tests/Kaluza-Klein.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/Kaluza-Klein.symmath)
 
+[lua/symmath/tests/MHD - flux eigenvectors.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/MHD - flux eigenvectors.symmath)
+
 [lua/symmath/tests/Octonions.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/Octonions.symmath)
 
 [lua/symmath/tests/Riemann From Stress-Energy.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/Riemann From Stress-Energy.symmath)
