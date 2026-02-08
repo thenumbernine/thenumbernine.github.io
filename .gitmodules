@@ -361,7 +361,12 @@
 [submodule "universe"]
 	path = universe
 	url = https://github.com/thenumbernine/universe.git
+	branch = master
 [submodule "solarsystem"]
 	path = solarsystem
 	url = https://github.com/thenumbernine/solarsystem.git
+	branch = master
+[submodule "lua/stl"]
+	path = lua/stl
+	url = https://github.com/thenumbernine/lua-stl
 	branch = master
