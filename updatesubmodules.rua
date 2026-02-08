@@ -1,0 +1,7 @@
+#!/usr/bin/env rua
+-- how come this always takes me forever to do and always requires different commands each time ...
+local gits = io.readproc'find . -name .git':trim():split'\n':mapi(string.trim)
+assert(gits:removeObject'./.git')
+for _,git in ipairs(gits) do
+	print(os.exec('cd '..path(git):getdir():escape()..' && git pull'))
+end
