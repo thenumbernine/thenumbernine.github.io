@@ -337,21 +337,31 @@
 [submodule "lua/zeta2d"]
 	path = lua/zeta2d
 	url = https://github.com/thenumbernine/zeta-lua
+	branch = master
 [submodule "lua/simplexnoise"]
 	path = lua/simplexnoise
 	url = https://github.com/thenumbernine/lua-simplexnoise
+	branch = master
 [submodule "lua/gravitational-waves"]
 	path = lua/gravitational-waves
 	url = https://github.com/thenumbernine/gravitational-waves-lua
+	branch = master
 [submodule "lua/earthquake-shear-lines"]
 	path = lua/earthquake-shear-lines
 	url = https://github.com/thenumbernine/earthquake-shear-lines
+	branch = master
 [submodule "lua/cayley-dickson"]
 	path = lua/cayley-dickson
 	url = https://github.com/thenumbernine/cayley-dickson
+	branch = master
 [submodule "lua/force-directed-graph"]
 	path = lua/force-directed-graph
 	url = https://github.com/thenumbernine/force-directed-graph-lua
+	branch = master
 [submodule "universe"]
 	path = universe
 	url = https://github.com/thenumbernine/universe.git
+[submodule "solarsystem"]
+	path = solarsystem
+	url = https://github.com/thenumbernine/solarsystem.git
+	branch = master
