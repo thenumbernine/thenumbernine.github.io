@@ -3,5 +3,9 @@
 local gits = io.readproc'find . -name .git':trim():split'\n':mapi(string.trim)
 assert(gits:removeObject'./.git')
 for _,git in ipairs(gits) do
-	print(os.exec('cd '..path(git):getdir():escape()..' && git pull'))
+	-- vanilla
+	--print(os.exec('cd '..path(git):getdir():escape()..' && git pull'))
+	-- concise
+	print(os.exec('cd '..path(git):getdir():escape()..' && ../lua/git/git.sh pull'))
+	-- and TODO somehow tell git.sh to run on all *except* ./.git and then it can do this in parallel...
 end
