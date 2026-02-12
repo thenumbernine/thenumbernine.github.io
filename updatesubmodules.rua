@@ -1,11 +1,13 @@
 #!/usr/bin/env rua
 -- how come this always takes me forever to do and always requires different commands each time ...
 local gits = io.readproc'find . -name .git':trim():split'\n':mapi(string.trim)
+local rundir = path:cwd()
 assert(gits:removeObject'./.git')
 for _,git in ipairs(gits) do
 	-- vanilla
-	--print(os.exec('cd '..path(git):getdir():escape()..' && git pull'))
+	print(os.exec('cd '..path(git):getdir():escape()..' && git pull'))
 	-- concise
-	print(os.exec('cd '..path(git):getdir():escape()..' && ../lua/git/git.sh pull'))
+	--print(os.exec('cd '..path(git):getdir():escape()..' && "'..rundir..'/../lua/git/git.sh" pull'))
+	-- (doing nothing, TODO fixme)
 	-- and TODO somehow tell git.sh to run on all *except* ./.git and then it can do this in parallel...
 end
