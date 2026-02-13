@@ -23,7 +23,7 @@
 	url = https://github.com/thenumbernine/lua-gl
 	branch = master
 [submodule "lua/glapp"]
-	path = lua/glapp
+	path = lua/app3d
 	url = https://github.com/thenumbernine/lua-glapp
 	branch = master
 [submodule "lua/bit"]
