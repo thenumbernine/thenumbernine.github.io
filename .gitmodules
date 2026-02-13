@@ -370,3 +370,7 @@
 	path = lua/stl
 	url = https://github.com/thenumbernine/lua-stl
 	branch = master
+[submodule "lua/chinese-checkers-on-sphere"]
+	path = lua/chinese-checkers-on-sphere
+	url = https://github.com/thenumbernine/chinese-checkers-on-sphere-lua
+	branch = master
