@@ -1,4 +1,4 @@
 name = "dkjson"
 files = {
-	["dkjson.lua"] = "dkjson.lua",
+	"dkjson.lua",
 }
