@@ -370,3 +370,6 @@
 	path = lua/chinese-checkers-on-sphere
 	url = https://github.com/thenumbernine/chinese-checkers-on-sphere-lua
 	branch = master
+[submodule "lua/ff6"]
+	path = lua/ff6
+	url = https://github.com/thenumbernine/ff6lib-lua
