@@ -56,6 +56,8 @@ Output:
 
 [lua/symmath/tests/MHD - flux eigenvectors.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/MHD - flux eigenvectors.symmath)
 
+[lua/symmath/tests/MHD - primitive form.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/MHD - primitive form.symmath)
+
 [lua/symmath/tests/Octonions.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/Octonions.symmath)
 
 [lua/symmath/tests/Riemann From Stress-Energy.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/Riemann From Stress-Energy.symmath)
@@ -899,6 +901,8 @@ Output:
 [octonion-multiplication-table/index.html](https://thenumbernine.github.io/octonion%2dmultiplication%2dtable/index.html)
 
 [poisson-solver/index.html](https://thenumbernine.github.io/poisson%2dsolver/index.html)
+
+[solarsystem/index.html](https://thenumbernine.github.io/solarsystem/index.html)
 
 [space-game/index.html](https://thenumbernine.github.io/space%2dgame/index.html)
 
