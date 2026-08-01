@@ -68,6 +68,18 @@ Output:
 
 [lua/symmath/tests/Z4 metric-invariant.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/Z4 metric-invariant.symmath)
 
+[lua/symmath/tests/plane wave MTW 35.11.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/plane wave MTW 35.11.symmath)
+
+[lua/symmath/tests/plane wave MTW 35.9.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/plane wave MTW 35.9.symmath)
+
+[lua/symmath/tests/speed of light to length of day.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/speed of light to length of day.symmath)
+
+[lua/symmath/tests/spinors and tensor charts.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/spinors and tensor charts.symmath)
+
+[lua/symmath/tests/worksheet_spherical_metric.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/worksheet_spherical_metric.symmath)
+
+[lua/symmath/tests/worksheet_spherical_metric_using_eqs.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/worksheet_spherical_metric_using_eqs.symmath)
+
 [lua/symmath/tests/output/ADM Levi-Civita.html](https://thenumbernine.github.io/lua/symmath/tests/output/ADM%20Levi%2dCivita.html)
 
 [lua/symmath/tests/output/ADM formalism.html](https://thenumbernine.github.io/lua/symmath/tests/output/ADM%20formalism.html)
@@ -155,6 +167,68 @@ Output:
 [lua/symmath/tests/output/Newton method.html](https://thenumbernine.github.io/lua/symmath/tests/output/Newton%20method.html)
 
 [lua/symmath/tests/output/Platonic Solids.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids.html)
+
+[lua/symmath/tests/output/SRHD.html](https://thenumbernine.github.io/lua/symmath/tests/output/SRHD.html)
+
+[lua/symmath/tests/output/SRHD_1D.html](https://thenumbernine.github.io/lua/symmath/tests/output/SRHD_1D.html)
+
+[lua/symmath/tests/output/Schwarzschild - isotropic.html](https://thenumbernine.github.io/lua/symmath/tests/output/Schwarzschild%20%2d%20isotropic.html)
+
+[lua/symmath/tests/output/Schwarzschild - spherical - derivation - varying time 2.html](https://thenumbernine.github.io/lua/symmath/tests/output/Schwarzschild%20%2d%20spherical%20%2d%20derivation%20%2d%20varying%20time%202.html)
+
+[lua/symmath/tests/output/Schwarzschild - spherical - derivation - varying time.html](https://thenumbernine.github.io/lua/symmath/tests/output/Schwarzschild%20%2d%20spherical%20%2d%20derivation%20%2d%20varying%20time.html)
+
+[lua/symmath/tests/output/Schwarzschild - spherical - derivation.html](https://thenumbernine.github.io/lua/symmath/tests/output/Schwarzschild%20%2d%20spherical%20%2d%20derivation.html)
+
+[lua/symmath/tests/output/Schwarzschild - spherical - mass varying with time.html](https://thenumbernine.github.io/lua/symmath/tests/output/Schwarzschild%20%2d%20spherical%20%2d%20mass%20varying%20with%20time.html)
+
+[lua/symmath/tests/output/Schwarzschild - spherical.html](https://thenumbernine.github.io/lua/symmath/tests/output/Schwarzschild%20%2d%20spherical.html)
+
+[lua/symmath/tests/output/Shallow Water equations - flux eigenvectors.html](https://thenumbernine.github.io/lua/symmath/tests/output/Shallow%20Water%20equations%20%2d%20flux%20eigenvectors.html)
+
+[lua/symmath/tests/output/TOV.html](https://thenumbernine.github.io/lua/symmath/tests/output/TOV.html)
+
+[lua/symmath/tests/output/Z4.html](https://thenumbernine.github.io/lua/symmath/tests/output/Z4.html)
+
+[lua/symmath/tests/output/black hole brain.html](https://thenumbernine.github.io/lua/symmath/tests/output/black%20hole%20brain.html)
+
+[lua/symmath/tests/output/hydrodynamics.html](https://thenumbernine.github.io/lua/symmath/tests/output/hydrodynamics.html)
+
+[lua/symmath/tests/output/hyperbolic gamma driver in ADM terms.html](https://thenumbernine.github.io/lua/symmath/tests/output/hyperbolic%20gamma%20driver%20in%20ADM%20terms.html)
+
+[lua/symmath/tests/output/imperial units.html](https://thenumbernine.github.io/lua/symmath/tests/output/imperial%20units.html)
+
+[lua/symmath/tests/output/metric catalog.html](https://thenumbernine.github.io/lua/symmath/tests/output/metric%20catalog.html)
+
+[lua/symmath/tests/output/natural units.html](https://thenumbernine.github.io/lua/symmath/tests/output/natural%20units.html)
+
+[lua/symmath/tests/output/numeric integration.html](https://thenumbernine.github.io/lua/symmath/tests/output/numeric%20integration.html)
+
+[lua/symmath/tests/output/remove beta from adm metric.html](https://thenumbernine.github.io/lua/symmath/tests/output/remove%20beta%20from%20adm%20metric.html)
+
+[lua/symmath/tests/output/rotation group.html](https://thenumbernine.github.io/lua/symmath/tests/output/rotation%20group.html)
+
+[lua/symmath/tests/output/scalar metric.html](https://thenumbernine.github.io/lua/symmath/tests/output/scalar%20metric.html)
+
+[lua/symmath/tests/output/simple_ag.html](https://thenumbernine.github.io/lua/symmath/tests/output/simple_ag.html)
+
+[lua/symmath/tests/output/spacetime embedding radius.html](https://thenumbernine.github.io/lua/symmath/tests/output/spacetime%20embedding%20radius.html)
+
+[lua/symmath/tests/output/spinors.html](https://thenumbernine.github.io/lua/symmath/tests/output/spinors.html)
+
+[lua/symmath/tests/output/spring force.html](https://thenumbernine.github.io/lua/symmath/tests/output/spring%20force.html)
+
+[lua/symmath/tests/output/sum of two metrics.html](https://thenumbernine.github.io/lua/symmath/tests/output/sum%20of%20two%20metrics.html)
+
+[lua/symmath/tests/output/symbols.html](https://thenumbernine.github.io/lua/symmath/tests/output/symbols.html)
+
+[lua/symmath/tests/output/tensor coordinate invariance.html](https://thenumbernine.github.io/lua/symmath/tests/output/tensor%20coordinate%20invariance.html)
+
+[lua/symmath/tests/output/toy-1+1 spacetime.html](https://thenumbernine.github.io/lua/symmath/tests/output/toy%2d1%2b1%20spacetime.html)
+
+[lua/symmath/tests/output/wave equation in spacetime - flux eigenvectors.html](https://thenumbernine.github.io/lua/symmath/tests/output/wave%20equation%20in%20spacetime%20%2d%20flux%20eigenvectors.html)
+
+[lua/symmath/tests/output/wave equation in spacetime.html](https://thenumbernine.github.io/lua/symmath/tests/output/wave%20equation%20in%20spacetime.html)
 
 [lua/symmath/tests/output/Platonic Solids/120-cell vertex inner products.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/120%2dcell%20vertex%20inner%20products.html)
 
@@ -266,30 +340,6 @@ Output:
 
 [lua/symmath/tests/output/Platonic Solids/Tetrahedron.html](https://thenumbernine.github.io/lua/symmath/tests/output/Platonic%20Solids/Tetrahedron.html)
 
-[lua/symmath/tests/output/SRHD.html](https://thenumbernine.github.io/lua/symmath/tests/output/SRHD.html)
-
-[lua/symmath/tests/output/SRHD_1D.html](https://thenumbernine.github.io/lua/symmath/tests/output/SRHD_1D.html)
-
-[lua/symmath/tests/output/Schwarzschild - isotropic.html](https://thenumbernine.github.io/lua/symmath/tests/output/Schwarzschild%20%2d%20isotropic.html)
-
-[lua/symmath/tests/output/Schwarzschild - spherical - derivation - varying time 2.html](https://thenumbernine.github.io/lua/symmath/tests/output/Schwarzschild%20%2d%20spherical%20%2d%20derivation%20%2d%20varying%20time%202.html)
-
-[lua/symmath/tests/output/Schwarzschild - spherical - derivation - varying time.html](https://thenumbernine.github.io/lua/symmath/tests/output/Schwarzschild%20%2d%20spherical%20%2d%20derivation%20%2d%20varying%20time.html)
-
-[lua/symmath/tests/output/Schwarzschild - spherical - derivation.html](https://thenumbernine.github.io/lua/symmath/tests/output/Schwarzschild%20%2d%20spherical%20%2d%20derivation.html)
-
-[lua/symmath/tests/output/Schwarzschild - spherical - mass varying with time.html](https://thenumbernine.github.io/lua/symmath/tests/output/Schwarzschild%20%2d%20spherical%20%2d%20mass%20varying%20with%20time.html)
-
-[lua/symmath/tests/output/Schwarzschild - spherical.html](https://thenumbernine.github.io/lua/symmath/tests/output/Schwarzschild%20%2d%20spherical.html)
-
-[lua/symmath/tests/output/Shallow Water equations - flux eigenvectors.html](https://thenumbernine.github.io/lua/symmath/tests/output/Shallow%20Water%20equations%20%2d%20flux%20eigenvectors.html)
-
-[lua/symmath/tests/output/TOV.html](https://thenumbernine.github.io/lua/symmath/tests/output/TOV.html)
-
-[lua/symmath/tests/output/Z4.html](https://thenumbernine.github.io/lua/symmath/tests/output/Z4.html)
-
-[lua/symmath/tests/output/black hole brain.html](https://thenumbernine.github.io/lua/symmath/tests/output/black%20hole%20brain.html)
-
 [lua/symmath/tests/output/electrovacuum/black hole electron.html](https://thenumbernine.github.io/lua/symmath/tests/output/electrovacuum/black%20hole%20electron.html)
 
 [lua/symmath/tests/output/electrovacuum/general case.html](https://thenumbernine.github.io/lua/symmath/tests/output/electrovacuum/general%20case.html)
@@ -305,14 +355,6 @@ Output:
 [lua/symmath/tests/output/electrovacuum/uniform field - spherical.html](https://thenumbernine.github.io/lua/symmath/tests/output/electrovacuum/uniform%20field%20%2d%20spherical.html)
 
 [lua/symmath/tests/output/electrovacuum/verify cylindrical transform.html](https://thenumbernine.github.io/lua/symmath/tests/output/electrovacuum/verify%20cylindrical%20transform.html)
-
-[lua/symmath/tests/output/hydrodynamics.html](https://thenumbernine.github.io/lua/symmath/tests/output/hydrodynamics.html)
-
-[lua/symmath/tests/output/hyperbolic gamma driver in ADM terms.html](https://thenumbernine.github.io/lua/symmath/tests/output/hyperbolic%20gamma%20driver%20in%20ADM%20terms.html)
-
-[lua/symmath/tests/output/imperial units.html](https://thenumbernine.github.io/lua/symmath/tests/output/imperial%20units.html)
-
-[lua/symmath/tests/output/metric catalog.html](https://thenumbernine.github.io/lua/symmath/tests/output/metric%20catalog.html)
 
 [lua/symmath/tests/output/metric catalog/Cartesian, coordinate.html](https://thenumbernine.github.io/lua/symmath/tests/output/metric%20catalog/Cartesian%2c%20coordinate.html)
 
@@ -370,32 +412,6 @@ Output:
 
 [lua/symmath/tests/output/metric catalog/torus surface, coordinate.html](https://thenumbernine.github.io/lua/symmath/tests/output/metric%20catalog/torus%20surface%2c%20coordinate.html)
 
-[lua/symmath/tests/output/natural units.html](https://thenumbernine.github.io/lua/symmath/tests/output/natural%20units.html)
-
-[lua/symmath/tests/output/numeric integration.html](https://thenumbernine.github.io/lua/symmath/tests/output/numeric%20integration.html)
-
-[lua/symmath/tests/output/remove beta from adm metric.html](https://thenumbernine.github.io/lua/symmath/tests/output/remove%20beta%20from%20adm%20metric.html)
-
-[lua/symmath/tests/output/rotation group.html](https://thenumbernine.github.io/lua/symmath/tests/output/rotation%20group.html)
-
-[lua/symmath/tests/output/scalar metric.html](https://thenumbernine.github.io/lua/symmath/tests/output/scalar%20metric.html)
-
-[lua/symmath/tests/output/simple_ag.html](https://thenumbernine.github.io/lua/symmath/tests/output/simple_ag.html)
-
-[lua/symmath/tests/output/spacetime embedding radius.html](https://thenumbernine.github.io/lua/symmath/tests/output/spacetime%20embedding%20radius.html)
-
-[lua/symmath/tests/output/spinors.html](https://thenumbernine.github.io/lua/symmath/tests/output/spinors.html)
-
-[lua/symmath/tests/output/spring force.html](https://thenumbernine.github.io/lua/symmath/tests/output/spring%20force.html)
-
-[lua/symmath/tests/output/sum of two metrics.html](https://thenumbernine.github.io/lua/symmath/tests/output/sum%20of%20two%20metrics.html)
-
-[lua/symmath/tests/output/symbols.html](https://thenumbernine.github.io/lua/symmath/tests/output/symbols.html)
-
-[lua/symmath/tests/output/tensor coordinate invariance.html](https://thenumbernine.github.io/lua/symmath/tests/output/tensor%20coordinate%20invariance.html)
-
-[lua/symmath/tests/output/toy-1+1 spacetime.html](https://thenumbernine.github.io/lua/symmath/tests/output/toy%2d1%2b1%20spacetime.html)
-
 [lua/symmath/tests/output/unit/Matrix eigen.html](https://thenumbernine.github.io/lua/symmath/tests/output/unit/Matrix%20eigen.html)
 
 [lua/symmath/tests/output/unit/Variable dependsOn.html](https://thenumbernine.github.io/lua/symmath/tests/output/unit/Variable%20dependsOn.html)
@@ -452,22 +468,6 @@ Output:
 
 [lua/symmath/tests/output/unit/tidyIndexes.html](https://thenumbernine.github.io/lua/symmath/tests/output/unit/tidyIndexes.html)
 
-[lua/symmath/tests/output/wave equation in spacetime - flux eigenvectors.html](https://thenumbernine.github.io/lua/symmath/tests/output/wave%20equation%20in%20spacetime%20%2d%20flux%20eigenvectors.html)
-
-[lua/symmath/tests/output/wave equation in spacetime.html](https://thenumbernine.github.io/lua/symmath/tests/output/wave%20equation%20in%20spacetime.html)
-
-[lua/symmath/tests/plane wave MTW 35.11.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/plane wave MTW 35.11.symmath)
-
-[lua/symmath/tests/plane wave MTW 35.9.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/plane wave MTW 35.9.symmath)
-
-[lua/symmath/tests/speed of light to length of day.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/speed of light to length of day.symmath)
-
-[lua/symmath/tests/spinors and tensor charts.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/spinors and tensor charts.symmath)
-
-[lua/symmath/tests/worksheet_spherical_metric.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/worksheet_spherical_metric.symmath)
-
-[lua/symmath/tests/worksheet_spherical_metric_using_eqs.symmath](https://thenumbernine.github.io/symmath/index.html?open=/symmath/tests/worksheet_spherical_metric_using_eqs.symmath)
-
 [mario-kart-wii-stat-picker/index.html](https://thenumbernine.github.io/mario%2dkart%2dwii%2dstat%2dpicker/index.html)
 
 [math/1D ADM with source moved to flux.wxmx](https://thenumbernine.github.io/math/1D%20ADM%20with%20source%20moved%20to%20flux.wxmx)
@@ -485,6 +485,144 @@ Output:
 [math/Antigravity.html](https://thenumbernine.github.io/math/Antigravity.html)
 
 [math/BSSNOK 1D.html](https://thenumbernine.github.io/math/BSSNOK%201D.html)
+
+[math/Cayley-Dickson.html](https://thenumbernine.github.io/math/Cayley%2dDickson.html)
+
+[math/Classifying 2x2 Eigenvectors.wxmx](https://thenumbernine.github.io/math/Classifying%202x2%20Eigenvectors.wxmx)
+
+[math/Curvature From Lower Dimensions.html](https://thenumbernine.github.io/math/Curvature%20From%20Lower%20Dimensions.html)
+
+[math/Divergence Theorem in Spherical Coordinates.html](https://thenumbernine.github.io/math/Divergence%20Theorem%20in%20Spherical%20Coordinates.html)
+
+[math/EFE Hyperbolic 4 form.html](https://thenumbernine.github.io/math/EFE%20Hyperbolic%204%20form.html)
+
+[math/EMHD Hyperbolic Conservation Laws.html](https://thenumbernine.github.io/math/EMHD%20Hyperbolic%20Conservation%20Laws.html)
+
+[math/EMHD Hyperbolic Conservation Laws.wxmx](https://thenumbernine.github.io/math/EMHD%20Hyperbolic%20Conservation%20Laws.wxmx)
+
+[math/EMHD Linear Stability Analysis.html](https://thenumbernine.github.io/math/EMHD%20Linear%20Stability%20Analysis.html)
+
+[math/Earth Rotation Geodesic Twisting.html](https://thenumbernine.github.io/math/Earth%20Rotation%20Geodesic%20Twisting.html)
+
+[math/Einstein Equations, Weak Field, De-Donder Gauge.html](https://thenumbernine.github.io/math/Einstein%20Equations%2c%20Weak%20Field%2c%20De%2dDonder%20Gauge.html)
+
+[math/Einstein-Maxwell Hyperbolic Conservation Laws.html](https://thenumbernine.github.io/math/Einstein%2dMaxwell%20Hyperbolic%20Conservation%20Laws.html)
+
+[math/Einstein-Maxwell Hyperbolic Conservation Laws.wxmx](https://thenumbernine.github.io/math/Einstein%2dMaxwell%20Hyperbolic%20Conservation%20Laws.wxmx)
+
+[math/Equations of Structure - Schwarzschild.html](https://thenumbernine.github.io/math/Equations%20of%20Structure%20%2d%20Schwarzschild.html)
+
+[math/Feed-Forward Neural Network.html](https://thenumbernine.github.io/math/Feed%2dForward%20Neural%20Network.html)
+
+[math/Finite Volume Methods.html](https://thenumbernine.github.io/math/Finite%20Volume%20Methods.html)
+
+[math/Following Toy 1 plus 1 Spacetime.wxm](https://thenumbernine.github.io/math/Following%20Toy%201%20plus%201%20Spacetime.wxm)
+
+[math/GEM force on a rotating object.html](https://thenumbernine.github.io/math/GEM%20force%20on%20a%20rotating%20object.html)
+
+[math/Gravitation 22.2.html](https://thenumbernine.github.io/math/Gravitation%2022.2.html)
+
+[math/Integrating a Vector Field in Curvilinear Coordinates - Example.html](https://thenumbernine.github.io/math/Integrating%20a%20Vector%20Field%20in%20Curvilinear%20Coordinates%20%2d%20Example.html)
+
+[math/Integrating a Vector Field in Curvilinear Coordinates.html](https://thenumbernine.github.io/math/Integrating%20a%20Vector%20Field%20in%20Curvilinear%20Coordinates.html)
+
+[math/Kaluza-Klein - constant scalar.html](https://thenumbernine.github.io/math/Kaluza%2dKlein%20%2d%20constant%20scalar.html)
+
+[math/Kaluza-Klein - varying scalar.html](https://thenumbernine.github.io/math/Kaluza%2dKlein%20%2d%20varying%20scalar.html)
+
+[math/Kaluza-Klein - without cylindrical constraint.html](https://thenumbernine.github.io/math/Kaluza%2dKlein%20%2d%20without%20cylindrical%20constraint.html)
+
+[math/Kerr Cartesian.html](https://thenumbernine.github.io/math/Kerr%20Cartesian.html)
+
+[math/Kerr geodesic.html](https://thenumbernine.github.io/math/Kerr%20geodesic.html)
+
+[math/LQG.html](https://thenumbernine.github.io/math/LQG.html)
+
+[math/Laplace-Beltrami.html](https://thenumbernine.github.io/math/Laplace%2dBeltrami.html)
+
+[math/Lichtenberg.html](https://thenumbernine.github.io/math/Lichtenberg.html)
+
+[math/Measure of Any Simplex in Any Dimension.html](https://thenumbernine.github.io/math/Measure%20of%20Any%20Simplex%20in%20Any%20Dimension.html)
+
+[math/Metric Eigenmodes 2.html](https://thenumbernine.github.io/math/Metric%20Eigenmodes%202.html)
+
+[math/Metric Eigenmodes.html](https://thenumbernine.github.io/math/Metric%20Eigenmodes.html)
+
+[math/Metric for extruded dimension.html](https://thenumbernine.github.io/math/Metric%20for%20extruded%20dimension.html)
+
+[math/PDE Systems, Parallel Propagators, Finite Volume.html](https://thenumbernine.github.io/math/PDE%20Systems%2c%20Parallel%20Propagators%2c%20Finite%20Volume.html)
+
+[math/Platonic Solids.html](https://thenumbernine.github.io/math/Platonic%20Solids.html)
+
+[math/Quantum Computing.html](https://thenumbernine.github.io/math/Quantum%20Computing.html)
+
+[math/Quaternions.html](https://thenumbernine.github.io/math/Quaternions.html)
+
+[math/Riemann From Stress-Energy.html](https://thenumbernine.github.io/math/Riemann%20From%20Stress%2dEnergy.html)
+
+[math/Schwarzschild spherical to cartesian.wxmx](https://thenumbernine.github.io/math/Schwarzschild%20spherical%20to%20cartesian.wxmx)
+
+[math/Schwarzschild with mass varying with time.html](https://thenumbernine.github.io/math/Schwarzschild%20with%20mass%20varying%20with%20time.html)
+
+[math/Solving Connections From Riemann.html](https://thenumbernine.github.io/math/Solving%20Connections%20From%20Riemann.html)
+
+[math/Sundial-Ellipse.html](https://thenumbernine.github.io/math/Sundial%2dEllipse.html)
+
+[math/Tetrad General Relativity.html](https://thenumbernine.github.io/math/Tetrad%20General%20Relativity.html)
+
+[math/Tetration Derivative.html](https://thenumbernine.github.io/math/Tetration%20Derivative.html)
+
+[math/Thoughts on EM metrics.wxmx](https://thenumbernine.github.io/math/Thoughts%20on%20EM%20metrics.wxmx)
+
+[math/Z4 1D v2 with no shift.wxmx](https://thenumbernine.github.io/math/Z4%201D%20v2%20with%20no%20shift.wxmx)
+
+[math/Z4 1D with no shift.wxmx](https://thenumbernine.github.io/math/Z4%201D%20with%20no%20shift.wxmx)
+
+[math/a note on the definition of tensors.html](https://thenumbernine.github.io/math/a%20note%20on%20the%20definition%20of%20tensors.html)
+
+[math/balloons.html](https://thenumbernine.github.io/math/balloons.html)
+
+[math/conformal Levi-Civita geodesic.html](https://thenumbernine.github.io/math/conformal%20Levi%2dCivita%20geodesic.html)
+
+[math/flat earth curvature.html](https://thenumbernine.github.io/math/flat%20earth%20curvature.html)
+
+[math/gauge covariant derivative.html](https://thenumbernine.github.io/math/gauge%20covariant%20derivative.html)
+
+[math/heat to wave.html](https://thenumbernine.github.io/math/heat%20to%20wave.html)
+
+[math/how transforming pde state variables affects wavespeeds.html](https://thenumbernine.github.io/math/how%20transforming%20pde%20state%20variables%20affects%20wavespeeds.html)
+
+[math/hyperbolic rotations.html](https://thenumbernine.github.io/math/hyperbolic%20rotations.html)
+
+[math/magnetic field from a boosted charge.html](https://thenumbernine.github.io/math/magnetic%20field%20from%20a%20boosted%20charge.html)
+
+[math/projection in any metric.html](https://thenumbernine.github.io/math/projection%20in%20any%20metric.html)
+
+[math/removing beta from adm metric.html](https://thenumbernine.github.io/math/removing%20beta%20from%20adm%20metric.html)
+
+[math/spheres.html](https://thenumbernine.github.io/math/spheres.html)
+
+[math/stress-energy tensor.html](https://thenumbernine.github.io/math/stress%2denergy%20tensor.html)
+
+[math/tensor product permutations.html](https://thenumbernine.github.io/math/tensor%20product%20permutations.html)
+
+[math/torsion gravity.html](https://thenumbernine.github.io/math/torsion%20gravity.html)
+
+[math/twisted spacetime.html](https://thenumbernine.github.io/math/twisted%20spacetime.html)
+
+[math/wave equation hyperbolic form flux jacobian eigensystems.wxmx](https://thenumbernine.github.io/math/wave%20equation%20hyperbolic%20form%20flux%20jacobian%20eigensystems.wxmx)
+
+[math/wave equation hyperbolic form.html](https://thenumbernine.github.io/math/wave%20equation%20hyperbolic%20form.html)
+
+[math/wave equation in curved spacetime - finite difference.html](https://thenumbernine.github.io/math/wave%20equation%20in%20curved%20spacetime%20%2d%20finite%20difference.html)
+
+[math/wave equation with metric of space and time - based on bssnok-scalar.wxmx](https://thenumbernine.github.io/math/wave%20equation%20with%20metric%20of%20space%20and%20time%20%2d%20based%20on%20bssnok%2dscalar.wxmx)
+
+[math/wave_metric_1.html](https://thenumbernine.github.io/math/wave_metric_1.html)
+
+[math/wave_metric_2.html](https://thenumbernine.github.io/math/wave_metric_2.html)
+
+[math/wave_metric_3.html](https://thenumbernine.github.io/math/wave_metric_3.html)
 
 [math/CFD/Error in most CFD literature.html](https://thenumbernine.github.io/math/CFD/Error%20in%20most%20CFD%20literature.html)
 
@@ -537,12 +675,6 @@ Output:
 [math/CFD/SRHD.html](https://thenumbernine.github.io/math/CFD/SRHD.html)
 
 [math/CFD/Shallow Water.html](https://thenumbernine.github.io/math/CFD/Shallow%20Water.html)
-
-[math/Cayley-Dickson.html](https://thenumbernine.github.io/math/Cayley%2dDickson.html)
-
-[math/Classifying 2x2 Eigenvectors.wxmx](https://thenumbernine.github.io/math/Classifying%202x2%20Eigenvectors.wxmx)
-
-[math/Curvature From Lower Dimensions.html](https://thenumbernine.github.io/math/Curvature%20From%20Lower%20Dimensions.html)
 
 [math/Differential Geometry/0 - curves.html](https://thenumbernine.github.io/math/Differential%20Geometry/0%20%2d%20curves.html)
 
@@ -614,24 +746,6 @@ Output:
 
 [math/Differential Geometry/sources.html](https://thenumbernine.github.io/math/Differential%20Geometry/sources.html)
 
-[math/Divergence Theorem in Spherical Coordinates.html](https://thenumbernine.github.io/math/Divergence%20Theorem%20in%20Spherical%20Coordinates.html)
-
-[math/EFE Hyperbolic 4 form.html](https://thenumbernine.github.io/math/EFE%20Hyperbolic%204%20form.html)
-
-[math/EMHD Hyperbolic Conservation Laws.html](https://thenumbernine.github.io/math/EMHD%20Hyperbolic%20Conservation%20Laws.html)
-
-[math/EMHD Hyperbolic Conservation Laws.wxmx](https://thenumbernine.github.io/math/EMHD%20Hyperbolic%20Conservation%20Laws.wxmx)
-
-[math/EMHD Linear Stability Analysis.html](https://thenumbernine.github.io/math/EMHD%20Linear%20Stability%20Analysis.html)
-
-[math/Earth Rotation Geodesic Twisting.html](https://thenumbernine.github.io/math/Earth%20Rotation%20Geodesic%20Twisting.html)
-
-[math/Einstein Equations, Weak Field, De-Donder Gauge.html](https://thenumbernine.github.io/math/Einstein%20Equations%2c%20Weak%20Field%2c%20De%2dDonder%20Gauge.html)
-
-[math/Einstein-Maxwell Hyperbolic Conservation Laws.html](https://thenumbernine.github.io/math/Einstein%2dMaxwell%20Hyperbolic%20Conservation%20Laws.html)
-
-[math/Einstein-Maxwell Hyperbolic Conservation Laws.wxmx](https://thenumbernine.github.io/math/Einstein%2dMaxwell%20Hyperbolic%20Conservation%20Laws.wxmx)
-
 [math/Electromagnetism/0 - intro.html](https://thenumbernine.github.io/math/Electromagnetism/0%20%2d%20intro.html)
 
 [math/Electromagnetism/1 - Faraday tensor in special relativity.html](https://thenumbernine.github.io/math/Electromagnetism/1%20%2d%20Faraday%20tensor%20in%20special%20relativity.html)
@@ -662,16 +776,6 @@ Output:
 
 [math/Electromagnetism/Relativistic Electromagnetism metric.html](https://thenumbernine.github.io/math/Electromagnetism/Relativistic%20Electromagnetism%20metric.html)
 
-[math/Equations of Structure - Schwarzschild.html](https://thenumbernine.github.io/math/Equations%20of%20Structure%20%2d%20Schwarzschild.html)
-
-[math/Feed-Forward Neural Network.html](https://thenumbernine.github.io/math/Feed%2dForward%20Neural%20Network.html)
-
-[math/Finite Volume Methods.html](https://thenumbernine.github.io/math/Finite%20Volume%20Methods.html)
-
-[math/Following Toy 1 plus 1 Spacetime.wxm](https://thenumbernine.github.io/math/Following%20Toy%201%20plus%201%20Spacetime.wxm)
-
-[math/GEM force on a rotating object.html](https://thenumbernine.github.io/math/GEM%20force%20on%20a%20rotating%20object.html)
-
 [math/GR EM Metrics/Complex Metric - Spatial Components.wxmx](https://thenumbernine.github.io/math/GR%20EM%20Metrics/Complex%20Metric%20%2d%20Spatial%20Components.wxmx)
 
 [math/GR EM Metrics/complex metric of EM potential.html](https://thenumbernine.github.io/math/GR%20EM%20Metrics/complex%20metric%20of%20EM%20potential.html)
@@ -689,28 +793,6 @@ Output:
 [math/GR EM Metrics/metric of flat space and EM potential.html](https://thenumbernine.github.io/math/GR%20EM%20Metrics/metric%20of%20flat%20space%20and%20EM%20potential.html)
 
 [math/Global Transport Network/index.html](https://thenumbernine.github.io/math/Global%20Transport%20Network/index.html)
-
-[math/Gravitation 22.2.html](https://thenumbernine.github.io/math/Gravitation%2022.2.html)
-
-[math/Integrating a Vector Field in Curvilinear Coordinates - Example.html](https://thenumbernine.github.io/math/Integrating%20a%20Vector%20Field%20in%20Curvilinear%20Coordinates%20%2d%20Example.html)
-
-[math/Integrating a Vector Field in Curvilinear Coordinates.html](https://thenumbernine.github.io/math/Integrating%20a%20Vector%20Field%20in%20Curvilinear%20Coordinates.html)
-
-[math/Kaluza-Klein - constant scalar.html](https://thenumbernine.github.io/math/Kaluza%2dKlein%20%2d%20constant%20scalar.html)
-
-[math/Kaluza-Klein - varying scalar.html](https://thenumbernine.github.io/math/Kaluza%2dKlein%20%2d%20varying%20scalar.html)
-
-[math/Kaluza-Klein - without cylindrical constraint.html](https://thenumbernine.github.io/math/Kaluza%2dKlein%20%2d%20without%20cylindrical%20constraint.html)
-
-[math/Kerr Cartesian.html](https://thenumbernine.github.io/math/Kerr%20Cartesian.html)
-
-[math/Kerr geodesic.html](https://thenumbernine.github.io/math/Kerr%20geodesic.html)
-
-[math/LQG.html](https://thenumbernine.github.io/math/LQG.html)
-
-[math/Laplace-Beltrami.html](https://thenumbernine.github.io/math/Laplace%2dBeltrami.html)
-
-[math/Lichtenberg.html](https://thenumbernine.github.io/math/Lichtenberg.html)
 
 [math/MHD/0 - Euler Fluid Equations.html](https://thenumbernine.github.io/math/MHD/0%20%2d%20Euler%20Fluid%20Equations.html)
 
@@ -733,14 +815,6 @@ Output:
 [math/MHD/MHD Equations - Jameson - Symmetrized.wxm](https://thenumbernine.github.io/math/MHD/MHD%20Equations%20%2d%20Jameson%20%2d%20Symmetrized.wxm)
 
 [math/MHD/sources.html](https://thenumbernine.github.io/math/MHD/sources.html)
-
-[math/Measure of Any Simplex in Any Dimension.html](https://thenumbernine.github.io/math/Measure%20of%20Any%20Simplex%20in%20Any%20Dimension.html)
-
-[math/Metric Eigenmodes 2.html](https://thenumbernine.github.io/math/Metric%20Eigenmodes%202.html)
-
-[math/Metric Eigenmodes.html](https://thenumbernine.github.io/math/Metric%20Eigenmodes.html)
-
-[math/Metric for extruded dimension.html](https://thenumbernine.github.io/math/Metric%20for%20extruded%20dimension.html)
 
 [math/Numerical Relativity/1 intro.html](https://thenumbernine.github.io/math/Numerical%20Relativity/1%20intro.html)
 
@@ -778,30 +852,6 @@ Output:
 
 [math/Numerical Relativity/z4.html](https://thenumbernine.github.io/math/Numerical%20Relativity/z4.html)
 
-[math/PDE Systems, Parallel Propagators, Finite Volume.html](https://thenumbernine.github.io/math/PDE%20Systems%2c%20Parallel%20Propagators%2c%20Finite%20Volume.html)
-
-[math/Platonic Solids.html](https://thenumbernine.github.io/math/Platonic%20Solids.html)
-
-[math/Quantum Computing.html](https://thenumbernine.github.io/math/Quantum%20Computing.html)
-
-[math/Quaternions.html](https://thenumbernine.github.io/math/Quaternions.html)
-
-[math/Riemann From Stress-Energy.html](https://thenumbernine.github.io/math/Riemann%20From%20Stress%2dEnergy.html)
-
-[math/Schwarzschild spherical to cartesian.wxmx](https://thenumbernine.github.io/math/Schwarzschild%20spherical%20to%20cartesian.wxmx)
-
-[math/Schwarzschild with mass varying with time.html](https://thenumbernine.github.io/math/Schwarzschild%20with%20mass%20varying%20with%20time.html)
-
-[math/Solving Connections From Riemann.html](https://thenumbernine.github.io/math/Solving%20Connections%20From%20Riemann.html)
-
-[math/Sundial-Ellipse.html](https://thenumbernine.github.io/math/Sundial%2dEllipse.html)
-
-[math/Tetrad General Relativity.html](https://thenumbernine.github.io/math/Tetrad%20General%20Relativity.html)
-
-[math/Tetration Derivative.html](https://thenumbernine.github.io/math/Tetration%20Derivative.html)
-
-[math/Thoughts on EM metrics.wxmx](https://thenumbernine.github.io/math/Thoughts%20on%20EM%20metrics.wxmx)
-
 [math/Two-Fluid Plasma and GEM/0 - following Tajmar and De Matos paper.html](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/0%20%2d%20following%20Tajmar%20and%20De%20Matos%20paper.html)
 
 [math/Two-Fluid Plasma and GEM/1 - GEM.html](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/1%20%2d%20GEM.html)
@@ -822,57 +872,7 @@ Output:
 
 [math/Two-Fluid Plasma and GEM/8 - two-fluid plasma model.html](https://thenumbernine.github.io/math/Two%2dFluid%20Plasma%20and%20GEM/8%20%2d%20two%2dfluid%20plasma%20model.html)
 
-[math/Z4 1D v2 with no shift.wxmx](https://thenumbernine.github.io/math/Z4%201D%20v2%20with%20no%20shift.wxmx)
-
-[math/Z4 1D with no shift.wxmx](https://thenumbernine.github.io/math/Z4%201D%20with%20no%20shift.wxmx)
-
-[math/a note on the definition of tensors.html](https://thenumbernine.github.io/math/a%20note%20on%20the%20definition%20of%20tensors.html)
-
-[math/balloons.html](https://thenumbernine.github.io/math/balloons.html)
-
-[math/conformal Levi-Civita geodesic.html](https://thenumbernine.github.io/math/conformal%20Levi%2dCivita%20geodesic.html)
-
-[math/flat earth curvature.html](https://thenumbernine.github.io/math/flat%20earth%20curvature.html)
-
-[math/gauge covariant derivative.html](https://thenumbernine.github.io/math/gauge%20covariant%20derivative.html)
-
 [math/gnuplot/index.html](https://thenumbernine.github.io/math/gnuplot/index.html)
-
-[math/heat to wave.html](https://thenumbernine.github.io/math/heat%20to%20wave.html)
-
-[math/how transforming pde state variables affects wavespeeds.html](https://thenumbernine.github.io/math/how%20transforming%20pde%20state%20variables%20affects%20wavespeeds.html)
-
-[math/hyperbolic rotations.html](https://thenumbernine.github.io/math/hyperbolic%20rotations.html)
-
-[math/magnetic field from a boosted charge.html](https://thenumbernine.github.io/math/magnetic%20field%20from%20a%20boosted%20charge.html)
-
-[math/projection in any metric.html](https://thenumbernine.github.io/math/projection%20in%20any%20metric.html)
-
-[math/removing beta from adm metric.html](https://thenumbernine.github.io/math/removing%20beta%20from%20adm%20metric.html)
-
-[math/spheres.html](https://thenumbernine.github.io/math/spheres.html)
-
-[math/stress-energy tensor.html](https://thenumbernine.github.io/math/stress%2denergy%20tensor.html)
-
-[math/tensor product permutations.html](https://thenumbernine.github.io/math/tensor%20product%20permutations.html)
-
-[math/torsion gravity.html](https://thenumbernine.github.io/math/torsion%20gravity.html)
-
-[math/twisted spacetime.html](https://thenumbernine.github.io/math/twisted%20spacetime.html)
-
-[math/wave equation hyperbolic form flux jacobian eigensystems.wxmx](https://thenumbernine.github.io/math/wave%20equation%20hyperbolic%20form%20flux%20jacobian%20eigensystems.wxmx)
-
-[math/wave equation hyperbolic form.html](https://thenumbernine.github.io/math/wave%20equation%20hyperbolic%20form.html)
-
-[math/wave equation in curved spacetime - finite difference.html](https://thenumbernine.github.io/math/wave%20equation%20in%20curved%20spacetime%20%2d%20finite%20difference.html)
-
-[math/wave equation with metric of space and time - based on bssnok-scalar.wxmx](https://thenumbernine.github.io/math/wave%20equation%20with%20metric%20of%20space%20and%20time%20%2d%20based%20on%20bssnok%2dscalar.wxmx)
-
-[math/wave_metric_1.html](https://thenumbernine.github.io/math/wave_metric_1.html)
-
-[math/wave_metric_2.html](https://thenumbernine.github.io/math/wave_metric_2.html)
-
-[math/wave_metric_3.html](https://thenumbernine.github.io/math/wave_metric_3.html)
 
 [metric/index.html](https://thenumbernine.github.io/metric/index.html)
 

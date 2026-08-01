@@ -11,7 +11,7 @@ local gitfiles = echoreadproc'git ls-files'
 	:mapi(string.trim)
 -- how well will this work with submodules?
 -- not well ... gitfileset only has directories of submodules.
--- you will then have to go through the dirs and get their respective gitfilesets 
+-- you will then have to go through the dirs and get their respective gitfilesets
 local newgitfiles = table()
 for _,f in ipairs(gitfiles) do
 	f = path(f)
@@ -44,7 +44,7 @@ Output:
 local out_math_html = table{[[
 ]]}
 
-table.wrapfor(path:rdir(|f, isdir|do
+local fs = table.wrapfor(path:rdir(|f, isdir|do
 	local dir, name = path(f):getdir()
 	if name.path == '.git' then return false end
 	local _, ext = name:getext()
@@ -60,9 +60,14 @@ table.wrapfor(path:rdir(|f, isdir|do
 	--]]
 end))
 :mapi(|f| f[1].path)
-:sort()
--- [[ 
-:filter(|f|do
+:sort(|a,b|do
+	local ad, an = path(a):getdir()
+	local bd, bn = path(b):getdir()
+	if ad ~= bd then return ad < bd end
+	return an < bn
+end)
+-- [[
+:filteri(|f|do
 	if not gitfileset[f] then
 		io.stderr:write('not in git: ', f, '\n')
 	else
@@ -70,16 +75,23 @@ end))
 	end
 end)
 --]]
-:mapi(|f|do
+
+local lastdir
+fs:mapi(|f|do
+	local dir, relf = path(f):getdir()
+	if dir.path ~= lastdir then
+		out_math_html:insert(dir.path..'/<br>')
+		lastdir = dir.path
+	end
 	local name, ext = path(f):getext()
 	if ext == 'symmath' then
 		out_README_md:insert('['..f..']('..baseurl..'symmath/index.html?open=/'
 			..(f:match'^lua/(.*)$' or f)
 			..')\n')
-		out_math_html:insert('<a href="/symmath/index.html?open=/'
+		out_math_html:insert(('&nbsp;'):rep(4)..'<a href="/symmath/index.html?open=/'
 			..(f:match'^lua/(.*)$' or f)
 			..'">'
-			..f
+			..relf
 			..'</a><br>')
 
 	else
@@ -89,12 +101,13 @@ end)
 				:gsub('%%2e','.')
 			..')\n')
 		out_math_html:insert(
-			'<a href="'
+			('&nbsp;'):rep(4)
+			..'<a href="'
 			..url.escape(f)
 				:gsub('%%2f','/')
 				:gsub('%%2e','.')
 			..'">'
-			..f
+			..relf
 			..'</a><br>')
 	end
 end)
