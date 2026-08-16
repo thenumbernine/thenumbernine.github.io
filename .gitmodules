@@ -373,3 +373,16 @@
 [submodule "lua/ff6"]
 	path = lua/ff6
 	url = https://github.com/thenumbernine/ff6lib-lua
+	branch = master
+[submodule "lua/url"]
+	path = lua/url
+	url = http://github.com/thenumbernine/lua-url
+	branch = master
+[submodule "lua/solarsystem"]
+	path = lua/solarsystem
+	url = https://github.com/thenumbernine/solarsystem-lua
+	branch = master
+[submodule "lua/integrate"]
+	path = lua/integrate
+	url = https://github.com/thenumbernine/lua-integrate
+	branch = master
