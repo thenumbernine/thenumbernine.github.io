@@ -376,7 +376,7 @@
 	branch = master
 [submodule "lua/url"]
 	path = lua/url
-	url = http://github.com/thenumbernine/lua-url
+	url = https://github.com/thenumbernine/lua-url
 	branch = master
 [submodule "lua/solarsystem"]
 	path = lua/solarsystem
