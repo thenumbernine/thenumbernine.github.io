@@ -1,0 +1,4 @@
+name = "sha2"
+files = {
+	"sha2.lua",
+}
