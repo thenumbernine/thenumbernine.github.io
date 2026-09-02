@@ -43,6 +43,8 @@ img {
 	<script type='text/javascript'>
 //https://stackoverflow.com/questions/56300132/how-to-override-css-prefers-color-scheme-setting
 window.addEventListener('load', () => {
+
+	// determine darkmode
 	let darkMode = false;
 	if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 		darkMode = true;
@@ -52,6 +54,44 @@ window.addEventListener('load', () => {
 	} else {
 		document.documentElement.removeAttribute('data-theme', 'dark');
 	}
+
+	const preview = document.createElement('div');
+	preview.style.position = 'absolute';
+	preview.style.display = 'none';
+	preview.style.zIndex = '-9999';
+	preview.style.opacity = 0.3;
+	document.body.appendChild(preview);
+
+	const previewImg = document.createElement('img');
+	previewImg.addEventListener('load', e => {
+		// 256 x 256
+		//const w = previewImg.naturalWidth + 'px';
+		//const h = previewImg.naturalHeight + 'px';
+		// fixed at 512 x 512 ... TODO force aspect ratio of original, divide by min of dims or something
+		//const w = 512, h = 512;
+		const w = window.innerWidth - 128;
+		const h = w;
+		previewImg.style.width = w + 'px';
+		previewImg.style.height = h + 'px';
+	});
+	preview.appendChild(previewImg);
+
+	//add popups
+	document.querySelectorAll('a img').forEach(img => {
+		const a = img.closest('a');
+		img.addEventListener('mouseover', e => {
+			const r = img.getBoundingClientRect();
+			const x = 64 + Math.floor(r.left + window.scrollX);
+			const y = -128 + Math.floor(r.top + window.scrollY);
+			preview.style.display = 'block';
+			preview.style.left = x + 'px';
+			preview.style.top = y + 'px';
+			previewImg.src = img.src;
+		});
+		img.addEventListener('mouseout', e => {
+			preview.style.position  = 'none';
+		});
+	});
 });
 	</script>
 	<body>
@@ -62,7 +102,7 @@ window.addEventListener('load', () => {
 		<h1>Science</h1>
 
 		<a href='universe/'><img src='thumbnails/universe.png' alt='cosmic web visualization in webgl'></a>
-		Cosmic web visualizer.<br><br>
+		Visualizer of various galaxy surveys.  Useful for visualizing the cosmic web structure.<br><br>
 
 		<a href='solarsystem/'><img src='thumbnails/solarsystem.png' alt='solar system visualization in webgl'></a>
 		Solar system visualizer in WebGL.  Includes planets, moons, small-bodies, comets, meteors, stars, exoplaents, and galaxies.<br><br>
