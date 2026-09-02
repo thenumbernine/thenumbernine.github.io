@@ -4,6 +4,33 @@
 		<meta charset='utf8'/>
 		<title>thenumbernine</title>
 	</head>
+
+	<!-- 1. Inline blocking script runs immediately during parsing -->
+	<script>
+let darkMode = false;
+
+const updateDarkMode = () => {
+	const a = document.getElementById('toggle-darkmode-anchor');
+	if (darkMode) {
+		document.documentElement.setAttribute('data-theme', 'dark');
+		if (a) a.innerText = '🌞';
+	} else {
+		document.documentElement.removeAttribute('data-theme', 'dark');
+		if (a) a.innerText = '🌚';
+	}
+};
+
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+	darkMode = true;
+}
+updateDarkMode();	// first time it will update data-theme dark (but won't update darkmode div since its not created yet)
+
+const toggleDarkMode = () => {
+	darkMode = !darkMode;
+	updateDarkMode();
+};
+	</script>
+
 	<style>
 :root {
 	--font-color: #000000;
@@ -35,8 +62,23 @@ a:link, a:visited, a:hover, a:active {
 }
 
 img {
-	border:1px solid white;
+	border:1px solid var(--font-color);
 	width:32px;
+}
+
+#toggle-darkmode a {
+	float:right;
+	padding:3px;
+	border:1px solid var(--font-color);
+	text-decoration:none;
+}
+
+div[data-preview-nopic] {
+	display:inline-block;
+	border:1px solid var(--font-color);
+	padding:5px;
+	/*width:32px;*/
+	/*height:32px;*/
 }
 
 	</style>
@@ -44,17 +86,7 @@ img {
 //https://stackoverflow.com/questions/56300132/how-to-override-css-prefers-color-scheme-setting
 window.addEventListener('load', () => {
 
-	// determine darkmode
-	let darkMode = false;
-	if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-		darkMode = true;
-	}
-	if (darkMode) {
-		document.documentElement.setAttribute('data-theme', 'dark');
-	} else {
-		document.documentElement.removeAttribute('data-theme', 'dark');
-	}
-
+	// add background-popup-on-mouseover-preview
 	const preview = document.createElement('div');
 	preview.style.position = 'absolute';
 	preview.style.display = 'none';
@@ -76,7 +108,6 @@ window.addEventListener('load', () => {
 	});
 	preview.appendChild(previewImg);
 
-	//add popups
 	document.querySelectorAll('a img').forEach(img => {
 		const a = img.closest('a');
 		img.addEventListener('mouseover', e => {
@@ -89,12 +120,25 @@ window.addEventListener('load', () => {
 			previewImg.src = img.src;
 		});
 		img.addEventListener('mouseout', e => {
-			preview.style.position  = 'none';
+			// clear background on mouseout?
+			//preview.style.display = 'none';
 		});
 	});
+
+	// have the no-preview pics clear the background at least
+	document.querySelectorAll('div[data-preview-nopic]').forEach(div => {
+		div.addEventListener('mouseover', e => {
+			preview.style.display = 'none';
+		});
+	});
+
+	// second time will refresh icon of div toggle
+	updateDarkMode();
 });
 	</script>
 	<body>
+		<div id='toggle-darkmode'><a href='#' id='toggle-darkmode-anchor' onclick='toggleDarkMode();'></a></div>
+
 		<a href='https://linktr.ee/thenumbernine'>Myself</a>
 		<br><br>
 
@@ -201,12 +245,773 @@ window.addEventListener('load', () => {
 		<a href='mario-kart-wii-stat-picker/'><img src='thumbnails/mario-kart-wii-stat-picker.png' alt='mario kart wii stat picker'></a>
 		Mario Kart Wii stat picker.  Choose what stats you want to maximize/minimize (and what weighted combinations) and it will rank karts accordingly.<br><br>
 
+		<a href='https://github.com/thenumbernine/fftrpg-numo9'><div data-preview-nopic/>fftrpg-numo9</div></a>
+		(private repo) Mashup of Final Fantasy 6 and Final Fantasy Tactics, implemented in NuMo9.  Check the NuMo9 discord server for updates.<br><br>
+
+		<a href='https://github.com/thenumbernine/webtactics'><div data-preview-nopic/>webtactics</div></a>
+		(private repo) Browser+server based tactical-rpg game.  Succeeded by FF6T3D in the NuMo9 discord server.<br><br>
+
+		<a href='https://github.com/thenumbernine/TacticsLua'><div data-preview-nopic/>TacticsLua</div></a>
+		(private repo) Pure-LuaJIT Tactical-RPG implementation of Final Fantasy Tactics, and then a mash-up of Final Fantasy 6 in TRPG environment. Succeeded by FF6T3D in the NuMo9 discord server.<br><br>
 
 
 		<h1>Programming</h1>
 
 		<a href='glapp/'><img src='thumbnails/glapp-js.png' alt='glapp luajit framework-in-browser'></a>
 		LuaJIT+SDL3+GLES3+CImGui environment in browser with emscripten, modified Lua-5.4, and forked luaffifb library.<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-ffi-wasm'><div data-preview-nopic/>lua-ffi-wasm</div></a>
+		for building Lua + luaffifb to wasm for the browser port of my LuaJIT + OpenGL + SDL framework<br><br>
+
+		<a href='https://github.com/thenumbernine/luaffifb'><div data-preview-nopic/>luaffifb</div></a>
+		my fork of the old facebookarchive FFI-for-vanilla-Lua<br><br>
+
+
+
+		<h1>Android</h1>
+
+		<a href='https://github.com/thenumbernine/SDLLuaJIT-android'><div data-preview-nopic/>SDLLuaJIT-android</div></a>
+		SDL+LuaJIT launcher in Android.  Works as a distict repo and not as a dependency of my LuaJIT-android project.  This inspired me to make LuaJIT-android after seeing how horribly bloated (wasting 100x-1000x the required disk space) all Android projects are.<br><br>
+
+		<a href='https://github.com/thenumbernine/LuaJIT-android'><div data-preview-nopic/>LuaJIT-android</div></a>
+		LuaJIT on android, uses my lua-java project to write android apps in pure LuaJIT.  .dex classes are generated and side-loaded at runtime. No more need for Android Studio!<br><br>
+
+		<a href='https://github.com/thenumbernine/LuaJIT-android-lib'><div data-preview-nopic/>LuaJIT-android-lib</div></a>
+		Makefile for cross-compiling luajit library and binary for android<br><br>
+
+		<a href='https://github.com/thenumbernine/SDL-in-LuaJIT-android'><div data-preview-nopic/>SDL-in-LuaJIT-android</div></a>
+		This is another SDL-with-LuaJIT-in-Android but instead of running SDL first, it runs LuaJIT first, then SDL within it<br><br>
+
+		<a href='https://github.com/thenumbernine/Bible-android'><div data-preview-nopic/>Bible-android</div></a>
+		My first example of my LuaJIT-android framework: a Bible app, using a no-studio no-gradle build.  Repo is 100x smaller, apk is 100x smaller, RAM usage is 100x smaller.
+		How did the modern state of software become so apathetic?<br><br>
+
+
+		<h1>Lua</h1>
+
+		<a href='https://github.com/thenumbernine/lua-ext'><div data-preview-nopic/>lua-ext</div></a>
+		useful extensions to Lua base libraries<br><br>
+
+		<a href='https://github.com/thenumbernine/http-lua'><div data-preview-nopic/>http-lua</div></a>
+		simple http server, complete with correct content-types from iana.org<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-gui'><div data-preview-nopic/>lua-gui</div></a>
+		luajit driven widget library for opengl/sdl<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-dist'><div data-preview-nopic/>lua-dist</div></a>
+		create a distributable for a lua/luajit project<br><br>
+
+		<a href='https://github.com/thenumbernine/earthquake-shear-lines'><div data-preview-nopic/>earthquake-shear-lines</div></a>
+		earthquake shear lines<br><br>
+
+		<a href='https://github.com/thenumbernine/tripletriadminmax'><div data-preview-nopic/>tripletriadminmax</div></a>
+		(private repo) Min-max algorithm applied to Final Fantasy 8's Triple-Triad.  It still needs some kind of heuristic, it's not working as well as it should.  Private until I get it in a less shameful state.<br><br>
+
+
+		<h1>C++</h1>
+
+		<a href='https://github.com/thenumbernine/CFDMesh'><div data-preview-nopic/>CFDMesh</div></a>
+		same as my Lua mesh-based CFD simulation, except now moving it to C++ so it'll run a bit faster<br><br>
+
+		<a href='https://github.com/thenumbernine/HydrodynamicsGPU'><div data-preview-nopic/>HydrodynamicsGPU</div></a>
+		Schemes of Roe, HLL, HLLC, Burgers; Equations of 1D, 2D, 3D; Euler, SRHD, Maxwell, Bona-Masso ADM; Implemented in OpenCL<br><br>
+
+		<a href='https://github.com/thenumbernine/Hydrodynamics'><div data-preview-nopic/>Hydrodynamics</div></a>
+		C++ CFD sim based on Tensor template framework<br><br>
+
+		<a href='https://github.com/thenumbernine/NBodyGPU'><div data-preview-nopic/>NBodyGPU</div></a>
+		yet another N-Body simulation in OpenCL<br><br>
+
+		<a href='https://github.com/thenumbernine/CellularGPU'><div data-preview-nopic/>CellularGPU</div></a>
+		OpenCL driven Conway's Game of Life<br><br>
+
+		<a href='https://github.com/thenumbernine/AsteroidsSPH'><div data-preview-nopic/>AsteroidsSPH</div></a>
+		asteroids with SPH and maybe other tricks<br><br>
+
+		<a href='https://github.com/thenumbernine/EinsteinFieldEquationSolution'><div data-preview-nopic/>EinsteinFieldEquationSolution</div></a>
+		inverse solves G_ab = 8 pi T_ab for the metric tensor g_ab based on primitives used to compute T_ab<br><br>
+
+		<a href='https://github.com/thenumbernine/VolumeTest'><div data-preview-nopic/>VolumeTest</div></a>
+		numerically verifying formula for volume of any simplex in any dimension<br><br>
+
+<!-- private?
+		<a href='https://github.com/thenumbernine/CubicCurveFonts'><div data-preview-nopic/>CubicCurveFonts</div></a>
+		<br><br>
+-->
+		<a href='https://github.com/thenumbernine/SoftwareRenderer'><div data-preview-nopic/>SoftwareRenderer</div></a>
+		This is a software implementation of a 3D rasterizer and renderer I made way back during my MSc at Oregon State. I kept meaning to post it and kept forgetting. Until now. It includes software implementations of a few OpenGL features. Linear, normal, and spherical, and a few other texgen features. Linear and nearest texture lookup. I forget all of what else. I provided the Quake1 model rendering source code so you can plug in whatever Quake1 models you want as well.<br><br>
+
+		<a href='https://github.com/thenumbernine/Topple'><div data-preview-nopic/>Topple</div></a>
+		create images of Abelian sandpile models<br><br>
+
+		<a href='https://github.com/thenumbernine/Solver'><div data-preview-nopic/>Solver</div></a>
+		collection of linear and nonlinear solver classes<br><br>
+
+		<a href='https://github.com/thenumbernine/CLCommon'><div data-preview-nopic/>CLCommon</div></a>
+		library for all OpenCL projects<br><br>
+
+		<a href='https://github.com/thenumbernine/Parallel'><div data-preview-nopic/>Parallel</div></a>
+		c++ asynchronous for-each and reduce operations<br><br>
+
+		<a href='https://github.com/thenumbernine/CLCPU'><div data-preview-nopic/>CLCPU</div></a>
+		OpenCL for CPU<br><br>
+
+		<a href='https://github.com/thenumbernine/CxxAsLua'><div data-preview-nopic/>CxxAsLua</div></a>
+		made analogous C++ classes to Lua functionality. could be used for a translator.<br><br>
+
+		<a href='https://github.com/thenumbernine/Tensor'><div data-preview-nopic/>Tensor</div></a>
+		C++ template metaprogram driven differential-geometry math-tensor library.  Complete with implicit multiplication and index-notation operations. Not stupid AI "tensor", which aren't tensors at all, but are just high-dimension tuples of numbers.<br><br>
+
+		<a href='https://github.com/thenumbernine/WebGPUApp'><div data-preview-nopic/>WebGPUApp</div></a>
+		WebGPU C API demo.<br><br>
+
+		<a href='https://github.com/thenumbernine/VulkanApp'><div data-preview-nopic/>VulkanApp</div></a>
+		Working out a foundation class based on SDLApp for Vulkan projects.<br><br>
+
+		<a href='https://github.com/thenumbernine/Relativity'><div data-preview-nopic/>Relativity</div></a>
+		General relativity 3+1 formalism simulation.  My first attempt, using finite-difference, long before I made a proper framework and libraries surrounding my physics simulations.<br><br>
+
+		<a href='https://github.com/thenumbernine/Profiler'><div data-preview-nopic/>Profiler</div></a>
+		C++ profiling code<br><br>
+
+		<a href='https://github.com/thenumbernine/ImGuiCommon'><div data-preview-nopic/>ImGuiCommon</div></a>
+		Class-wrapper for SDLApp's to use ImGui.<br><br>
+
+		<a href='https://github.com/thenumbernine/GLApp'><div data-preview-nopic/>GLApp</div></a>
+		OOP-izing SDL 3 for GL apps.<br><br>
+
+		<a href='https://github.com/thenumbernine/ImageProcessing'><div data-preview-nopic/>ImageProcessing</div></a>
+		gradient domain image processing<br><br>
+
+		<a href='https://github.com/thenumbernine/Image'><div data-preview-nopic/>Image</div></a>
+		image loading library in C++. I'm slowly collecting formats.<br><br>
+
+		<a href='https://github.com/thenumbernine/NeuralNet'><div data-preview-nopic/>NeuralNet</div></a>
+		simple c++ backprop network class<br><br>
+
+		<a href='https://github.com/thenumbernine/LuaCxx'><div data-preview-nopic/>LuaCxx</div></a>
+		OOP wrapper for Lua<br><br>
+
+		<a href='https://github.com/thenumbernine/SDLApp'><div data-preview-nopic/>SDLApp</div></a>
+		Foundation class for SDL applications<br><br>
+
+		<a href='https://github.com/thenumbernine/GLCxx'><div data-preview-nopic/>GLCxx</div></a>
+		C++ GL wrapper classes<br><br>
+
+		<a href='https://github.com/thenumbernine/Common'><div data-preview-nopic/>Common</div></a>
+		common C++ and Make stuff<br><br>
+
+		<a href='https://github.com/thenumbernine/oop-in-c'><div data-preview-nopic/>oop-in-c</div></a>
+		bored so I'm trying to reproduce C++ classes in C with using ugly macro programming<br><br>
+
+
+		<h1>Github Repos I still have to sort ...</h1>
+
+		<a href='https://github.com/thenumbernine/js-util'><div data-preview-nopic/>js-util</div></a>
+		WebGL oop-ized<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-ffi-bindings'><div data-preview-nopic/>lua-ffi-bindings</div></a>
+		FFI bindings for LuaJIT<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-imgui'><div data-preview-nopic/>lua-imgui</div></a>
+		imgui lua wrapper<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-sdl'><div data-preview-nopic/>lua-sdl</div></a>
+		lua version of SDL app framework<br><br>
+
+		<a href='https://github.com/thenumbernine/earth-magnetic-field-lua'><div data-preview-nopic/>earth-magnetic-field-lua</div></a>
+		visualization of the 2020 WMM data<br><br>
+
+		<a href='https://github.com/thenumbernine/langfix-lua'><div data-preview-nopic/>langfix-lua</div></a>
+		Pure-Lua fix for some things in the language, especially missing in LuaJIT<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-integrate'><div data-preview-nopic/>lua-integrate</div></a>
+		integration methods, explicit and implict, implemented in Lua<br><br>
+
+		<a href='https://github.com/thenumbernine/solarsystem-lua'><div data-preview-nopic/>solarsystem-lua</div></a>
+		original Lua version of the solarsystem project<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-url'><div data-preview-nopic/>lua-url</div></a>
+		yet another url library<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-websocket'><div data-preview-nopic/>lua-websocket</div></a>
+		WebSocket server using LuaSocket<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-plot2d'><div data-preview-nopic/>lua-plot2d</div></a>
+		2d interactive plotting program based on luajit<br><br>
+
+		<a href='https://github.com/thenumbernine/symmath-lua'><div data-preview-nopic/>symmath-lua</div></a>
+		Tensor algebra system written in lua<br><br>
+
+		<a href='https://github.com/thenumbernine/hydro-cl-lua'><div data-preview-nopic/>hydro-cl-lua</div></a>
+		yet *another* hydrodynamics/hyperbolic conservation law solver, this one in LuaJIT using OpenCL/OpenGL<br><br>
+
+		<a href='https://github.com/thenumbernine/struct-lua'><div data-preview-nopic/>struct-lua</div></a>
+		helper for generating ffi structs<br><br>
+
+		<a href='https://github.com/thenumbernine/bank-numo9'><div data-preview-nopic/>bank-numo9</div></a>
+		Bank! for NuMo9<br><br>
+
+		<a href='https://github.com/thenumbernine/zeta3d-lua'><div data-preview-nopic/>zeta3d-lua</div></a>
+		(private repo) Voxel metroidvania.  I should publicise it but it's probably in a broken state.<br><br>
+
+		<a href='https://github.com/thenumbernine/farm-game'><div data-preview-nopic/>farm-game</div></a>
+		farm game in a voxel engine<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-image'><div data-preview-nopic/>lua-image</div></a>
+		LuaJIT image save/load library<br><br>
+
+		<a href='https://github.com/thenumbernine/include-lua'><div data-preview-nopic/>include-lua</div></a>
+		LuaJIT FFI binding generation<br><br>
+
+		<a href='https://github.com/thenumbernine/polynomial-complex-roots'><div data-preview-nopic/>polynomial-complex-roots</div></a>
+		plotting polynomial roots in complex plane<br><br>
+
+		<a href='https://github.com/thenumbernine/chinese-checkers-on-sphere-lua'><div data-preview-nopic/>chinese-checkers-on-sphere-lua</div></a>
+		platonic solid visualizer<br><br>
+
+		<a href='https://github.com/thenumbernine/mesh-lua'><div data-preview-nopic/>mesh-lua</div></a>
+		wavefront obj class<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-audio'><div data-preview-nopic/>lua-audio</div></a>
+		LuaJIT audio<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-cl'><div data-preview-nopic/>lua-cl</div></a>
+		yet *another* Lua/OpenCL binding project<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-clip'><div data-preview-nopic/>lua-clip</div></a>
+		lua wrapper for libclip<br><br>
+
+		<a href='https://github.com/thenumbernine/autoupdate-lua'><div data-preview-nopic/>autoupdate-lua</div></a>
+		working on an auto-updater to go with lua-dist and lua-zip<br><br>
+
+		<a href='https://github.com/thenumbernine/zip-lua'><div data-preview-nopic/>zip-lua</div></a>
+		libzip Lua classes<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-interpreter'><div data-preview-nopic/>lua-interpreter</div></a>
+		A Lua interpreter in Lua. Complete with upvalue access, for use as a drop-in debugger.<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-bit'><div data-preview-nopic/>lua-bit</div></a>
+		luajit bit compatibility for vanilla lua<br><br>
+
+		<a href='https://github.com/thenumbernine/solver-lua'><div data-preview-nopic/>solver-lua</div></a>
+		linear system solvers<br><br>
+
+		<a href='https://github.com/thenumbernine/vec-ffi-lua'><div data-preview-nopic/>vec-ffi-lua</div></a>
+		vector class for LuaJIT based on ffi / primitive types<br><br>
+
+		<a href='https://github.com/thenumbernine/vec-lua'><div data-preview-nopic/>vec-lua</div></a>
+		vector math library for Lua<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-template'><div data-preview-nopic/>lua-template</div></a>
+		Lua Templates<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-stl'><div data-preview-nopic/>lua-stl</div></a>
+		whatever STL classes I want to implement, but in LuaJIT<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-parser'><div data-preview-nopic/>lua-parser</div></a>
+		Lua parser and abstract syntax tree in Lua<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-matrix'><div data-preview-nopic/>lua-matrix</div></a>
+		matrix class for lua. in the spirit of matlab syntax.<br><br>
+
+		<a href='https://github.com/thenumbernine/luafilesystem'><div data-preview-nopic/>luafilesystem</div></a>
+		Reimplement luafilesystem via LuaJIT FFI with unicode facilities<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-gnuplot'><div data-preview-nopic/>lua-gnuplot</div></a>
+		gnuplot wrapper<br><br>
+
+		<a href='https://github.com/thenumbernine/complex-lua'><div data-preview-nopic/>complex-lua</div></a>
+		Lua complex number class, for FFI and vanilla<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-app3d'><div data-preview-nopic/>lua-app3d</div></a>
+		3D-application support classes<br><br>
+
+		<a href='https://github.com/thenumbernine/cl-cpu-lua'><div data-preview-nopic/>cl-cpu-lua</div></a>
+		My shoddily made CPU device replacement for OpenCL in LuaJIT<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-ffi-c'><div data-preview-nopic/>lua-ffi-c</div></a>
+		write c code inside your lua code. use gcc and luajit ffi to build and link while you run.<br><br>
+
+		<a href='https://github.com/thenumbernine/black-hole-skymap'><div data-preview-nopic/>black-hole-skymap</div></a>
+		WebGL skybox/raytracer for relativistic phenomena. Currently black hole and Alcubierre warp drive bubble.<br><br>
+
+		<a href='https://github.com/thenumbernine/cayley-dickson'><div data-preview-nopic/>cayley-dickson</div></a>
+		simple script to generate dot files of cayley-dickson multiplication tables<br><br>
+
+		<a href='https://github.com/thenumbernine/n-points-lua'><div data-preview-nopic/>n-points-lua</div></a>
+		N-points evenly spaced on a sphere, with or without repulsive-forces.<br><br>
+
+		<a href='https://github.com/thenumbernine/super-metroid-randomizer-lua'><div data-preview-nopic/>super-metroid-randomizer-lua</div></a>
+		super metroid item / enemy / door randomizer<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-plot3d'><div data-preview-nopic/>lua-plot3d</div></a>
+		3D interactive plotting program. got sick of gnuplot's 3D graph display running at &lt;1 fps.<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-lua'><div data-preview-nopic/>lua-lua</div></a>
+		LuaJIT bindings for LuaJIT.  Allows your LuaJIT state to access itself and/or create sub-states.<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-thread'><div data-preview-nopic/>lua-thread</div></a>
+		pthread library in LuaJIT, using lua-lua LuaJIT-states-in-LuaJIT.<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-gl'><div data-preview-nopic/>lua-gl</div></a>
+		OpenGL wrapper classes and SDLApp subclass for LuaJIT<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-vk'><div data-preview-nopic/>lua-vk</div></a>
+		Vulkan wrapper classes and SDLApp subclass for LuaJIT<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-wgpu'><div data-preview-nopic/>lua-wgpu</div></a>
+		WebGPU wrapper classes and SDLApp subclass for LuaJIT<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-java'><div data-preview-nopic/>lua-java</div></a>
+		LuaJIT access to Java through JNI<br><br>
+
+		<a href='https://github.com/thenumbernine/git-lua'><div data-preview-nopic/>git-lua</div></a>
+		useful lua scripts for managing multiple git repositories<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-make'><div data-preview-nopic/>lua-make</div></a>
+		yet *another* build script system<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-ips'><div data-preview-nopic/>lua-ips</div></a>
+		Lua based IPS file patcher<br><br>
+
+		<a href='https://github.com/thenumbernine/zeta-lua'><div data-preview-nopic/>zeta-lua</div></a>
+		A 2D platformer engine in LuaJIT<br><br>
+
+		<a href='https://github.com/thenumbernine/force-directed-graph-lua'><div data-preview-nopic/>force-directed-graph-lua</div></a>
+		force directed graph utility in Lua<br><br>
+
+		<a href='https://github.com/thenumbernine/geographic-charts-lua'><div data-preview-nopic/>geographic-charts-lua</div></a>
+		Putting all my common map projections in one place<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-ffi-for-js'><div data-preview-nopic/>lua-ffi-for-js</div></a>
+		ffi library written in pure-lua for use with minimal javascript interface<br><br>
+
+		<a href='https://github.com/thenumbernine/seashell-lua'><div data-preview-nopic/>seashell-lua</div></a>
+		seashell parametric function class viewer<br><br>
+
+		<a href='https://github.com/thenumbernine/volume-renderer-lua'><div data-preview-nopic/>volume-renderer-lua</div></a>
+		<br><br>
+
+		<a href='https://github.com/thenumbernine/tetris-attack-lua'><div data-preview-nopic/>tetris-attack-lua</div></a>
+		<br><br>
+
+		<a href='https://github.com/thenumbernine/following-fdtd-lessons'><div data-preview-nopic/>following-fdtd-lessons</div></a>
+		me following some fdtd lessons online<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-neuralnet'><div data-preview-nopic/>lua-neuralnet</div></a>
+		neural network classes in Lua<br><br>
+<!-- private
+		<a href='https://github.com/thenumbernine/3x3-interpolation'><div data-preview-nopic/>3x3-interpolation</div></a>
+		<br><br>
+-->
+		<a href='https://github.com/thenumbernine/browser3d-lua'><div data-preview-nopic/>browser3d-lua</div></a>
+		Lua+SDL+OpenGL+ImGUI based browser / for remote script execution. Not a HTML/JS browser, those are dumb.<br><br>
+
+		<a href='https://github.com/thenumbernine/surface-from-connection-lua'><div data-preview-nopic/>surface-from-connection-lua</div></a>
+		reconstructing surfaces from a rectangular grid of connection coefficients<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-math'><div data-preview-nopic/>lua-math</div></a>
+		lua common math functions<br><br>
+
+		<a href='https://github.com/thenumbernine/moldwars'><div data-preview-nopic/>moldwars</div></a>
+		performance testing some GL + SDL + LuaJIT code<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-metric'><div data-preview-nopic/>lua-metric</div></a>
+		lua+imgui version of the html+emscripten+lua version of the lua version of my metric / diff geom visualization tool<br><br>
+
+		<a href='https://github.com/thenumbernine/gravitational-waves-lua'><div data-preview-nopic/>gravitational-waves-lua</div></a>
+		1D ADM gravitational wave simulation<br><br>
+
+		<a href='https://github.com/thenumbernine/SphericalHarmonicGraphs'><div data-preview-nopic/>SphericalHarmonicGraphs</div></a>
+		rendering of spherical harmonic + associated legendre graphs<br><br>
+
+		<a href='https://github.com/thenumbernine/sand-attack'><div data-preview-nopic/>sand-attack</div></a>
+		connect colored lines of falling sand<br><br>
+
+		<a href='https://github.com/thenumbernine/pong-lua'><div data-preview-nopic/>pong-lua</div></a>
+		pong in lua<br><br>
+
+		<a href='https://github.com/thenumbernine/lambda-cdm-lua'><div data-preview-nopic/>lambda-cdm-lua</div></a>
+		lambda-CDM model time integrator with gui<br><br>
+
+		<a href='https://github.com/thenumbernine/efesoln-cl-lua'><div data-preview-nopic/>efesoln-cl-lua</div></a>
+		LuaJIT/OpenCL port of my Einstein Field Equation solver project<br><br>
+
+		<a href='https://github.com/thenumbernine/space-game-js'><div data-preview-nopic/>space-game-js</div></a>
+		Space: a WebGL 3D bullet hell (GPU-driven) game in JS<br><br>
+
+<!-- private
+		<a href='https://github.com/thenumbernine/kart-js'><div data-preview-nopic/>kart-js</div></a>
+		start on my js port of kart<br><br>
+-->
+<!-- private
+		<a href='https://github.com/thenumbernine/kart-lua'><div data-preview-nopic/>kart-lua</div></a>
+		go go kart madness<br><br>
+-->
+		<a href='https://github.com/thenumbernine/poisson-gpu-js'><div data-preview-nopic/>poisson-gpu-js</div></a>
+		WebGL GPGPU 2D Poisson Solver<br><br>
+
+		<a href='https://github.com/thenumbernine/hydrodynamics-js'><div data-preview-nopic/>hydrodynamics-js</div></a>
+		Teaching myself hydrodynamics. Donor cell solver. Roe solverwith a handful of flux limiter options. Sod shock tube test. Kelvin Hemholtz test. Rayleigh Taylor test (in the works). GPGPU version in the works as well. Unstructured version on its way.<br><br>
+
+		<a href='https://github.com/thenumbernine/wavefunction'><div data-preview-nopic/>wavefunction</div></a>
+		WebGL-based hydrogen atom electron cloud wavefunction<br><br>
+
+		<a href='https://github.com/thenumbernine/topple-js'><div data-preview-nopic/>topple-js</div></a>
+		WebGL version of Topple<br><br>
+
+		<a href='https://github.com/thenumbernine/4d-renderer-js'><div data-preview-nopic/>4d-renderer-js</div></a>
+		<br><br>
+
+		<a href='https://github.com/thenumbernine/universe'><div data-preview-nopic/>universe</div></a>
+		webgl universe navigator / visualizer<br><br>
+
+		<a href='https://github.com/thenumbernine/conway-life-webgl'><div data-preview-nopic/>conway-life-webgl</div></a>
+		<br><br>
+
+		<a href='https://github.com/thenumbernine/octonion-multiplication-table-js'><div data-preview-nopic/>octonion-multiplication-table-js</div></a>
+		mobius strip representation of an octonion multiplication table, rendered in webgl<br><br>
+
+		<a href='https://github.com/thenumbernine/thomas-precession'><div data-preview-nopic/>thomas-precession</div></a>
+		thomas precession simulation with webgl<br><br>
+
+		<a href='https://github.com/thenumbernine/metric'><div data-preview-nopic/>metric</div></a>
+		WebGL metric visualization / explanation tool<br><br>
+
+		<a href='https://github.com/thenumbernine/time-dilation'><div data-preview-nopic/>time-dilation</div></a>
+		webgl demo of time dilation<br><br>
+
+<!-- private
+		<a href='https://github.com/thenumbernine/socialbrowsing'><div data-preview-nopic/>socialbrowsing</div></a>
+		Interact with people viewing the same webpage.<br><br>
+-->
+
+		<a href='https://github.com/thenumbernine/solarsystem'><div data-preview-nopic/>solarsystem</div></a>
+		webgl solar system viewer<br><br>
+
+		<a href='https://github.com/thenumbernine/gl-js'><div data-preview-nopic/>gl-js</div></a>
+		putting my js WebGL wrapper classes in one place<br><br>
+
+		<a href='https://github.com/thenumbernine/prime-spiral-lua'><div data-preview-nopic/>prime-spiral-lua</div></a>
+		plot that stupid prime spiral pattern<br><br>
+
+		<a href='https://github.com/thenumbernine/nbody-gpu-lua'><div data-preview-nopic/>nbody-gpu-lua</div></a>
+		n-body simulation on gpu in LuaJIT<br><br>
+
+		<a href='https://github.com/thenumbernine/convert-to-8x8x4bpp'><div data-preview-nopic/>convert-to-8x8x4bpp</div></a>
+		Messing with algorithms for converting RGB images into SNES format: 8x8 tiles of 4bpp, each tile with a unique upper 4bpp, which index into a 256-bit palette.<br><br>
+
+		<a href='https://github.com/thenumbernine/earth-transport-network'><div data-preview-nopic/>earth-transport-network</div></a>
+		<br><br>
+
+		<a href='https://github.com/thenumbernine/seismographic-stations'><div data-preview-nopic/>seismographic-stations</div></a>
+		thought i would plot the seismo data around the world<br><br>
+
+		<a href='https://github.com/thenumbernine/rule110-lua'><div data-preview-nopic/>rule110-lua</div></a>
+		Rule 110 in GLSL in Lua<br><br>
+
+		<a href='https://github.com/thenumbernine/dungeons-n-munchers-lua'><div data-preview-nopic/>dungeons-n-munchers-lua</div></a>
+		<br><br>
+
+		<a href='https://github.com/thenumbernine/line-integral-convolution-lua'><div data-preview-nopic/>line-integral-convolution-lua</div></a>
+		line integral convolution in lua<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-gameapp'><div data-preview-nopic/>lua-gameapp</div></a>
+		putting some things common to games in one place<br><br>
+
+		<a href='https://github.com/thenumbernine/waves-in-curved-space'><div data-preview-nopic/>waves-in-curved-space</div></a>
+		visualization of light cones in arbitrary metrics in 2+1 space<br><br>
+
+		<a href='https://github.com/thenumbernine/MatMulKernelTest'><div data-preview-nopic/>MatMulKernelTest</div></a>
+		performance test of varying fixed-size matrix multiply kernel executed at each cell in a 256x256 grid<br><br>
+
+		<a href='https://github.com/thenumbernine/DFCrack'><div data-preview-nopic/>DFCrack</div></a>
+		DFHack ported to LuaJIT<br><br>
+
+		<a href='https://github.com/thenumbernine/noaa_flares'><div data-preview-nopic/>noaa_flares</div></a>
+		counting and graphing the number of flares that NOAA posts online<br><br>
+
+		<a href='https://github.com/thenumbernine/mimetypes-lua'><div data-preview-nopic/>mimetypes-lua</div></a>
+		Lua class to get and cache mime types<br><br>
+
+		<a href='https://github.com/thenumbernine/query-simbad'><div data-preview-nopic/>query-simbad</div></a>
+		lua lib for querying Simbad<br><br>
+
+		<a href='https://github.com/thenumbernine/noaa_drap'><div data-preview-nopic/>noaa_drap</div></a>
+		NOAA DRAP query tool<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-csv'><div data-preview-nopic/>lua-csv</div></a>
+		CSV parser in Lua<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-selfmodify'><div data-preview-nopic/>lua-selfmodify</div></a>
+		self-modifying code wrapped in a genetic algorithm. lots more buzzwords too.<br><br>
+
+		<a href='https://github.com/thenumbernine/grem-lua'><div data-preview-nopic/>grem-lua</div></a>
+		(WIP) yet *another* attempt at solving metric using the Einstein field equations specified along a grid<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-netrefl'><div data-preview-nopic/>lua-netrefl</div></a>
+		synchronizing data across the network<br><br>
+
+		<a href='https://github.com/thenumbernine/texture-atlas'><div data-preview-nopic/>texture-atlas</div></a>
+		texture atlas generator<br><br>
+
+		<a href='https://github.com/thenumbernine/sphere-grid-lua'><div data-preview-nopic/>sphere-grid-lua</div></a>
+		sphere grid<br><br>
+
+		<a href='https://github.com/thenumbernine/chompman'><div data-preview-nopic/>chompman</div></a>
+		not pacman in 3D<br><br>
+
+		<a href='https://github.com/thenumbernine/lua_to_js'><div data-preview-nopic/>lua_to_js</div></a>
+		Lua to JS transpiler<br><br>
+
+		<a href='https://github.com/thenumbernine/ascii-art-vpl'><div data-preview-nopic/>ascii-art-vpl</div></a>
+		ascii art visual programming language<br><br>
+
+		<a href='https://github.com/thenumbernine/elf-lua'><div data-preview-nopic/>elf-lua</div></a>
+		Me poking around ELF format with Lua<br><br>
+
+		<a href='https://github.com/thenumbernine/tensor-lua'><div data-preview-nopic/>tensor-lua</div></a>
+		lua based tensor calculator<br><br>
+
+		<a href='https://github.com/thenumbernine/space-filling-curve'><div data-preview-nopic/>space-filling-curve</div></a>
+		space filling curves ... which turned into a L-system project<br><br>
+
+		<a href='https://github.com/thenumbernine/mono-lua'><div data-preview-nopic/>mono-lua</div></a>
+		Mono C# in LuaJIT<br><br>
+
+		<a href='https://github.com/thenumbernine/smooth-graph-lua'><div data-preview-nopic/>smooth-graph-lua</div></a>
+		plot successively smoothed graphs<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-simplexnoise'><div data-preview-nopic/>lua-simplexnoise</div></a>
+		LuaJIT simplex noise<br><br>
+
+		<a href='https://github.com/thenumbernine/fibonacci-modulo'><div data-preview-nopic/>fibonacci-modulo</div></a>
+		fibonacci sequence modulo plotted on circles<br><br>
+
+		<a href='https://github.com/thenumbernine/stupid-text-rpg'><div data-preview-nopic/>stupid-text-rpg</div></a>
+		a stupid text-based roguelike tactical rpg<br><br>
+
+		<a href='https://github.com/thenumbernine/stat-lua'><div data-preview-nopic/>stat-lua</div></a>
+		some useful classes for gathering statistics<br><br>
+
+		<a href='https://github.com/thenumbernine/python-lua'><div data-preview-nopic/>python-lua</div></a>
+		Python bindings and wrappers for LuaJIT<br><br>
+
+		<a href='https://github.com/thenumbernine/leftargs-lua'><div data-preview-nopic/>leftargs-lua</div></a>
+		What if function arguments went on the left side instead of the right side of a function call?<br><br>
+
+		<a href='https://github.com/thenumbernine/lua_to_batch'><div data-preview-nopic/>lua_to_batch</div></a>
+		utility for converting from Lua scripts to Windows Batch files<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-threadmanager'><div data-preview-nopic/>lua-threadmanager</div></a>
+		simple thread manager for Lua<br><br>
+
+		<a href='https://github.com/thenumbernine/netcdf-lua'><div data-preview-nopic/>netcdf-lua</div></a>
+		netcdf luajit class wrapper<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-bignumber'><div data-preview-nopic/>lua-bignumber</div></a>
+		a big integer / number library<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-svg'><div data-preview-nopic/>lua-svg</div></a>
+		SVG generation functions for Lua<br><br>
+
+		<a href='https://github.com/thenumbernine/earth-surface-time-dilation-lua'><div data-preview-nopic/>earth-surface-time-dilation-lua</div></a>
+		just what you would think<br><br>
+
+		<a href='https://github.com/thenumbernine/htmlparser-lua'><div data-preview-nopic/>htmlparser-lua</div></a>
+		html parser in lua<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-resourcecache'><div data-preview-nopic/>lua-resourcecache</div></a>
+		resource cache<br><br>
+
+		<a href='https://github.com/thenumbernine/modules-lua'><div data-preview-nopic/>modules-lua</div></a>
+		chop up code into pieces, only use the parts that are necessary, useful when your compiler compiles everything and compile times are far too slow<br><br>
+
+		<a href='https://github.com/thenumbernine/ncurses-lua'><div data-preview-nopic/>ncurses-lua</div></a>
+		ncurses-lua<br><br>
+
+		<a href='https://github.com/thenumbernine/c-h-parser-lua'><div data-preview-nopic/>c-h-parser-lua</div></a>
+		C header parser in Lua<br><br>
+<!-- private
+		<a href='https://github.com/thenumbernine/circle-on-curved-surface'><div data-preview-nopic/>circle-on-curved-surface</div></a>
+		drawing a set o equal distant points on a flat surface with a gaussian perturbation<br><br>
+-->
+		<a href='https://github.com/thenumbernine/numerical-relativity-codegen'><div data-preview-nopic/>numerical-relativity-codegen</div></a>
+		code generation for my numerical relativity projects<br><br>
+
+		<a href='https://github.com/thenumbernine/fullcallstack-lua'><div data-preview-nopic/>fullcallstack-lua</div></a>
+		lua function wrapper to provide full call stack instead of that abridged nonsense in the default functionality<br><br>
+
+		<a href='https://github.com/thenumbernine/luajit-pureffi'><div data-preview-nopic/>luajit-pureffi</div></a>
+		cross platform (ish) pure luajit bindings with ffi<br><br>
+
+		<a href='https://github.com/thenumbernine/worldgen'><div data-preview-nopic/>worldgen</div></a>
+		procedural world generation<br><br>
+
+		<a href='https://github.com/thenumbernine/quantize-tiles'><div data-preview-nopic/>quantize-tiles</div></a>
+		take a picture and quantize the grid-aligned tiles<br><br>
+
+<!-- deprecated
+		<a href='https://github.com/thenumbernine/lua-imguiapp'><div data-preview-nopic/>lua-imguiapp</div></a>
+		subclass of GLApp with the ImGui events in place<br><br>
+-->
+		<a href='https://github.com/thenumbernine/bank-game-js'><div data-preview-nopic/>bank-game-js</div></a>
+		Bank: A bomb block pushing puzzle game<br><br>
+
+		<a href='https://github.com/thenumbernine/faraday-cage'><div data-preview-nopic/>faraday-cage</div></a>
+		<br><br>
+
+		<a href='https://github.com/thenumbernine/geo-center-earth'><div data-preview-nopic/>geo-center-earth</div></a>
+		find the center of the earth by surface area<br><br>
+
+		<a href='https://github.com/thenumbernine/VectorFieldDecomposition-lua'><div data-preview-nopic/>VectorFieldDecomposition-lua</div></a>
+		decomposing and annotating vector fields<br><br>
+
+		<a href='https://github.com/thenumbernine/cfdmeshlua'><div data-preview-nopic/>cfdmeshlua</div></a>
+		2D Roe scheme on an arbitrary mesh, written in Lua<br><br>
+
+<!-- private
+		<a href='https://github.com/thenumbernine/celestial-gravitomagnetics-lua'><div data-preview-nopic/>celestial-gravitomagnetics-lua</div></a>
+		<br><br>
+-->
+<!-- private
+		<a href='https://github.com/thenumbernine/2048_3D'><div data-preview-nopic/>2048_3D</div></a>
+		<br><br>
+-->
+		<a href='https://github.com/thenumbernine/pi-z-curve'><div data-preview-nopic/>pi-z-curve</div></a>
+		pi along a z curve<br><br>
+
+		<a href='https://github.com/thenumbernine/teukolsky-waves'><div data-preview-nopic/>teukolsky-waves</div></a>
+		<br><br>
+
+		<a href='https://github.com/thenumbernine/regge-lua'><div data-preview-nopic/>regge-lua</div></a>
+		(WIP) Regge calculus simulation of 1+1 spacetime.<br><br>
+
+		<a href='https://github.com/thenumbernine/preproc-lua'><div data-preview-nopic/>preproc-lua</div></a>
+		C preprocessor in Lua<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-profile'><div data-preview-nopic/>lua-profile</div></a>
+		profiler for lua code<br><br>
+
+		<a href='https://github.com/thenumbernine/emoji-lua'><div data-preview-nopic/>emoji-lua</div></a>
+		Lua but with the keywords, symbols, libraries replaced with emojis.<br><br>
+
+		<a href='https://github.com/thenumbernine/stupidrpg-game-js'><div data-preview-nopic/>stupidrpg-game-js</div></a>
+		StupidRPG. A Stupid (procedural/buttonmashing) RPG.<br><br>
+
+		<a href='https://github.com/thenumbernine/elemental'><div data-preview-nopic/>elemental</div></a>
+		puzzle game<br><br>
+
+		<a href='https://github.com/thenumbernine/luajitsocket'><div data-preview-nopic/>luajitsocket</div></a>
+		pure luajit ffi socket bindings for unix and windows<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-local-default'><div data-preview-nopic/>lua-local-default</div></a>
+		Make Lua use locals-by-default in functions ... with Lua!<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-0-based'><div data-preview-nopic/>lua-0-based</div></a>
+		pure-Lua implementation of 0-based tables<br><br>
+
+		<a href='https://github.com/thenumbernine/sql-lua'><div data-preview-nopic/>sql-lua</div></a>
+		Some SQL table and field classes in Lua for generating SQL commands<br><br>
+
+		<a href='https://github.com/thenumbernine/clip'><div data-preview-nopic/>clip</div></a>
+		Cross-platform C++ library to copy/paste clipboard content<br><br>
+
+<!-- private
+		<a href='https://github.com/thenumbernine/tinyddsloader'><div data-preview-nopic/>tinyddsloader</div></a>
+		Tiny DDS file loader<br><br>
+
+		<a href='https://github.com/thenumbernine/ImageMetrics'><div data-preview-nopic/>ImageMetrics</div></a>
+		CLI for computing various metrics of an image / process surrounding an image<br><br>
+-->
+		<a href='https://github.com/thenumbernine/lua128'><div data-preview-nopic/>lua128</div></a>
+		128-bit Lua<br><br>
+
+		<a href='https://github.com/thenumbernine/springs-meh-lua'><div data-preview-nopic/>springs-meh-lua</div></a>
+		meh<br><br>
+
+		<a href='https://github.com/thenumbernine/gpu_from_pde-lua'><div data-preview-nopic/>gpu_from_pde-lua</div></a>
+		(WIP) PDE solver on GPU, all in Lua<br><br>
+
+		<a href='https://github.com/thenumbernine/wii-sdl-luajit'><div data-preview-nopic/>wii-sdl-luajit</div></a>
+		Wii devkitPro + LuaJIT + SDL<br><br>
+
+		<a href='https://github.com/thenumbernine/wii-luajit'><div data-preview-nopic/>wii-luajit</div></a>
+		LuaJIT for Wii / devkitPro<br><br>
+
+		<a href='https://github.com/thenumbernine/all-tensor-muls'><div data-preview-nopic/>all-tensor-muls</div></a>
+		count all unique tensor products for specific input and output degrees<br><br>
+
+		<a href='https://github.com/thenumbernine/obs-buildvideo'><div data-preview-nopic/>obs-buildvideo</div></a>
+		quick script to convert obs capture .ts into .mp4<br><br>
+
+		<a href='https://github.com/thenumbernine/GalacticRotationCurves_2021Ludwig'><div data-preview-nopic/>GalacticRotationCurves_2021Ludwig</div></a>
+		trying to reproduce the graphs from this paper<br><br>
+
+<!-- deprecated
+		<a href='https://github.com/thenumbernine/lua-gles2'><div data-preview-nopic/>lua-gles2</div></a>
+		Old GLES2 library, superceded by using lua-gl with a OpenGLES2-specific binding header.<br><br>
+-->
+
+<!--
+		<a href='https://github.com/thenumbernine/mmo-js'><div data-preview-nopic/>mmo-js</div></a>
+		making a mmo or something<br><br>
+-->
+
+		<a href='https://github.com/thenumbernine/lua-multigrid-poisson'><div data-preview-nopic/>lua-multigrid-poisson</div></a>
+		multigrid poisson solver, first using my matrix library in Lua, next using my OpenCL wrapper in Lua<br><br>
+<!-- private
+		<a href='https://github.com/thenumbernine/magnetometer-js'><div data-preview-nopic/>magnetometer-js</div></a>
+		magnetometer reading in javascript<br><br>
+-->
+		<a href='https://github.com/thenumbernine/FFTactics_BlenderPlugin'><div data-preview-nopic/>FFTactics_BlenderPlugin</div></a>
+		Blender plugin for importing Final Fantasy Tactics .GNS files<br><br>
+
+
+		<a href='https://github.com/thenumbernine/thirteen-lua'><div data-preview-nopic/>thirteen-lua</div></a>
+		solver for the solitaire game 'thirteen'<br><br>
+
+		<a href='https://github.com/thenumbernine/poker-lua'><div data-preview-nopic/>poker-lua</div></a>
+		poker in Lua, comes with a stupid AI that you can beat pretty easy<br><br>
+
+		<a href='https://github.com/thenumbernine/reverse_string_c_cpp_rust'><div data-preview-nopic/>reverse_string_c_cpp_rust</div></a>
+		reversing a string in c, cpp, and rust, and comparing the resulting binaries and preformances<br><br>
+
+		<a href='https://github.com/thenumbernine/scrabble-solver'><div data-preview-nopic/>scrabble-solver</div></a>
+		a multithreaded scrabble solver<br><br>
+
+		<a href='https://github.com/thenumbernine/multiplicative-persistence'><div data-preview-nopic/>multiplicative-persistence</div></a>
+		multiplicative persistence search<br><br>
+
+		<a href='https://github.com/thenumbernine/loop-quantum-gravity'><div data-preview-nopic/>loop-quantum-gravity</div></a>
+		I'm teaching myself loop quantum gravity and putting the proofs/sources here<br><br>
+
+		<a href='https://github.com/thenumbernine/Sod_exact'><div data-preview-nopic/>Sod_exact</div></a>
+		exact solution for Sod shock tube test<br><br>
+
+		<a href='https://github.com/thenumbernine/cards-lua'><div data-preview-nopic/>cards-lua</div></a>
+		simple library for card games<br><br>
+
+		<a href='https://github.com/thenumbernine/lua-jfnk'><div data-preview-nopic/>lua-jfnk</div></a>
+		Lua implementation of Jacobian-Free Newton-Krylov solver<br><br>
+
+		<a href='https://github.com/thenumbernine/dungeons-n-munchers-js'><div data-preview-nopic/>dungeons-n-munchers-js</div></a>
+		don't even ask :-p<br><br>
+
+		<a href='https://github.com/thenumbernine/zeta-js'><div data-preview-nopic/>zeta-js</div></a>
+		Very very preliminary start of a procedural platformer in javascript.<br><br>
+
+		<a href='https://github.com/thenumbernine/biggun-quake'><div data-preview-nopic/>biggun-quake</div></a>
+		A quake 1 mod I made.<br><br>
+
+
+		<h1>More old repos</h1>
+		<a href='https://web.archive.org/web/20240811120040/https://christopheremoore.net/'>christopheremoore.net in archive.org</a><br>
+		<br>
+		I've got even more old repos on my old website, which now only exists in archive.org, since I am too poor to pay for fees.  Despite programming nearly every day of my life since I was a child, despite having a BSc in Comp Sci and Math and MSc in Comp Sci, despite being a decade ahead of the "deep learning" craze, despite writing my own CAS and numerical relativity GPU simulations that would run on a laptop while the "experts" simulators needed a supercomputer ... I have not had a software job since 2018.<br>
+		My enemies are gloating over me.  My friends remain silent.  Maybe they were never friends to begin with.<br><br>
+		<br><br>
 
 	</body>
 </html>
