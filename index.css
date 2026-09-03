@@ -132,17 +132,17 @@ div[data-preview-nopic] {
 .card-tag {
 	color : var(--font-color);
 	align-self: flex-start;
-	font-size: 0.75rem;
-	font-weight: 700;
-	text-transform: uppercase;
-	padding: 4px 8px;
-	border-radius: 4px;
-	margin-bottom: 12px;
+	font-size: 0.65rem;
+	padding: 1px;
+	margin-bottom: 8px;
 }
+
+/* now if you want to do custom styles per tag ...
 .tag-webgl {
-	/*background: #fef3c7;*/
+	background: #fef3c7;
 	color: #b45309;
 }
+*/
 
 .main-card-link {
 	color: var(--card-title-color);
