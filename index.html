@@ -13,13 +13,13 @@ let darkMode = false;
 // and then run it again in the load to refresh the div?
 // mabye put a separate window load event here?
 const updateDarkMode = () => {
-	const a = document.getElementById('toggle-darkmode-anchor');
+	const toggleDarkModeDiv = document.getElementById('toggle-darkmode');
 	if (darkMode) {
 		document.documentElement.setAttribute('data-theme', 'dark');
-		if (a) a.innerText = '🌞';
+		if (toggleDarkModeDiv) toggleDarkModeDiv.innerText = '🌞';
 	} else {
 		document.documentElement.removeAttribute('data-theme', 'dark');
-		if (a) a.innerText = '🌚';
+		if (toggleDarkModeDiv) toggleDarkModeDiv.innerText = '🌚';
 	}
 };
 
@@ -42,7 +42,7 @@ const toggleDarkMode = () => {
 	<link rel='stylesheet' href='index.css'/>
 	<script type='module' src='index.js' defer></script>
 	<body>
-		<div id='toggle-darkmode'><a href='#' id='toggle-darkmode-anchor' onclick='toggleDarkMode();'></a></div>
+		<div id='toggle-darkmode' onclick='toggleDarkMode();'></div>
 
 		<a href='https://linktr.ee/thenumbernine'>Myself</a>
 		<br><br>

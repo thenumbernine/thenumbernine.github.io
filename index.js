@@ -140,13 +140,6 @@ class ProjectThumb extends Project {
 							classList:['card-description'],
 							innerText : this.desc,
 						}),
-						/*
-						Div({
-							classList : ['card-action-text'],
-							attrs : {['aria-hidden']:'true'},
-							innerText : 'Read More',
-						}),
-						*/
 					],
 				}),
 			],
