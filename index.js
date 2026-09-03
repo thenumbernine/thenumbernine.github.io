@@ -1,4 +1,4 @@
-import {merge, Div, A, Br, Img, Span} from './js/dom.js';
+import {merge, A, Article, Br, Div, H3, Img, P, Span} from './js/dom.js';
 
 // add background-popup-on-mouseover-preview
 const preview = Div({
@@ -58,6 +58,7 @@ class ProjectHTML extends Project {
 }
 class ProjectThumb extends Project {
 	dom() {
+/*
 		return Div({
 			children : [
 				A({
@@ -72,7 +73,7 @@ class ProjectThumb extends Project {
 									const img = e.target;
 									const r = img.getBoundingClientRect();
 									const x = 64 + Math.floor(r.left + window.scrollX);
-									const y = -128 + Math.floor(r.top + window.scrollY);
+									const y = Math.max(64, -128 + Math.floor(r.top + window.scrollY));
 									preview.style.display = 'block';
 									preview.style.left = x + 'px';
 									preview.style.top = y + 'px';
@@ -100,6 +101,54 @@ class ProjectThumb extends Project {
 				}),
 				Br(),
 				Br()
+			],
+		});
+*/
+		return Article({
+			classList : ['card'],
+			children : [
+				Div({
+					classList : ['card-image-wrapper'],
+					children : []
+					.concat(
+						this.img
+						? Img({
+							classList : ['card-image'],
+							src : this.img,
+							alt : this.title,
+						}) : [],
+					),
+				}),
+				Div({
+					classList : ['card-content'],
+					children : [
+						Span({
+							classList:['card-tag'].concat((this.tags ?? []).map(tag => 'tag-'+tag)),
+							innerText : (this.tags ?? []).join(', '),
+						}),
+						H3({
+							classList:['card-title'],
+							children : [
+								A({
+									href : this.href,
+									classList : ['main-card-link'],
+									innerText : this.title,
+								}),
+							],
+						}),
+						P({
+							classList:['card-description'],
+							innerText : this.desc,
+						}),
+						/*
+						Div({
+							classList : ['card-action-text'],
+							attrs : {['aria-hidden']:'true'},
+							innerText : 'Read More',
+						}),
+						*/
+					],
+				}),
 			],
 		});
 	}
@@ -1684,4 +1733,5 @@ My enemies are gloating over me.  My friends remain silent.  Maybe they were nev
 	}),
 ];
 
-projects.forEach(p => document.body.appendChild(p.dom()));
+const cardGrid = document.querySelector('.card-grid');
+projects.forEach(p => cardGrid.appendChild(p.dom()));

@@ -1,12 +1,28 @@
 :root {
 	--font-color: #000000;
-	--bg-color: rgb(243,243,243);
+	--bg-color: #ffffff;
 	--link-color: #0000ff;
+	--card-bg-color: rgb(220,220,220);
+	--card-bg-img: linear-gradient(
+		45deg,
+		#f8fafc 0%,
+		#e0f2fe 40%,
+		#bae6fd 75%,
+		#7dd3fc 100%
+	);
 }
 [data-theme="dark"] {
 	--font-color: #ffffff;
 	--bg-color: #000000;
-	--link-color: #00ffff;
+	--link-color: rgb(20,180,255);
+	--card-bg-color: #0f0f0f;
+	--card-bg-img : linear-gradient(
+		140deg,
+		#050515 0%,
+		#120a2a 35%,
+		#3b0764 70%,
+		#0d0308 100%
+	);
 }
 
 body {
@@ -45,4 +61,135 @@ div[data-preview-nopic] {
 	padding:5px;
 	/*width:32px;*/
 	/*height:32px;*/
+}
+
+
+/* TODO pick these based on light/dark theme */
+/* for dark ... */
+.nebula-text {
+	background-image: linear-gradient(90deg, #c084fc, #6366f1, #2dd4bf);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block;
+	font-weight: 800;
+}
+/* for light ... */
+.math-notebook-text {
+  background-image: linear-gradient(to right, #0284c7, #2563eb, #4f46e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 24px;
+	padding: 20px;
+	font-family: system-ui, -apple-system, sans-serif;
+}
+
+.card {
+	position: relative;
+	background : var(--card-bg-color);
+	border: 1px solid #e2e8f0;
+	border-radius: 12px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+	background-image : var(--card-bg-img);
+}
+
+.card:focus-within,
+.card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.card-image-wrapper {
+	position: relative;
+	width: 100%;
+	aspect-ratio: 1.91 / 1;
+	/*background: #f1f5f9;*/
+	overflow: hidden;
+}
+
+.card-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.card-content {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.card-tag {
+	color : var(--font-color);
+	align-self: flex-start;
+	font-size: 0.75rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 4px 8px;
+	border-radius: 4px;
+	margin-bottom: 12px;
+}
+.tag-webgl {
+	/*background: #fef3c7;*/
+	color: #b45309;
+}
+
+.main-card-link {
+	color: #1e293b;
+	text-decoration: none;
+	outline: none;
+}
+
+.main-card-link::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.card-title {
+	font-size: 1.25rem;
+	font-weight: 600;
+	color: #1e293b;
+	margin: 0 0 8px 0;
+}
+
+.card-description {
+	font-size: 0.95rem;
+	color: #64748b;
+	line-height: 1.5;
+	margin: 0 0 20px 0;
+}
+
+.card-action-text {
+	margin-top: auto;
+	font-size: 0.9rem;
+	font-weight: 600;
+	color: #0f172a;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.card-action-text .arrow {
+	transition: transform 0.2s ease;
+}
+
+.card:hover .card-action-text .arrow {
+	transform: translateX(4px);
 }
