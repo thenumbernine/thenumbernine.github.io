@@ -1,0 +1,19 @@
+#!/usr/bin/env rua
+--[[
+Auto grab first pics from repos to generate thumbs in index.js.
+Hmm, how to automate the thumbs altogether from the repo descriptions....
+--]]
+local json = require 'dkjson'
+local user = 'thenumbernine'
+for _,repo in ipairs(
+	json.decode(io.readproc("gh repo list "..user.." --limit 1000 --json name,defaultBranchRef"))
+) do
+	local name, branch = repo.name, repo.defaultBranchRef.name
+	print(
+		name, branch,
+		tolua((
+			io.readproc("gh api '/repos/"..user.."/"..name.."/git/trees/"..branch.."?recursive=true' -q '.tree[].path' | grep '\\.png$' | head -n 1")
+			:trim()
+		))
+	)
+end
