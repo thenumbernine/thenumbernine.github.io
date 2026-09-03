@@ -1,0 +1,48 @@
+:root {
+	--font-color: #000000;
+	--bg-color: rgb(243,243,243);
+	--link-color: #0000ff;
+}
+[data-theme="dark"] {
+	--font-color: #ffffff;
+	--bg-color: #000000;
+	--link-color: #00ffff;
+}
+
+body {
+	overflow : scroll;
+	background : var(--bg-color);
+	color : var(--font-color);
+	font-weight:600;
+	font-family: 'Courier New', monospace;
+}
+
+/* desktop chrome inputs have white background black font.  mobile chrome inputs have clear background black font. */
+input {
+	background : var(--bg-color);
+	color : var(--font-color);
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: var(--link-color);
+}
+
+img {
+	border:1px solid var(--font-color);
+	width:32px;
+}
+
+#toggle-darkmode a {
+	float:right;
+	padding:3px;
+	border:1px solid var(--font-color);
+	text-decoration:none;
+}
+
+div[data-preview-nopic] {
+	display:inline-block;
+	border:1px solid var(--font-color);
+	padding:5px;
+	/*width:32px;*/
+	/*height:32px;*/
+}
