@@ -5,15 +5,28 @@ Hmm, how to automate the thumbs altogether from the repo descriptions....
 --]]
 local json = require 'dkjson'
 local user = 'thenumbernine'
+local dst = {}
 for _,repo in ipairs(
-	json.decode(io.readproc("gh repo list "..user.." --limit 1000 --json name,defaultBranchRef"))
+	json.decode((io.readproc("gh repo list "..user.." --limit 1000 --json name,defaultBranchRef")))
 ) do
 	local name, branch = repo.name, repo.defaultBranchRef.name
-	print(
-		name, branch,
-		tolua((
-			io.readproc("gh api '/repos/"..user.."/"..name.."/git/trees/"..branch.."?recursive=true' -q '.tree[].path' | grep '\\.png$' | head -n 1")
-			:trim()
+	local api = json.decode((
+		io.readproc("gh api '/repos/"..user.."/"..name.."/git/trees/"..branch.."?recursive=true'")
+	))
+	local pics = table(api.tree)
+		:mapi(|x| x.path)
+		:filteri(|x| (
+			({
+				png = true,
+				jpg = true,
+				jpeg = true,
+			})[select(2, path(x):getext())]
 		))
-	)
+	if #pics > 0 then
+		-- then get .tree[].path
+		print('\t['..tolua(name)..'] : '..json.encode{
+			branch=branch,
+			pics=pics,
+		}..',')
+	end
 end

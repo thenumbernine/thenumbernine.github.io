@@ -58,6 +58,7 @@ a:link, a:visited, a:hover, a:active {
 img {
 	border:1px solid var(--font-color);
 	width:32px;
+	image-rendering: smooth;	/* it's not making a difference ... why can't CSS do linear_mipmap_linear resizes, as its hw rasterizer is capable of ... */
 }
 
 #toggle-darkmode {
