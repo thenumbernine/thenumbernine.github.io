@@ -151,6 +151,44 @@ class ProjectThumb extends Project {
 }
 
 const projects = [
+	// TODO these should be in the main section ...
+/*
+	// sort by language?
+
+	new ProjectThumb({
+		title:'Lua',
+		desc:`Lua projects / libraries / frameworks`,
+	}),
+	new ProjectThumb({
+		title:'C++',
+		desc:`C++ projects / libraries / frameworks`,
+	}),
+	new ProjectThumb({
+		title:'JavaScript',
+		desc:`JavaScript projects / libraries / frameworks`,
+	}),
+
+	// sort by subject?
+
+	new ProjectThumb({
+		title:'Math',
+		desc:`Math pages`,
+	}),
+	new ProjectThumb({
+		title:'CFD',
+		desc:`Integration schemes of PDEs of Computational Fluid Dynamics, Electromagnetism, and the fabric of spacetime`,
+	}),
+	new ProjectThumb({
+		title:'Astronomy',
+		desc:`Various astronomy tools I've made`,
+	}),
+	new ProjectThumb({
+		title:'Games',
+		desc:`Games or tools for games`,
+	}),
+*/
+	// ... and these should be in subsections:
+
 	new ProjectThumb({
 		href:'math.html',
 		img:'thumbnails/math-worksheets.png',
@@ -1711,7 +1749,7 @@ How did the modern state of software become so apathetic?`,
 <a href='https://web.archive.org/web/20240811120040/https://christopheremoore.net/'>christopheremoore.net in archive.org</a><br>
 <br>
 I've got even more old repos on my old website, which now only exists in archive.org, since I am too poor to pay for fees.  Despite programming nearly every day of my life since I was a child, despite having a BSc in Comp Sci and Math and MSc in Comp Sci, despite being a decade ahead of the "deep learning" craze, despite writing my own CAS and numerical relativity GPU simulations that would run on a laptop while the "experts" simulators needed a supercomputer ... I have not had a software job since 2018.<br>
-My enemies are gloating over me.  My friends remain silent.  Maybe they were never friends to begin with.<br><br>
+My enemies are gloating over me.  My friends remain silent.  Maybe they were never friends to begin with.
 `
 	}),
 ];
