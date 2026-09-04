@@ -386,6 +386,7 @@ Includes a visualizer of relations of nested basis, quaternions, octonions, etc,
 	new ProjectThumb({
 		href:'https://github.com/thenumbernine/fftrpg-numo9',
 		title:'fftrpg-numo9',
+		img:"https://img.youtube.com/vi/EUv8v0D50rg/0.jpg",
 		desc:`(private repo) Mashup of Final Fantasy 6 and Final Fantasy Tactics, implemented in NuMo9.  Check the NuMo9 discord server for updates.`,
 		tags:['games','luajit','ff6','fft','trpg','voxel'],
 	}),
@@ -571,6 +572,7 @@ How did the modern state of software become so apathetic?`,
 	new ProjectThumb({
 		href:'https://github.com/thenumbernine/hydro-cl-lua',
 		title:'hydro-cl-lua',
+		img:"https://img.youtube.com/vi/tfMLMxdRid8/0.jpg",
 		desc:`yet *another* hydrodynamics/hyperbolic conservation law solver, this one in LuaJIT using OpenCL/OpenGL`,
 		tags:['cfd','finite-volume','luajit','gpgpu','volume-render','dynamic-code-generation','general-relativity','numerical-relativity','gravitoelectromagnetics'],
 	}),
@@ -1370,6 +1372,7 @@ How did the modern state of software become so apathetic?`,
 	new ProjectThumb({
 		href:'https://github.com/thenumbernine/HydrodynamicsGPU',
 		title:'HydrodynamicsGPU',
+		img:"https://img.youtube.com/vi/DZb5hh4M2jg/0.jpg",
 		desc:`Schemes of Roe, HLL, HLLC, Burgers; Equations of 1D, 2D, 3D; Euler, SRHD, Maxwell, Bona-Masso ADM; Implemented in OpenCL`,
 		tags:['c++','cfd','finite-volume','physics','gpgpu','opengl','opencl'],
 	}),
@@ -1681,7 +1684,7 @@ How did the modern state of software become so apathetic?`,
 		href:'https://github.com/thenumbernine/FFTactics_BlenderPlugin',
 		title:'FFTactics_BlenderPlugin',
 		desc:`Blender plugin for importing Final Fantasy Tactics .GNS files`,
-		tags:['fft'],
+		tags:['fft','python','blender'],
 	}),
 	new ProjectThumb({
 		href:'https://github.com/thenumbernine/multiplicative-persistence',
@@ -1946,10 +1949,6 @@ const projectThumbs = {
 	['Sod_exact'] : {branch:'master', pics:["results.png"]},
 };
 
-// manual overrides
-projectThumbs['HydrodynamicsGPU'].pics.unshift("https://img.youtube.com/vi/DZb5hh4M2jg/0.jpg");
-((projectThumbs['hydro-cl-lua'] ??= {}).pics ??= []).unshift("https://img.youtube.com/vi/tfMLMxdRid8/0.jpg");
-projectThumbs['fftrpg-numo9'].pics.unshift("https://img.youtube.com/vi/EUv8v0D50rg/0.jpg");
 for (const [repoName,repo] of Object.entries(projectThumbs)) {
 	const p = projectsByHref['https://github.com/thenumbernine/'+repoName];
 	if (p && !p.img && repo.pics) {
@@ -1964,3 +1963,86 @@ for (const [repoName,repo] of Object.entries(projectThumbs)) {
 
 const cardGrid = document.querySelector('.card-grid');
 projects.forEach(p => cardGrid.appendChild(p.dom()));
+
+/* show all tags:
+const tags = {};
+projects.forEach(p => {
+	(p.tags ?? []).forEach(
+		t => {
+			// javascript is dumb and cannot combine these two into one statement...
+			tags[t] ??= 0;
+			tags[t]++;
+		}
+	);
+});
+console.log('all tags');
+//console.log(JSON.stringify(tags));	// it'd be nice to sort this by value...
+Object.keys(tags)
+.sort((a,b) => tags[b] - tags[a])
+.forEach(k => console.log(tags[k], k));
+
+/*
+all tags >1:
+89 'lua'
+84 'luajit'
+48 'math'
+35 'c++'
+31 'games'
+30 'js'
+17 'webgl'
+15 'astronomy'
+15 'physics'
+12 'opengl'
+9 'general-relativity'
+8 'gpgpu'
+8 'finite-volume'
+7 'geography'
+7 'cfd'
+7 'sdl'
+7 'parser'
+5 'automata'
+5 'diff-geom'
+5 'android'
+4 'langfix'
+4 'voxel'
+4 'romhacking'
+4 'trpg'
+4 'imgui'
+4 'opencl'
+4 'optimization'
+4 'multithreading'
+4 'einstein-equations'
+3 'volume-render'
+3 'multiplayer'
+3 'ff6'
+3 'snes'
+3 'wasm'
+3 'emscripten'
+3 'header-bindings'
+3 'numerical-relativity'
+3 'c'
+3 'symmath'
+3 'cards'
+2 'bignumber'
+2 'cpu'
+2 'randomizer'
+2 'platformer'
+2 'fft'
+2 'browser'
+2 'dynamic-code-generation'
+2 'gravitoelectromagnetics'
+2 'image-loader'
+2 'linear-solver'
+2 'vulkan'
+2 'webgpu'
+2 'unicode'
+2 'neuralnet'
+2 'mesh'
+2 'ast'
+2 'transpile'
+2 'python'
+2 'resource-manager'
+2 'profiling'
+2 'tensor-algebra'
+2 'wii'
+*/
