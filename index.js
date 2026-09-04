@@ -188,11 +188,24 @@ Includes lots of examples with application to cosmology, general relativity, num
 		tags:['math','js','webgl','diff-geom'],
 	}),
 	new ProjectThumb({
+		href:'https://github.com/thenumbernine/lua-metric',
+		title:'lua-metric',
+		desc:`lua+imgui version of the html+emscripten+lua version of the lua version of my metric / diff geom visualization tool`,
+		tags:['luajit','diff-geom'],
+	}),
+	new ProjectThumb({
 		href:'octonion-multiplication-table/',
 		img:'thumbnails/octonion-multiplication-table.png',
 		title:'octonion multiplication table',
 		desc:`Visualization of the sub-quaternion multiplication tables found within the Octonions, aligned to a Mobius-strip, in WebGL.`,
 		tags:['math','js','webgl'],
+	}),
+	new ProjectThumb({
+		href:'https://github.com/thenumbernine/cayley-dickson',
+		title:'cayley-dickson',
+		desc:`Simple script to generate dot files of cayley-dickson multiplication tables.
+Includes a visualizer of relations of nested basis, quaternions, octonions, etc, based on my force-directed-graph repo.`,
+		tags:['lua','math'],
 	}),
 	new ProjectThumb({
 		href:'poisson-solver/',
@@ -556,12 +569,6 @@ How did the modern state of software become so apathetic?`,
 		tags:['luajit'],
 	}),
 	new ProjectThumb({
-		href:'https://github.com/thenumbernine/lua-plot2d',
-		title:'lua-plot2d',
-		desc:`2d interactive plotting program based on luajit`,
-		tags:['luajit','math'],
-	}),
-	new ProjectThumb({
 		href:'https://github.com/thenumbernine/hydro-cl-lua',
 		title:'hydro-cl-lua',
 		desc:`yet *another* hydrodynamics/hyperbolic conservation law solver, this one in LuaJIT using OpenCL/OpenGL`,
@@ -725,13 +732,6 @@ How did the modern state of software become so apathetic?`,
 		tags:['luajit','c','gcc'],
 	}),
 	new ProjectThumb({
-		href:'https://github.com/thenumbernine/cayley-dickson',
-		title:'cayley-dickson',
-		desc:`Simple script to generate dot files of cayley-dickson multiplication tables.
-Includes a visualizer of relations of nested basis, quaternions, octonions, etc, based on my force-directed-graph repo.`,
-		tags:['lua','math'],
-	}),
-	new ProjectThumb({
 		href:'https://github.com/thenumbernine/n-points-lua',
 		title:'n-points-lua',
 		desc:`N-points evenly spaced on a sphere, with or without repulsive-forces.`,
@@ -747,6 +747,12 @@ Includes a visualizer of relations of nested basis, quaternions, octonions, etc,
 		href:'https://github.com/thenumbernine/lua-plot3d',
 		title:'lua-plot3d',
 		desc:`3D interactive plotting program. got sick of gnuplot's 3D graph display running at &lt;1 fps.`,
+		tags:['luajit','math'],
+	}),
+	new ProjectThumb({
+		href:'https://github.com/thenumbernine/lua-plot2d',
+		title:'lua-plot2d',
+		desc:`2d interactive plotting program based on luajit`,
 		tags:['luajit','math'],
 	}),
 	new ProjectThumb({
@@ -870,12 +876,6 @@ Includes a visualizer of relations of nested basis, quaternions, octonions, etc,
 		title:'moldwars',
 		desc:`performance testing some GL + SDL + LuaJIT code`,
 		tags:['luajit','multithreading'],
-	}),
-	new ProjectThumb({
-		href:'https://github.com/thenumbernine/lua-metric',
-		title:'lua-metric',
-		desc:`lua+imgui version of the html+emscripten+lua version of the lua version of my metric / diff geom visualization tool`,
-		tags:['luajit','diff-geom'],
 	}),
 	new ProjectThumb({
 		href:'https://github.com/thenumbernine/gravitational-waves-lua',
