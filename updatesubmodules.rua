@@ -5,6 +5,7 @@ local rundir = path:cwd()
 assert(gits:removeObject'./.git')
 for _,git in ipairs(gits) do
 	-- vanilla
+	-- TODO maybe also `git checkout master`?
 	print(os.exec('cd '..path(git):getdir():escape()..' && git pull'))
 	-- concise
 	--print(os.exec('cd '..path(git):getdir():escape()..' && "'..rundir..'/../lua/git/git.sh" pull'))
