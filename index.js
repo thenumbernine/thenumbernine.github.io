@@ -1359,7 +1359,7 @@ How did the modern state of software become so apathetic?`,
 	new ProjectThumb({
 		href:'https://github.com/thenumbernine/teukolsky-waves',
 		title:'teukolsky-waves',
-		desc:`Supposed to be a repo on Teukolsky wave math derivations via symmath, but it's empty...`,
+		desc:`some Teukolsky wave math derivations via symmath`,
 		tags:['lua'],
 	}),
 	new ProjectThumb({
