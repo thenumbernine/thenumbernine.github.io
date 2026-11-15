@@ -386,3 +386,11 @@
 	path = lua/integrate
 	url = https://github.com/thenumbernine/lua-integrate
 	branch = master
+[submodule "lua/thread"]
+	path = lua/thread
+	url = https://github.com/thenumbernine/lua-thread
+	branch = master
+[submodule "lua/lua"]
+	path = lua/lua
+	url = https://github.com/thenumbernine/lua-lua
+	branch = master
